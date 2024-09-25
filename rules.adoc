@@ -1,0 +1,61 @@
+[.text-center]
+image::images/logo.svg[width=240, align=center]
+
+= 2025 Rules
+
+*Revision 1.0* + 
+Released Oct XX, 2024
+
+== Introduction
+
+Welcome to 86 Challenge. Drivers of all skill levels are welcome, and it is free to participate.
+
+See our [website](https://86challenge.us) for additional information, including schedule, historical results, and forms for registering for GT Radial's tire contingency and cash prizes.
+
+Questions, corrections, or clarifications can be raised on our [Facebook Group](https://www.facebook.com/groups/86challenge/) or [Discord server](https://discord.gg/sDKdV4TS4T).
+
+== 1. General Rules
+
+=== 1.1 Chassis
+
+Chassis must be one of the following (the Generation Designation will be used to describe these vehicles henceforth):
+
+[cols="2,2", options="header"]
+|===
+| Chassis               | Generation Designation
+| 2012-2016 Scion FR-S   | Gen. 1
+| 2012-2020 Subaru BRZ   | Gen. 1
+| 2017-2020 Toyota 86    | Gen. 1
+| 2022+ Subaru BRZ       | Gen. 2
+| 2022+ Toyota GR86      | Gen. 2
+|===
+
+=== 1.2 GT Radial Sponsorship
+
+. Participation in GT Radial tire contingency and Championship Cash Prize are optional.
+. Participants in the contingency and cash prize are required to display one GT Radial decal on the windshield and one GT Radial decal on each side of the car.
+
+=== 1.3 Timing
+
+The following timing methods are accepted:
+
+[cols="2,1", options="header"]
+|===
+| Timing Method                                                                    | Time Penalty (s)
+| Official timing transponder                                                      | N/A
+| Data logger with 10Hz or greater GPS (e.g. Aim Solo, Racebox Mini + RaceChrono)  | 0.2
+| Data logger with 1Hz or greater GPS (e.g. iPhone)                                | 0.5
+|===
+
+* Official timing transponder times will take priority if more than one time is available for a given lap.
+* If more than one GPS time is available, the GPS device with the higher update frequency will be used.
+
+=== 1.4 Run Groups
+
+* If a driver participates in multiple run groups, they must declare in advance which run group will be used for official timing. Please declare which run group will be used for timing on your event registration form if you sign up for multiple run groups.
+* If a driver participates in a dedicated 86 Challenge run group (only available at some events), their timing from that event must come from that run group.
+
+=== 1.5 Classes
+
+* Cars will be classed according to rules and modification points listed in the following sections.
+* A car may be used in multiple classes if driven by different drivers. Please comment on your event registration form if...
