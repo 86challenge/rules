@@ -208,4 +208,4 @@ _This class allows unconstrained builds to achieve the ultimate 86 lap times. Fo
 
 _Applicable to GT Radial Street Class and Touring Class only._
 
-
+[Table]
