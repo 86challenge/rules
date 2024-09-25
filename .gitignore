@@ -1,2 +1,8 @@
 .DS_Store
-node_modules/
+.vscode/
+rules.aux
+rules.fdb_latexmk
+rules.fls
+rules.log
+rules.out
+rules.synctex.gz

@@ -1,0 +1,6 @@
+\contentsline {section}{General Rules}{1}{section*.3}%
+\contentsline {section}{GT Radial Stock Class}{3}{section*.4}%
+\contentsline {section}{GT Radial Street Class}{5}{section*.5}%
+\contentsline {section}{Touring Class}{5}{section*.6}%
+\contentsline {section}{Unlimited Class}{5}{section*.7}%
+\contentsline {section}{Modificaiton Points}{6}{section*.8}%
