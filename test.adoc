@@ -10,16 +10,16 @@ Released Oct XX, 2024
 
 == Introduction
 
-Welcome to 86 Challenge. Drivers of all skill levels are welcome, and it is free to participate.
+Welcome to 86 Challenge. Drivers of all skill levels are welcome and it is free to participate.
 
 See https://86challenge.us for additional information, including schedule, historical results, and forms for registering for GT Radial's tire contingency and cash prizes.
 
 Questions, corrections, or clarifications can be raised on our https://www.facebook.com/groups/86challenge/[Facebook Group] or https://discord.gg/sDKdV4TS4T[Discord Server].
 
-
 . General Rules
+
 [custom]
-.. Chassis must be one of the following (the Generation Designation will be used to describe these vehicles henceforth):
+.. Chassis must be one of the following (Generation Designations will be used to differentiate the generations throughout the rules):
 +
 --
 [cols="2,2", options="header"]
@@ -34,13 +34,14 @@ Questions, corrections, or clarifications can be raised on our https://www.faceb
 --
 
 .. GT Radial Sponsorship
-
+[custom]
 ... Participation in GT Radial tire contingency and Championship Cash Prize are optional.
 
 ... Participants in the contingency and cash prize are required to display one GT Radial decal on the windshield and one GT Radial decal on each side of the car.
 
 .. Timing
 
+[custom]
 ... The following timing methods are accepted:
 +
 --
