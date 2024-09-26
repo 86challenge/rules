@@ -1,20 +1,24 @@
 #set page("us-letter")
 #set page(numbering: "(1)")
 
+#set text(size: 10pt)
 #show link: set text(blue)
 #show link: underline
 #show outline.entry: set text(blue)
 #show outline.entry: underline
-#show table: set block(above: 1em, below: 1.4em)
-#show enum: set block(above: 1em, below: 1em)
 #show table.cell.where(y: 0): strong
-#show table.cell: set text(size: 10pt)
+#show table: set block(breakable: false)
 #set table(
   stroke: (x: 0pt, y: 0.5pt),
-  fill: (_, y) => if calc.even(y) {
-    rgb("eee")
+  fill: (_, y) => {
+    if y == 0 {
+      rgb("ddd")
+    } else if calc.even(y) {
+      rgb("f6f6f6")
+    }
   },
 )
+#show enum: set block(above: 1.2em)
 #set enum(
   full: true,
   numbering: (..nums) => {
@@ -31,7 +35,7 @@
     }
   },
 )
-#let spacer = block(above: 1.5em, below: 1.5em)
+#let spacer = block(above: 1.25em, below: 1.25em)
 
 #block(width: 100%)[
   #set align(center)
@@ -339,8 +343,9 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
 
   + You can use the following table to find the Touring handicap:
     #let width = 1fr
-    #let mod_points = range(-2, 20, step: 1).map(n => n / 2)
+    #let mod_points = range(-2, 21, step: 1).map(n => n / 2)
     #let adjustment_factors = csv("adjustment_factor.csv")
+    #show table.cell.where(x: 0): strong
     #table(
       columns: (auto, width, width, width, width, width, width),
       align: (center, center, center, center),
@@ -357,6 +362,7 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
         )
       }
     )
+
 + #heading[Unlimited Class]
 
   + Anything goes!
