@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="images/logo.png" width="200" />
+</div>
+
 # 86 Challenge Rules
 
 This repo holds the official rules for 86 Challenge. Competitors are welcome to open issues or make contributions through pull requests.
@@ -6,7 +10,9 @@ This repo holds the official rules for 86 Challenge. Competitors are welcome to 
 
 We are using `brew` to manage dependencies. To install, just run: 
 
-`brew bundle install`
+```bash
+brew bundle install
+```
 
 ## Usage
 
@@ -14,12 +20,18 @@ We wrap all the commands we use with `just`. To see all available commands, you 
 
 Build PDF:
 
-`just build`
+```bash
+just build
+```
 
-Build & Watch"
+Build & Watch:
 
-`just watch`
+```bash
+just watch
+```
 
 Autoformat:
 
-`just format`
+```bash
+just format
+```
