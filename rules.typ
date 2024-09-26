@@ -109,7 +109,7 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
       ),
 
       [Buttonwillow Raceway \#1], [2.5],
-      [Buttonwillow Raceway \#13CW], [2.0],
+      [Buttonwillow Raceway \#13], [2.0],
       [Buttonwillow Raceway New Track], [1.5],
       [Laguna Seca], [2.5],
       [Sonoma Raceway], [2.5],
@@ -125,7 +125,7 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
 
   + *Alignment*
     + Front camber shall not exceed (be more negative than) -2.5 degrees
-    + Front camber may be adjusted using only using the following parts:
+    + Front camber may be adjusted using only the following parts:
       #table(
         columns: 2,
         align: (left, left),
@@ -155,11 +155,11 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
           - Whiteline KCA335
         ],
 
-        [Camber plates], [Any],
+        [Camber plates], [- Any],
       )
     + Rear camber with stock, unmodified, and undamaged components is not restricted
     + Rear camber with adjustable components shall not exceed -2.0 degrees
-    + Rear camber may be adjusted only using the following parts:
+    + Rear camber may be adjusted using only the following parts:
       #table(
         columns: 2,
         align: (left, left),
@@ -189,19 +189,15 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
       #table(
         columns: 2,
         align: (left, left),
-        table.header(
-          [Description],
-          [Sizes],
-        ),
-
-        [GT Radial Champiro SX2 or GT Radial HPY],
+        table.header([Models], [Sizes]),
+        [GT Radial Champiro SX2 or HPY],
         [
           - 215/45R17
           - 225/45R17
         ],
 
-        [Michelin Primacy HP (Gen. 2 OEM)\*], [215/45R17],
-        [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [215/40R18],
+        [Michelin Primacy HP (OEM)\*], [- 215/45R17],
+        [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [- 215/40R18],
       )
     + OEM tires (marked with \*) are only allowed for a competitor’s first 2 events
     + Points earned with OEM Michelin tires will not be eligible toward GT Radial tire contingency nor toward GT Radial Championship Cash Prize
@@ -238,12 +234,10 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
       #table(
         columns: 2,
         align: (left, left),
-        table.header([Description], [Sizes]),
-        [GT Radial Champiro SX2 or GT Radial HPY],
-        [17” only with 245mm maximum width],
-
-        [Michelin Primacy HP (Gen. 2 OEM)\*], [215/45R17],
-        [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [215/40R18],
+        table.header([Models], [Sizes]),
+        [GT Radial Champiro SX2 or HPY], [- 17” only with 245mm maximum width],
+        [Michelin Primacy HP (OEM)\*], [- 215/45R17],
+        [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [- 215/40R18],
       )
     + OEM tires (marked with \*) are only allowed for a competitor’s first 2 events
     + Points earned with OEM Michelin tires will not be eligible toward GT Radial tire contingency nor toward GT Radial Championship Cash Prize
