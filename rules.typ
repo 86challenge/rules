@@ -254,30 +254,33 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
       "Gen. 1 Stock record at event track" / "Gen. 1 Stock record at Thunderhill East Bypass"
     $
     $
-      "Adjusted Track Time" =
-      "Raw Time" + "Modification Points" x "Adjustment Factor"
+      "Touring Handicap" = "Modification Points" x "Adjustment Factor"
     $
-  + You can use the following table to find the Touring handicap for a given build and track:
-    #let width = 1fr
-    #let mod_points = range(-2, 21, step: 1).map(n => n / 2)
-    #let adjustment_factors = csv("adjustment_factor.csv")
-    #show table.cell.where(x: 0): strong
-    #table(
-      columns: (auto, width, width, width, width, width, width),
-      align: (center, center, center, center),
-      table.header(
-        [Points],
-        ..adjustment_factors.first(),
-      ),
-      ..for point in mod_points {
-        (
-          [#str(point)],
-          ..adjustment_factors.last().map(factor => str(
-            calc.round(float(factor) * point, digits: 1),
-          )),
-        )
-      }
-    )
+    $
+      "Adjusted Track Time" =
+      "Raw Time" + "Touring Handicap"
+    $
+  + You can use the following table to find the _Touring Handicap_ given Modification Points and a track:
+  #let mod_points = range(-2, 21, step: 1).map(n => n / 2)
+  #let adjustment_factors = csv("adjustment_factor.csv")
+  #show table.cell.where(x: 0): strong
+  #show table: set text(size: 8pt)
+  #table(
+    columns: (auto, ..mod_points.map(point => 1fr)),
+    align: (left, ..mod_points.map(point => center)),
+    table.header([Track/Points], ..mod_points.map(point => str(point))),
+    ..for (track, factor) in adjustment_factors {
+      (
+        [#track],
+        ..mod_points.map(points => str(
+          calc.round(
+            points * float(factor),
+            digits: 1,
+          ),
+        )),
+      )
+    }
+  )
 
 + #heading[Unlimited Class]
   _This class allows unconstrained builds to achieve the ultimate 86 lap times. For people who don’t like conforming to rules!_
@@ -287,171 +290,173 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
 + #heading[Modification Points] <mods>
   This section applies only to GT Radial Street Class and Touring Class.
 
-  #set align(center)
-  #set table(columns: (60pt, 1fr), align: (center, left))
+#set align(center)
+#set table(columns: (60pt, 1fr), align: (center, left))
 
-  == Chassis
+== Chassis
 
-  #table(
-    table.header([Points], [Chassis]),
+#table(
+  table.header([Points], [Chassis]),
 
-    [0], [Gen. 1 (2013–2020 model years)],
-    [2], [Gen. 2 (2022+ model years)],
-  )
+  [0], [Gen. 1 (2013–2020 model years)],
+  [2], [Gen. 2 (2022+ model years)],
+)
 
-  == Tires
-  Any tire not on this list will automatically be 6pts
+== Tires
+Any tire not on this list will automatically be 6pts
 
-  #table(
-    table.header([Points], [Tires]),
+#table(
+  table.header([Points], [Tires]),
 
-    [-1], [
-      - 17" GT Radial SX2
-      - 17" GT Radial HPY
-      - 17" Michelin Primacy HP
-    ],
-    [0], [
-      - Michelin Pilot Sport 4 (OEM size only 215/40R18)
-      - Yokohama Advan Apex V601
-    ],
-    [1], [
-      - 18" GT Radial SX2
-      - GT Radial SX2 RS
-    ],
-    [2], [
-      - Continental ExtremeContact Sport (ECS)
-      - Dunlop Direzza ZII Star Spec
-      - Dunlop Direzza ZIII
-      - Falken Azenis RT615K
-      - Federal 595 RS-RR
-      - Goodyear Eagle F1 Supercar 3
-      - Hankook Ventus RS-4
-      - Kumho Ecsta V730
-      - Maxxis VR-1
-      - Michelin Pilot Sport 4S
-      - Michelin Pilot Sport Cup 2 (180TW)
-      - Michelin Pilot Sport Cup 2 Connect
-      - Nankang NS-2R
-      - Nexen Nfera SUR4
-      - Nitto NT01
-      - Nitto NT05
-      - Toyo Proxes R888
-      - Yokohama Advan AD08R
-    ],
-    [3], [
-      - BFGoodrich g-Force Rival S
-      - Bridgestone Potenza RE71R
-      - Bridgestone Potenza RE71RS
-      - Continental ExtremeContact Force (ECF)
-      - Falken Azenis RT660
-      - Goodyear Eagle F1 Supercar 3R
-      - Maxxis Victra RC-1
-      - Maxxis Victra VR2
-      - Nankang AR-1
-      - Nankang CR-1
-      - Nexen N’Fera SUR4G
-      - Yokohama Advan A052
-    ],
-    [5], [Treadwear 40–99],
-    [6], [Racing slicks or any other unlisted tire],
-  )
+  [-1], [
+    - 17" GT Radial SX2
+    - 17" GT Radial HPY
+    - 17" Michelin Primacy HP
+  ],
+  [0], [
+    - Michelin Pilot Sport 4 (OEM size only 215/40R18)
+    - Yokohama Advan Apex V601
+  ],
+  [1], [
+    - 18" GT Radial SX2
+    - GT Radial SX2 RS
+  ],
+  [2], [
+    - Continental ExtremeContact Sport (ECS)
+    - Dunlop Direzza ZII Star Spec
+    - Dunlop Direzza ZIII
+    - Falken Azenis RT615K
+    - Federal 595 RS-RR
+    - Goodyear Eagle F1 Supercar 3
+    - Hankook Ventus RS-4
+    - Kumho Ecsta V730
+    - Maxxis VR-1
+    - Michelin Pilot Sport 4S
+    - Michelin Pilot Sport Cup 2 (180TW)
+    - Michelin Pilot Sport Cup 2 Connect
+    - Nankang NS-2R
+    - Nexen Nfera SUR4
+    - Nitto NT01
+    - Nitto NT05
+    - Toyo Proxes R888
+    - Yokohama Advan AD08R
+  ],
+  [3], [
+    - BFGoodrich g-Force Rival S
+    - Bridgestone Potenza RE71R
+    - Bridgestone Potenza RE71RS
+    - Continental ExtremeContact Force (ECF)
+    - Falken Azenis RT660
+    - Goodyear Eagle F1 Supercar 3R
+    - Maxxis Victra RC-1
+    - Maxxis Victra VR2
+    - Nankang AR-1
+    - Nankang CR-1
+    - Nexen N’Fera SUR4G
+    - Yokohama Advan A052
+  ],
+  [5], [Treadwear 40–99],
+  [6], [Racing slicks or any other unlisted tire],
+)
 
-  == Engine & Drivetrain
+#pagebreak()
 
-  #table(
-    table.header([Points], [Modifications]),
+== Engine & Drivetrain
 
-    [0.5], [Gen. 1 Aftermarket intake, header, front-pipe, overpipe, and/or any removal of OEM catalytic converter],
-    [0.5], [Gen. 1 NA tune for ≤ 93 (R+M)/2 octane rating (non-OEM)],
-    [1.5], [Gen. 1 NA tune for >15% ethanol content or gasoline >93 (R+M)/2 octane rating],
-    [0.5], [Gen. 2 Aftermarket intake, header, front-pipe, overpipe, and/or any removal of OEM catalytic converter],
-    [1], [Gen. 2 NA tune for ≤ 93 (R+M)/2 octane rating (non-OEM)],
-    [1.5], [Gen. 2 NA tune for >15% ethanol content or gasoline >93 (R+M)/2 octane rating],
-    [5], [Forced induction and tune for ≤ 93 (R+M)/2 octane rating],
-    [2], [Forced induction tuned for >15% ethanol content or gasoline >93 (R+M)/2 octane rating],
-    [0.5], [Lighter than OEM rotational inertia flywheel, clutch, and/or driveshaft],
-    [0.5], [Non-OEM limited slip differential],
-    [1], [Non-OEM Transmission],
-    [2], [FA20 to FA24 engine swap],
-    [X], [Any other engine swap or hybrid system (contact Rules Board for individual engine swap classing)],
-  )
+#table(
+  table.header([Points], [Modifications]),
 
-  == Front Aero
-  #table(
-    table.header([Points], [Modifications]),
+  [0.5], [Gen. 1 Aftermarket intake, header, front-pipe, overpipe, and/or any removal of OEM catalytic converter],
+  [0.5], [Gen. 1 NA tune for ≤ 93 (R+M)/2 octane rating (non-OEM)],
+  [1.5], [Gen. 1 NA tune for >15% ethanol content or gasoline >93 (R+M)/2 octane rating],
+  [0.5], [Gen. 2 Aftermarket intake, header, front-pipe, overpipe, and/or any removal of OEM catalytic converter],
+  [1], [Gen. 2 NA tune for ≤ 93 (R+M)/2 octane rating (non-OEM)],
+  [1.5], [Gen. 2 NA tune for >15% ethanol content or gasoline >93 (R+M)/2 octane rating],
+  [5], [Forced induction and tune for ≤ 93 (R+M)/2 octane rating],
+  [2], [Forced induction tuned for >15% ethanol content or gasoline >93 (R+M)/2 octane rating],
+  [0.5], [Lighter than OEM rotational inertia flywheel, clutch, and/or driveshaft],
+  [0.5], [Non-OEM limited slip differential],
+  [1], [Non-OEM Transmission],
+  [2], [FA20 to FA24 engine swap],
+  [X], [Any other engine swap or hybrid system (contact Rules Board for individual engine swap classing)],
+)
 
-    [0], [Small Front Aero: STI lip, TRD lip, or any device extending \<50mm from bumper],
-    [1], [Medium Front Aero: Device extending 50-74mm outward/rearward from bumper],
-    [1.5], [Large Front Aero: Device extending 75-124mm outward/rearward from bumper],
-    [3], [Unlimited Front Aero: Device extending >125mm from bumper],
-    [0.5], [Canards/dive planes, hood vents, fender vents, or vertical deviation on splitter],
-  )
+== Front Aero
+#table(
+  table.header([Points], [Modifications]),
 
-  == Rear Aero
-  #table(
-    table.header([Points], [Modifications]),
+  [0], [Small Front Aero: STI lip, TRD lip, or any device extending \<50mm from bumper],
+  [1], [Medium Front Aero: Device extending 50-74mm outward/rearward from bumper],
+  [1.5], [Large Front Aero: Device extending 75-124mm outward/rearward from bumper],
+  [3], [Unlimited Front Aero: Device extending >125mm from bumper],
+  [0.5], [Canards/dive planes, hood vents, fender vents, or vertical deviation on splitter],
+)
 
-    [0], [Really Small Rear Aero: OEM rear spoilers, OEM wings, aftermarket \<60mm height],
-    [0.5], [Small Rear Aero: Aftermarket rear spoiler >60mm height],
-    [1], [Medium Rear Aero: Gen. 1 BRZ tS wing, SARD LSR, wings with max width of 1400mm],
-    [1.5], [Large Rear Aero: APR GTC-200, Voltex Type 12, wings with max width of 1460mm],
-    [2], [Unlimited Rear Aero: Wings wider than 1460mm, higher than 245mm, or chord length >250mm],
-    [0.5], [Any rear diffuser extending in front of the rear axle or behind the rear bumper],
-  )
+== Rear Aero
+#table(
+  table.header([Points], [Modifications]),
 
-  == Suspension
-  #table(
-    table.header([Points], [Modifications]),
+  [0], [Really Small Rear Aero: OEM rear spoilers, OEM wings, aftermarket \<60mm height],
+  [0.5], [Small Rear Aero: Aftermarket rear spoiler >60mm height],
+  [1], [Medium Rear Aero: Gen. 1 BRZ tS wing, SARD LSR, wings with max width of 1400mm],
+  [1.5], [Large Rear Aero: APR GTC-200, Voltex Type 12, wings with max width of 1460mm],
+  [2], [Unlimited Rear Aero: Wings wider than 1460mm, higher than 245mm, or chord length >250mm],
+  [0.5], [Any rear diffuser extending in front of the rear axle or behind the rear bumper],
+)
 
-    [0], [OEM-style, non-adjustable dampers],
-    [0.5], [Non-OEM springs],
-    [0.5], [Adjustable dampers or modification to damper valving],
-    [0.5], [Remote reservoirs],
-  )
+== Suspension
+#table(
+  table.header([Points], [Modifications]),
 
-  == Weight Reduction
-  #table(
-    table.header([Points], [Modifications]),
+  [0], [OEM-style, non-adjustable dampers],
+  [0.5], [Non-OEM springs],
+  [0.5], [Adjustable dampers or modification to damper valving],
+  [0.5], [Remote reservoirs],
+)
 
-    [1], [Removal of any interior trim pieces or seating not required for installation of a roll cage],
-  )
+== Weight Reduction
+#table(
+  table.header([Points], [Modifications]),
 
-  == Free Modifications
-  #table(
-    table.header([Points], [Modifications]),
+  [1], [Removal of any interior trim pieces or seating not required for installation of a roll cage],
+)
 
-    [0], [
-      - Any in-cabin safety equipment
-      - Any interior removal as needed to accommodate safety equipment
-      - Any replacement drop-in air filter for OEM intake
-      - Gen. 2 charcoal airbox filter removal
-      - Intake resonator removal
-      - Aftermarket radiator or oil-cooler
-      - Aftermarket calipers, rotors, pads or brake ducting
-      - Any interior removal as needed to accommodate safety equipment
-      - Any alignment bolt/kit, bump steer kit, tie rod end, roll center adjuster
-      - Any spherical bushings including strut top mounts
-      - Any bolt-on chassis bracing
-      - Any oil-catch can, oil baffle pan
-      - Any transmission or diff cooling system
-      - Any lightweight battery
-      - Any cat-back (no removal of any catalyst) exhaust
-    ]
-  )
+== Free Modifications
+#table(
+  table.header([Points], [Modifications]),
 
-  == Prohibited Modifications
-  #table(
-    table.header([Points], [Modifications]),
+  [0], [
+    - Any in-cabin safety equipment
+    - Any interior removal as needed to accommodate safety equipment
+    - Any replacement drop-in air filter for OEM intake
+    - Gen. 2 charcoal airbox filter removal
+    - Intake resonator removal
+    - Aftermarket radiator or oil-cooler
+    - Aftermarket calipers, rotors, pads or brake ducting
+    - Any interior removal as needed to accommodate safety equipment
+    - Any alignment bolt/kit, bump steer kit, tie rod end, roll center adjuster
+    - Any spherical bushings including strut top mounts
+    - Any bolt-on chassis bracing
+    - Any oil-catch can, oil baffle pan
+    - Any transmission or diff cooling system
+    - Any lightweight battery
+    - Any cat-back (no removal of any catalyst) exhaust
+  ]
+)
 
-    [∞], [
-      - Active aero devices
-      - Active dampers
-      - Aftermarket ABS or TCS, or modified driver assist firmware
-      - Air suspension
-      - Any advanced driver-assistance systems (ADAS) system
-      - Any non-aluminum or steel wheels (e.g. carbon fiber, magnesium, titanium)
-      - Any non-pump-gasoline or non-ethanol/gasoline fuel
-      - Cutting, removing, or reshaping exterior parts not required for pointed modifications
-      - Changing suspension type (e.g. double A-arm, inboard shocks/springs) is prohibited
-    ],
-  )
+== Prohibited Modifications
+#table(
+  table.header([Points], [Modifications]),
+
+  [∞], [
+    - Active aero devices
+    - Active dampers
+    - Aftermarket ABS or TCS, or modified driver assist firmware
+    - Air suspension
+    - Any advanced driver-assistance systems (ADAS) system
+    - Any non-aluminum or steel wheels (e.g. carbon fiber, magnesium, titanium)
+    - Any non-pump-gasoline or non-ethanol/gasoline fuel
+    - Cutting, removing, or reshaping exterior parts not required for pointed modifications
+    - Changing suspension type (e.g. double A-arm, inboard shocks/springs) is prohibited
+  ],
+)
