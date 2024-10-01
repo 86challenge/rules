@@ -57,6 +57,7 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
         [Official timing transponder], [0.0],
         [Data logger with at least 10Hz GPS (e.g. Aim Solo 2)], [0.2],
         [Data logger with at least 1Hz GPS (e.g. iPhone)], [0.5],
+        [Onboard video (first event only)], [0.5],
       )
     + If a driver participates in multiple run groups, they must declare in advance which run group will be used for official timing. Please declare which run group will be used for timing on your event registration form if you sign up for multiple run groups.
     + If a driver participates in a dedicated 86 Challenge run group, their timing will be taken exclusively from that run group.
