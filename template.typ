@@ -43,6 +43,8 @@
 #let spacer = block(above: 1.25em, below: 1.25em)
 
 #let frontmatter(title: str, revision: str) = [
+  #spacer
+
   #block(width: 100%)[
     #set align(center)
     #image("images/logo.png", width: 120pt)
