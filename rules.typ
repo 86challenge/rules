@@ -14,59 +14,57 @@ See #link("https://86challenge.us")[86challenge.us] for more information, includ
 
 Questions, corrections, and clarifications can be raised on our #link("https://www.facebook.com/groups/1009986312348877")[Facebook Group] or #link("https://discord.gg/sDKdV4TS4T")[Discord server].
 
+Significant additions or changes for the 2025 season are #highlight[highlighted].
+
 #spacer
 
 + #heading[General Rules]
   + Chassis must be one of the following (hereafter referred to by its _Designation_):
     #table(
       columns: 2,
-      align: (left, center),
-      table.header(
-        [Chassis],
-        [Designation],
-      ),
-
+      align: (center, left),
+      table.header([Designation], [Chassis]),
+      [Gen. 1],
       [
         - 2012–2016 Scion FR-S
         - 2012–2020 Subaru BRZ
         - 2017–2020 Toyota 86
       ],
-      [Gen. 1],
 
+      [Gen. 2],
       [
         - 2022+ Subaru BRZ
         - 2022+ Toyota GR86
       ],
-      [Gen. 2],
     )
 
-  + *GT Radial Sponsorship*
-    + Participation in GT Radial Championship Cash Prize and tire contingency are optional and require submitting #link("https://86challenge.us/documents")[registration forms] directly to GT Radial
-    + Participants in the Championship Cash Prize and tire contingency must display 1 large GT Radial decal on the windshield and display 2 smaller GT Radial decals, one on each side of their car
-
   + *Timing*
-    + The following timing methods are accepted, but transponder time will take priority if more than one time is available for a given lap:
+    + The following timing methods are accepted. Priority is given from top to bottom if more than one method is available for a given lap:
       #table(
         columns: 2,
         align: (left, center),
-        table.header(
-          [Timing Method],
-          [Time Penalty (s)],
-        ),
-
+        table.header([Timing Method], [Time Penalty (s)]),
         [Official timing transponder], [0.0],
-        [Data logger with at least 10Hz GPS (e.g. Aim Solo 2)], [0.2],
-        [Data logger with at least 1Hz GPS (e.g. iPhone)], [0.5],
+        [Data logger with at least 10Hz GPS (e.g. AiM, Racebox)], [0.2],
+        [Data logger with at least 1Hz GPS (e.g. smartphone)], [0.5],
+        [#highlight[Unedited onboard video (may be accepted for a driver’s first event only)]],
+        [0.5],
       )
-    + If a driver participates in multiple run groups, they must declare in advance which run group will be used for official timing. Please declare which run group will be used for timing on your event registration form if you sign up for multiple run groups.
-    + If a driver participates in a dedicated 86 Challenge run group, their timing will be taken exclusively from that run group.
+    + #highlight[*Multiple run groups*: For drivers participating in multiple run groups (in a single cycle of run groups), their time will be taken from the highest run group, according to the following order. (If run groups are further divided into fast/slow, the faster run group is considered higher.)
+        - 86 Challenge (dedicated run group)
+        - Open Passing
+        - Intermediate/Mixed Passing
+        - Novice
+        - Beginner
+      ]
+    + #highlight[*Tiebreaker*: If competitors have identical times, the time which was set earlier in the day is ranked higher than times set later]
 
   + *Classes*
-    + Cars will be classed according to rules and modification points listed in the following sections.
-    + A car may be used in multiple classes if driven by different drivers. Please comment on your event registration form if you are co-driving a car and what group you are driving in.
-    + Prior to a driver’s first event of the season, they may declare to run in a higher class than their modification points would normally dictate.
-    + A driver shall not compete in more than one class during an event.
-    + If a driver modifies their car mid-season and moves up or down a class, the points earned in the previous class will NOT be carried over to the new class. Drivers may choose to not earn points in the new class and keep the points in the previous class. Drivers participating in the GT Radial Championship Prize challenge cannot change classes.
+    + Cars will be classed according to rules and modification points listed in the following sections
+    + A car may be shared by different drivers. Please enter one event registration per driver and indicate the run group each driver is participating in.
+    + A driver may run in a higher class than their modification points dictate
+    + A driver may only compete in one class during a single event
+    + #highlight[If a driver moves to a different class during a season, the points earned in the previous class will _not_ be carried over to the new class. Drivers may choose to not earn points in the new class and keep the points in the previous class. Drivers cannot participate in the GT Radial Championship Prize in multiple classes in a season.]
 
   + *Scoring*
     + Championship points are awarded at the end of each event according to the chart below:
@@ -86,13 +84,20 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
         [6th], [2],
         [7th+], [1],
       )
-    + At the end of the season, the driver with the most points from 7 of the best scores out of 10 events wins the championship.
-    + Ties will go to the competitor with the lowest time at the same configuration Thunderhill East regular event during the season. If there is still a tie, the participant with the fastest time at Laguna Seca regular event during the season will be awarded the win.
+    + *Best of 7*: At the end of the season, the driver with the most points from 7 of the best scores out of 10 events wins the championship
+    + #highlight[*Tiebreaker*: Championship ties are broken via finishing position countback: The competitor with the most 1st place finishes wins. If still tied, the countback moves to 2nd place, 3rd place, and all subsequent finishing positions. If still tied, the competitor who held a lead last wins.]
 
-  + *In-season rule changes*
-    + Changes which make the rules more _restrictive_ will be announced 60 days ahead of enforcement
-    + Changes which make the rules more _permissive_ may be enforced immediately
-    + All rule change will be announcemented and will include the date on which they are effective
+  + #highlight[*In-season rule changes*
+      + Changes which make the rules more _restrictive_ will be announced 60 days ahead of enforcement
+      + Changes which make the rules more _permissive_ may be enforced immediately
+      + All rule changes will be announced and will include the date on which become effective
+    ]
+
+  + #highlight[*Protests*
+      + A competitor may protest the results of an event if they believe a competitor was out of compliance with the rules
+      + The Rules Board will review the protest and may move a competitor to a different class or invalidate their results for one or more events
+      + After the first event of the season, the previous season’s results are final
+    ]
 
 + #heading[GT Radial Stock Class]
   _This class is designed to keep costs to a minimum and be attractive to drivers with nearly-stock vehicles. Participants are eligible for GT Radial Championship Cash Prizes and GT Radial Tire Contingency._
@@ -108,9 +113,9 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
         [Handicap Time (s)],
       ),
 
-      [Buttonwillow Raceway \#1], [2.5],
+      [#highlight[Buttonwillow Raceway \#1]], [#highlight[2.5]],
       [Buttonwillow Raceway \#13], [2.0],
-      [Buttonwillow Raceway New Track], [1.5],
+      [#highlight[Buttonwillow Raceway New Track]], [#highlight[1.5]],
       [Laguna Seca], [2.5],
       [Sonoma Raceway], [2.5],
       [Thunderhill 5-mile Bypass], [4.0],
@@ -118,10 +123,12 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
       [Thunderhill West], [1.5],
     )
 
-  + *Engine*
-    + Engine tuning must be unmodified
-    + Oil coolers, accumulators, and/or sump changes are allowed
+  + *Engine & Powertrain*
+    + Engine software must be OEM
+    + Engine oil coolers, accumulators, and/or sump changes are allowed
     + Gen. 2 intake charcoal filters shall be present and unaltered
+    + #highlight[Transmission and diff oil coolers are allowed]
+    + #highlight[Any pump gasoline (including blending high-octane gasoline) is allowed]
 
   + *Alignment*
     + Front camber shall not exceed (be more negative than) -2.5 degrees
@@ -157,26 +164,27 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
 
         [Camber plates], [- Any],
       )
-    + Rear camber with stock, unmodified, and undamaged components is not restricted
-    + Rear camber with adjustable components shall not exceed -2.0 degrees
-    + Rear camber may be adjusted using only the following parts:
-      #table(
-        columns: 2,
-        align: (left, left),
-        table.header(
-          [Description],
-          [Allowed Parts],
-        ),
+    + #highlight[Rear camber with stock, unmodified, and undamaged components is not restricted]
+    + #highlight[Rear camber with adjustable components shall not exceed -2.0 degrees]
+    + #highlight[Rear camber may be adjusted using only the following parts:
+        #table(
+          columns: 2,
+          align: (left, left),
+          table.header(
+            [Description],
+            [Allowed Parts],
+          ),
 
-        [OEM–style, adjustable, steel rear lower control arm],
-        [
-          - SPC 67660
-          - Moog RK100136
-          - Whiteline KTA216A
-        ],
+          [OEM–style, adjustable, stamped steel rear lower control arms],
+          [
+            - SPC 67660
+            - Moog RK100136
+            - Whiteline KTA216A
+          ],
 
-        [Camber bolts], [- H&R TC112],
-      )
+          [Camber bolts], [- H&R TC112],
+        )
+      ]
     + Toe angle may be adjusted without limitation
     + Cutting or bending of any vehicle sheet metal or suspension components to change alignment or ride height is not allowed
 
@@ -199,32 +207,31 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
         [Michelin Primacy HP (OEM)\*], [- 215/45R17],
         [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [- 215/40R18],
       )
-    + OEM tires (marked with \*) are only allowed for a competitor’s first 2 events
-    + Points earned with OEM Michelin tires will not be eligible toward GT Radial tire contingency nor toward GT Radial Championship Cash Prize
+      \* OEM tires are only allowed for a competitor’s first 2 events. Points earned with OEM Michelin tires will not be eligible toward GT Radial tire contingency nor toward GT Radial Championship Cash Prize
 
   + *Aero*
-    + STI and TRD lips are not allowed
+    + STI lip and TRD lip are not allowed
     + Gen. 1 BRZ tS wing is not allowed
     + Gen. 2 ducktails (OEM or equivalently-sized) are allowed
 
   + *Safety*
     + Any safety device may be used
-    + Cars equipped with a full aftermarket safety system (bucket seats, racing harnesses, neck restraint system, full or half roll cage, etc.) are allowed, as long as total curb weight of the car with full tank of fuel remains above 2800 lbs without driver. The car will need to be weighed at a location approved by the Rules Board before it is allowed to enter Stock Class.
+    + Cars equipped with a full aftermarket safety system (bucket seats, racing harnesses, neck restraint system, full or half roll cage, etc.) are allowed, as long as total curb weight of the car remains above #highlight[2800 lbs without driver and with a full tank of fuel]. The car will need to be weighed at a location approved by the Rules Board before it is allowed to enter Stock Class.
 
   + *Misc*
-    + OEM-style, off-the-shelf, non-adjustable, and non-rebuildable dampers with unaltered valving are allowed
     + Braking upgrades are allowed
-    + Replacing OEM parts with newer/older OEM parts is allowed (e.g.\ dampers, sway bars, etc).
-    + No lightweight replacement parts are allowed (e.g.\ battery, lighter than OEM trunk) or removal of parts allowed.
-    + Removal of spare tire, floor mats, and tools is allowed.
-    + Non-OEM cat-back exhaust with a weight greater than 32 lbs is allowed (no removal of any catalyst)
+    + Replacing OEM parts with newer/older OEM parts is allowed (e.g. dampers, sway bars, etc)
+    + No lightweight replacement parts are allowed (e.g. battery or lighter-than-OEM trunk) or removal of parts allowed
+    + Removal of spare tire, floor mats, and tools is allowed
+    + OEM-style, non-rebuildable, off-the-shelf dampers are allowed as long as they have: non-adjustable damping, non-adjustable ride-height, and unaltered valving
+    + Non-OEM cat-back exhaust with a weight greater than 32 lbs is allowed (removal of any catalyst is prohibited)
 
 + #heading[GT Radial Street Class]
   _This class allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT Radial Championship Cash Prizes and GT Radial Tire Contingency._
 
   + Drivers are allotted 3 modification points according to #link(<mods>)[Modification Points]
 
-  + Minimum weight is 2800 lbs without driver and with a full tank of gas
+  + Minimum weight is #highlight[2800 lbs without driver and with a full tank of gas]
 
   + *Wheels*
     + Wheels must have a maximum width of 9.0 inches
@@ -239,8 +246,7 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
         [Michelin Primacy HP (OEM)\*], [- 215/45R17],
         [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [- 215/40R18],
       )
-    + OEM tires (marked with \*) are only allowed for a competitor’s first 2 events
-    + Points earned with OEM Michelin tires will not be eligible toward GT Radial tire contingency nor toward GT Radial Championship Cash Prize
+      \* OEM tires are only allowed for a competitor’s first 2 events. Points earned with OEM Michelin tires will not be eligible toward GT Radial tire contingency nor toward GT Radial Championship Cash Prize
 
 + #heading[Touring Class]
   _This class allows for significant modification freedom and times are adjusted based on Modification Points. Participants are eligible for GT Radial Tire Contingency._
@@ -288,7 +294,7 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
   + Anything goes!
 
 + #heading[Modification Points] <mods>
-  This section applies only to GT Radial Street Class and Touring Class.
+  This section applies only to GT Radial Street Class and Touring Class. Unless otherwise stated, competitors should take points for each applicable modification row.
 
 #set align(center)
 #set table(columns: (60pt, 1fr), align: (center, left))
@@ -303,11 +309,10 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
 )
 
 == Tires
-Any tire not on this list will automatically be 6pts
+_Any tire not on this list is automatically 6pts_
 
 #table(
-  table.header([Points], [Tires]),
-
+  table.header([Points], [Modifications]),
   [-1], [
     - 17" GT Radial SX2
     - 17" GT Radial HPY
@@ -315,7 +320,7 @@ Any tire not on this list will automatically be 6pts
   ],
   [0], [
     - Michelin Pilot Sport 4 (OEM size only 215/40R18)
-    - Yokohama Advan Apex V601
+    - #highlight[Yokohama Advan Apex V601]
   ],
   [1], [
     - 18" GT Radial SX2
@@ -330,7 +335,7 @@ Any tire not on this list will automatically be 6pts
     - Goodyear Eagle F1 Supercar 3
     - Hankook Ventus RS-4
     - Kumho Ecsta V730
-    - Maxxis VR-1
+    - #highlight[Maxxis VR-1]
     - Michelin Pilot Sport 4S
     - Michelin Pilot Sport Cup 2 (180TW)
     - Michelin Pilot Sport Cup 2 Connect
@@ -349,114 +354,160 @@ Any tire not on this list will automatically be 6pts
     - Falken Azenis RT660
     - Goodyear Eagle F1 Supercar 3R
     - Maxxis Victra RC-1
-    - Maxxis Victra VR2
+    - #highlight[Maxxis Victra VR2]
     - Nankang AR-1
     - Nankang CR-1
     - Nexen N’Fera SUR4G
     - Yokohama Advan A052
   ],
   [5], [Treadwear 40–99],
-  [6], [Racing slicks or any other unlisted tire],
+  [6], [Racing slicks or any tire not listed above],
+)
+
+== Engine Mechanical & Drivetrain
+
+#table(
+  table.header([Points], [Modifications]),
+
+  [0], [
+    - Removal of intake resonators
+    - Any drop-in replacement air filter for OEM intake
+    - Gen. 2 charcoal airbox filter removal
+    - Aftermarket radiator, oil cooler, oil catch can, oil pan baffle, and/or modified sump
+    - #highlight[Any transmission cooling or diff cooling system]
+    - Any cat-back exhaust
+    - #highlight[Any pump gasoline (including blending high-octane gasoline)]
+  ],
+  [0.5], [Aftermarket intake, header, front-pipe, overpipe, and/or any removal of OEM catalytic converter],
+  [0.5], [Lighter-than-OEM rotational inertia flywheel, clutch, and/or driveshaft],
+  [0.5], [Non-OEM limited slip differential],
+  [1], [Non-OEM transmission],
+  [#highlight[2]], [#highlight[FA20 to FA24 engine swap]],
+  [5], [Forced induction (FI)],
+  [TBD], [Any other engine swap (contact Rules Board for individual engine swap classification)],
+)
+
+== #highlight[Engine Tuning]
+Octane ratings below use (RON+MON)/2, or AKI. This is the octane number displayed at the pump in the US.
+
+#highlight[_Take points for one of the following:_]
+
+#table(
+  table.header([Points], [Modifications]),
+
+  [0], [
+    - OEM tune
+    - FI tune for 93 octane gasoline or lower (only when taken with 5 point FI modification)
+  ],
+  [0.5], [NA tune for 93 octane gasoline or lower (non-OEM)],
+  [1.5], [NA tune for greater than 93 octane gasoline or greater than 15% ethanol content],
+  [2], [FI tune for greater than 93 octane gasoline or greater than 15% ethanol content],
 )
 
 #pagebreak()
 
-== Engine & Drivetrain
+== Front Aero
 
 #table(
   table.header([Points], [Modifications]),
 
-  [0.5], [Gen. 1 Aftermarket intake, header, front-pipe, overpipe, and/or any removal of OEM catalytic converter],
-  [0.5], [Gen. 1 NA tune for ≤ 93 (R+M)/2 octane rating (non-OEM)],
-  [1.5], [Gen. 1 NA tune for >15% ethanol content or gasoline >93 (R+M)/2 octane rating],
-  [0.5], [Gen. 2 Aftermarket intake, header, front-pipe, overpipe, and/or any removal of OEM catalytic converter],
-  [1], [Gen. 2 NA tune for ≤ 93 (R+M)/2 octane rating (non-OEM)],
-  [1.5], [Gen. 2 NA tune for >15% ethanol content or gasoline >93 (R+M)/2 octane rating],
-  [5], [Forced induction and tune for ≤ 93 (R+M)/2 octane rating],
-  [2], [Forced induction tuned for >15% ethanol content or gasoline >93 (R+M)/2 octane rating],
-  [0.5], [Lighter than OEM rotational inertia flywheel, clutch, and/or driveshaft],
-  [0.5], [Non-OEM limited slip differential],
-  [1], [Non-OEM Transmission],
-  [2], [FA20 to FA24 engine swap],
-  [X], [Any other engine swap or hybrid system (contact Rules Board for individual engine swap classing)],
+  [0], [
+    - STI lip
+    - TRD lip
+  ],
+  [0.5], [Canards, dive planes, hood vents, fender vents, and/or vertical deviations on splitters],
 )
 
-== Front Aero
+#highlight[_And take points for one of the following:_]
+
 #table(
   table.header([Points], [Modifications]),
-
-  [0], [Small Front Aero: STI lip, TRD lip, or any device extending \<50mm from bumper],
-  [1], [Medium Front Aero: Device extending 50-74mm outward/rearward from bumper],
-  [1.5], [Large Front Aero: Device extending 75-124mm outward/rearward from bumper],
-  [3], [Unlimited Front Aero: Device extending >125mm from bumper],
-  [0.5], [Canards/dive planes, hood vents, fender vents, or vertical deviation on splitter],
+  [0], [
+    Any device extending less than 50mm forward/outward/rearward from the bottom leading edge of the bumper
+  ],
+  [1], [Any device extending 50-74mm forward/outward/rearward from the bottom leading edge of the bumper],
+  [1.5], [Any device extending 75-124mm forward/outward/rearward from the bottom leading edge of the bumper],
+  [3], [Any device extending greater than 125mm forward/outward/rearward from the bottom leading edge of the bumper],
 )
 
 == Rear Aero
 #table(
   table.header([Points], [Modifications]),
+  [0.5], [Any rear diffuser extending forward of the rear axle or backward beyond the rear bumper],
+)
 
-  [0], [Really Small Rear Aero: OEM rear spoilers, OEM wings, aftermarket \<60mm height],
-  [0.5], [Small Rear Aero: Aftermarket rear spoiler >60mm height],
-  [1], [Medium Rear Aero: Gen. 1 BRZ tS wing, SARD LSR, wings with max width of 1400mm],
-  [1.5], [Large Rear Aero: APR GTC-200, Voltex Type 12, wings with max width of 1460mm],
-  [2], [Unlimited Rear Aero: Wings wider than 1460mm, higher than 245mm, or chord length >250mm],
-  [0.5], [Any rear diffuser extending in front of the rear axle or behind the rear bumper],
+#highlight[_And take points for one of the following:_]
+
+#table(
+  table.header([Points], [Modifications]),
+  [0], [
+    OEM rear spoiler, OEM wing (except Gen. 1 BRZ tS wing), or any aftermarket spoiler less than 60mm in height
+  ],
+  [0.5], [
+    Aftermarket rear spoiler greater than 60mm in height
+  ],
+  [1], [
+    Gen. 1 BRZ tS wing, SARD LSR, or any wing with max width of 1400mm
+  ],
+  [1.5], [
+    APR GTC-200, Voltex Type 12, or any wing with max width of 1460mm
+  ],
+  [2], [
+    Any wing wider than 1460mm, higher than 245mm, or chord length >250mm
+  ],
 )
 
 == Suspension
 #table(
   table.header([Points], [Modifications]),
 
-  [0], [OEM-style, non-adjustable dampers],
-  [0.5], [Non-OEM springs],
-  [0.5], [Adjustable dampers or modification to damper valving],
-  [0.5], [Remote reservoirs],
+  [0], [
+    - Any spherical bushings including strut top mounts
+    - Any alignment bolt/kit, bump steer kit, tie rod end, roll center adjuster
+    - Any bolt-on chassis bracing
+    - Any sway bars
+    - OEM-style, non-adjustable dampers, with fixed spring perches
+  ],
+  [#highlight[0.5]], [#highlight[Non-OEM springs]],
+  [#highlight[0.5]], [#highlight[Adjustable dampers (valving or ride height) or modification to off-the-shelf damper valving]],
+  [#highlight[0.5]], [#highlight[Remote reservoirs]],
 )
+
+#pagebreak()
 
 == Weight Reduction
 #table(
   table.header([Points], [Modifications]),
 
+  [0], [Any lightweight battery],
   [1], [Removal of any interior trim pieces or seating not required for installation of a roll cage],
 )
 
-== Free Modifications
+== Safety
 #table(
   table.header([Points], [Modifications]),
 
   [0], [
     - Any in-cabin safety equipment
-    - Any interior removal as needed to accommodate safety equipment
-    - Any replacement drop-in air filter for OEM intake
-    - Gen. 2 charcoal airbox filter removal
-    - Intake resonator removal
-    - Aftermarket radiator or oil-cooler
-    - Aftermarket calipers, rotors, pads or brake ducting
-    - Any interior removal as needed to accommodate safety equipment
-    - Any alignment bolt/kit, bump steer kit, tie rod end, roll center adjuster
-    - Any spherical bushings including strut top mounts
-    - Any bolt-on chassis bracing
-    - Any oil-catch can, oil baffle pan
-    - Any transmission or diff cooling system
-    - Any lightweight battery
-    - Any cat-back (no removal of any catalyst) exhaust
-  ]
+    - Aftermarket brake calipers, rotors, pads, or brake ducting
+  ],
 )
 
-== Prohibited Modifications
+== #highlight[Prohibited Modifications]
 #table(
   table.header([Points], [Modifications]),
 
-  [∞], [
-    - Active aero devices
-    - Active dampers
-    - Aftermarket ABS or TCS, or modified driver assist firmware
-    - Air suspension
-    - Any advanced driver-assistance systems (ADAS) system
-    - Any non-aluminum or steel wheels (e.g. carbon fiber, magnesium, titanium)
-    - Any non-pump-gasoline or non-ethanol/gasoline fuel
-    - Cutting, removing, or reshaping exterior parts not required for pointed modifications
-    - Changing suspension type (e.g. double A-arm, inboard shocks/springs) is prohibited
-  ],
+  [#highlight[∞]], [#highlight[
+      - Active aero devices
+      - Active dampers
+      - Adding oxidising agents to the combustion chamber (e.g. nitrous oxide)
+      - Aftermarket ABS or TCS, or modified driver assist firmware
+      - Air suspension
+      - Any non-aluminum or non-steel wheels (e.g. carbon fiber, magnesium, titanium)
+      - Any non-pump-gasoline or non-ethanol/gasoline fuel
+      - Changing suspension type (e.g. double A-arm, inboard shocks/springs) is prohibited
+      - Cutting, removing, or reshaping exterior parts not required for pointed modifications
+      - Removing or perforating window glass
+      - Replacing window glass with lightweight materials (e.g. Lexan)
+    ]],
 )
