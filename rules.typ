@@ -16,6 +16,8 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
 
 #spacer
 
+#show table: set block(breakable: false)
+
 + #heading[General Rules]
   + Chassis must be one of the following (hereafter referred to by its _Designation_):
     #table(
@@ -305,6 +307,8 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
 == Tires
 Any tire not on this list will automatically be 6pts
 
+#show table: set block(breakable: true)
+
 #table(
   table.header([Points], [Tires]),
 
@@ -358,8 +362,6 @@ Any tire not on this list will automatically be 6pts
   [5], [Treadwear 40–99],
   [6], [Racing slicks or any other unlisted tire],
 )
-
-#pagebreak()
 
 == Engine & Drivetrain
 
