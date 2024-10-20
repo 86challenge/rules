@@ -41,18 +41,19 @@
 
 #let spacer = block(above: 1.25em, below: 1.25em)
 
-#let frontmatter(title: str, revision: str) = [
-  #spacer
-
+#let frontmatter(year: int, revision: int) = [
   #block(width: 100%)[
     #set align(center)
     #image("images/logo.png", width: 120pt)
 
     #text(17pt)[
-      #strong(title)
+      #strong(
+        (str(year), "Rules").join(" "),
+      )
     ]
 
-    Revision: #revision \
+    // #strong("Revision: ") \
+    #text("Version") #text((str(year), str(revision)).join(".")) \
     #datetime.today().display("[month repr:long] [day], [year]")
   ]
 
