@@ -2,7 +2,7 @@
 
 #show: template
 
-#frontmatter(title: "2025 Rules", revision: "0.1")
+#frontmatter(year: 2025, revision: 1)
 
 #heading(outlined: false)[
   Introduction
@@ -38,6 +38,9 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
       ],
     )
 
+  + *Registration*
+    + #highlight[Registration with 86 Challenge (separate from buying a ticket with the trackday organizer) must be submitted by the end of the day following a given event. Registering before the event begins is recommended.]
+
   + *Timing*
     + The following timing methods are accepted. Priority is given from top to bottom if more than one method is available for a given lap:
       #table(
@@ -57,7 +60,7 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
         - Novice
         - Beginner
       ]
-    + #highlight[*Tiebreaker*: If competitors have identical times, the time which was set earlier in the day is ranked higher than times set later]
+    + #highlight[*Tiebreaker*: If competitors have identical times, times set earlier ranks above times set later]
 
   + *Classes*
     + Cars will be classed according to rules and modification points listed in the following sections
@@ -66,7 +69,7 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
     + A driver may only compete in one class during a single event
     + #highlight[If a driver moves to a different class during a season, the points earned in the previous class will _not_ be carried over to the new class. Drivers may choose to not earn points in the new class and keep the points in the previous class. Drivers cannot participate in the GT Radial Championship Prize in multiple classes in a season.]
 
-  + *Scoring*
+  + *Championship Scoring*
     + Championship points are awarded at the end of each event according to the chart below:
       #table(
         columns: 2,
@@ -87,16 +90,16 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
     + *Best of 7*: At the end of the season, the driver with the most points from 7 of the best scores out of 10 events wins the championship
     + #highlight[*Tiebreaker*: Championship ties are broken via finishing position countback: The competitor with the most 1st place finishes wins. If still tied, the countback moves to 2nd place, 3rd place, and all subsequent finishing positions. If still tied, the competitor who held a lead last wins.]
 
-  + #highlight[*In-season rule changes*
+  + #highlight[*In-Season Rule Changes*
       + Changes which make the rules more _restrictive_ will be announced 60 days ahead of enforcement
       + Changes which make the rules more _permissive_ may be enforced immediately
       + All rule changes will be announced and will include the date on which become effective
     ]
 
   + #highlight[*Protests*
-      + A competitor may protest the results of an event if they believe a competitor was out of compliance with the rules
+      + A competitor may protest the results of an event to the Rules Board if they believe a competitor was out of compliance with the rules
       + The Rules Board will review the protest and may move a competitor to a different class or invalidate their results for one or more events
-      + After the first event of the season, the previous season’s results are final
+      + After the first event of new season, the previous season’s results are final
     ]
 
 + #heading[GT Radial Stock Class]
