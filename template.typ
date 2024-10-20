@@ -8,7 +8,6 @@
   #show outline.entry: set text(blue)
   #show outline.entry: underline
   #show table.cell.where(y: 0): strong
-  #show table: set block(breakable: false)
   #set table(
     stroke: (x: 0pt, y: 0.5pt),
     fill: (_, y) => {
