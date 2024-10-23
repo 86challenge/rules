@@ -103,7 +103,7 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
     ]
 
 + #heading[GT Radial Stock Class]
-  _This class is designed to keep costs to a minimum and be attractive to drivers with nearly-stock vehicles. Participants are eligible for GT Radial Championship Cash Prizes and GT Radial Tire Contingency._
+  _Designed to keep costs to a minimum and be attractive to drivers with nearly-stock vehicles. Participants are eligible for GT Radial Championship Cash Prizes and GT Radial Tire Contingency._
 
   + Vehicles in this class are only allowed performance modifications included in this section
 
@@ -230,9 +230,11 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
     + Non-OEM cat-back exhaust with a weight greater than 32 lbs is allowed (removal of any catalyst is prohibited)
 
 + #heading[GT Radial Street Class]
-  _This class allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT Radial Championship Cash Prizes and GT Radial Tire Contingency._
+  _Allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT Radial Championship Cash Prizes and GT Radial Tire Contingency._
 
   + Drivers are allotted 3 modification points according to #link(<mods>)[Modification Points]
+
+  + Any performance modification not listed in #link(<mods>)[Modification Points] is prohibited.
 
   + Minimum weight is #highlight[2800 lbs without driver and with a full tank of gas]
 
@@ -252,38 +254,40 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
       \* OEM tires are only allowed for a competitor’s first 2 events. Points earned with OEM Michelin tires will not be eligible toward GT Radial tire contingency nor toward GT Radial Championship Cash Prize
 
 + #heading[Touring Class]
-  _This class allows for significant modification freedom and times are adjusted based on Modification Points. Participants are eligible for GT Radial Tire Contingency._
+  _Allows significant modification freedom, with a balance of performance handicap based on Modification Points. Participants are eligible for GT Radial Tire Contingency._
 
   + Drivers are allotted 10 modification points according to #link(<mods>)[Modification Points]
   + Maximum tire width: 255 mm
   + Minimum weight is 2750 lbs without driver and with a full tank of gas
   + Event standings will be determined by _Adjusted Track Time_, as defined below:
     $
-      "Adjustment Factor" =
-      "Gen. 1 Stock record at event track" / "Gen. 1 Stock record at Thunderhill East Bypass"
+      italic("Adjustment Factor") =
+      "Street Class record at event track" / "Street Class record at Thunderhill East Bypass"
     $
     $
-      "Touring Handicap" = "Modification Points" x "Adjustment Factor"
+      italic("Touring Handicap") = italic("Adjustment Factor") x max(0, italic("Modification Points") - "3")
     $
     $
-      "Adjusted Track Time" =
-      "Raw Time" + "Touring Handicap"
+      italic("Adjusted Track Time") =
+      "Raw Time" + italic("Touring Handicap")
     $
   + You can use the following table to find the _Touring Handicap_ given Modification Points and a track:
-  #let mod_points = range(-2, 21, step: 1).map(n => n / 2)
-  #let adjustment_factors = csv("adjustment_factor.csv")
+  #let thunderhill_east_bypass_record = 125.418
+  #let mod_points = range(3 * 2, 21, step: 1).map(n => n / 2)
+  #let records = csv("records.csv")
   #show table.cell.where(x: 0): strong
   #show table: set text(size: 8pt)
   #table(
     columns: (auto, ..mod_points.map(point => 1fr)),
     align: (left, ..mod_points.map(point => center)),
-    table.header([Track/Points], ..mod_points.map(point => str(point))),
-    ..for (track, factor) in adjustment_factors {
+    table.header([Track / Mod Points], ..mod_points.map(point => str(point))),
+    ..for (track, time) in records {
+      let adjustment_factor = float(time) / thunderhill_east_bypass_record
       (
         [#track],
         ..mod_points.map(points => str(
           calc.round(
-            points * float(factor),
+            calc.max(0, points - 3) * adjustment_factor,
             digits: 1,
           ),
         )),
@@ -292,12 +296,12 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
   )
 
 + #heading[Unlimited Class]
-  _This class allows unconstrained builds to achieve the ultimate 86 lap times. For people who don’t like conforming to rules!_
+  _Allows unconstrained builds to achieve the ultimate 86 lap times. For people who don’t like to conform to rules!_
 
   + Anything goes!
 
 + #heading[Modification Points] <mods>
-  This section applies only to GT Radial Street Class and Touring Class. Unless otherwise stated, competitors should take points for each applicable modification row.
+  This section applies only to GT Radial Street Class and Touring Class.
 
 #set align(center)
 #set table(columns: (60pt, 1fr), align: (center, left))
@@ -330,44 +334,54 @@ _Any tire not on this list is automatically 6pts_
     - GT Radial SX2 RS
   ],
   [2], [
-    - Continental ExtremeContact Sport (ECS)
-    - Dunlop Direzza ZII Star Spec
-    - Dunlop Direzza ZIII
-    - Falken Azenis RT615K
-    - Federal 595 RS-RR
-    - Goodyear Eagle F1 Supercar 3
-    - Hankook Ventus RS-4
-    - Kumho Ecsta V730
-    - #highlight[Maxxis VR-1]
-    - Michelin Pilot Sport 4S
-    - Michelin Pilot Sport Cup 2 (180TW)
-    - Michelin Pilot Sport Cup 2 Connect
-    - Nankang NS-2R
-    - Nexen Nfera SUR4
-    - Nitto NT01
-    - Nitto NT05
-    - Toyo Proxes R888
-    - Yokohama Advan AD08R
+    #box(height: 112pt)[
+      #columns(2)[
+        - Continental ExtremeContact Sport (ECS)
+        - Dunlop Direzza ZII Star Spec
+        - Dunlop Direzza ZIII
+        - Falken Azenis RT615K
+        - Federal 595 RS-RR
+        - Goodyear Eagle F1 Supercar 3
+        - Hankook Ventus RS-4
+        - Kumho Ecsta V730
+        - #highlight[Maxxis VR-1]
+        - Michelin Pilot Sport 4S
+        - Michelin Pilot Sport Cup 2 (180TW)
+        - Michelin Pilot Sport Cup 2 Connect
+        - Nankang NS-2R
+        - Nexen Nfera SUR4
+        - Nitto NT01
+        - Nitto NT05
+        - Toyo Proxes R888
+        - Yokohama Advan AD08R
+      ]
+    ]
   ],
   [3], [
-    - BFGoodrich g-Force Rival S
-    - Bridgestone Potenza RE71R
-    - Bridgestone Potenza RE71RS
-    - Continental ExtremeContact Force (ECF)
-    - Falken Azenis RT660
-    - Goodyear Eagle F1 Supercar 3R
-    - Maxxis Victra RC-1
-    - #highlight[Maxxis Victra VR2]
-    - Nankang AR-1
-    - Nankang CR-1
-    - Nexen N’Fera SUR4G
-    - Yokohama Advan A052
+    #box(height: 73pt)[
+      #columns(2)[
+        - BFGoodrich g-Force Rival S
+        - Bridgestone Potenza RE71R
+        - Bridgestone Potenza RE71RS
+        - Continental ExtremeContact Force (ECF)
+        - Falken Azenis RT660
+        - Goodyear Eagle F1 Supercar 3R
+        - Maxxis Victra RC-1
+        - #highlight[Maxxis Victra VR2]
+        - Nankang AR-1
+        - Nankang CR-1
+        - Nexen N’Fera SUR4G
+        - Yokohama Advan A052
+      ]
+    ]
   ],
   [5], [Treadwear 40–99],
   [6], [Racing slicks or any tire not listed above],
 )
 
 == Engine Mechanical & Drivetrain
+
+_Take points for EACH applicable row:_
 
 #table(
   table.header([Points], [Modifications]),
@@ -391,9 +405,10 @@ _Any tire not on this list is automatically 6pts_
 )
 
 == #highlight[Engine Tuning]
-Octane ratings below use (RON+MON)/2, or AKI. This is the octane number displayed at the pump in the US.
 
-#highlight[_Take points for one of the following:_]
+_Take points for ONE of the following:_
+
+Octane ratings below use (RON+MON)/2, or AKI. This is the octane number displayed at the pump in the US.
 
 #table(
   table.header([Points], [Modifications]),
@@ -407,39 +422,42 @@ Octane ratings below use (RON+MON)/2, or AKI. This is the octane number displaye
   [2], [FI tune for greater than 93 octane gasoline or greater than 15% ethanol content],
 )
 
-#pagebreak()
 
 == Front Aero
 
+_Take points for EACH applicable row:_
+
 #table(
   table.header([Points], [Modifications]),
 
-  [0], [
-    - STI lip
-    - TRD lip
-  ],
   [0.5], [Canards, dive planes, hood vents, fender vents, and/or vertical deviations on splitters],
 )
 
-#highlight[_And take points for one of the following:_]
+_And take points for ONE of the following:_
 
 #table(
   table.header([Points], [Modifications]),
   [0], [
-    Any device extending less than 50mm forward/outward/rearward from the bottom leading edge of the bumper
+    Any device extending less than 50mm forward/outward/rearward from the bottom leading edge of the bumper (including STI lip and TRD lip)
+    )
   ],
   [1], [Any device extending 50-74mm forward/outward/rearward from the bottom leading edge of the bumper],
   [1.5], [Any device extending 75-124mm forward/outward/rearward from the bottom leading edge of the bumper],
   [3], [Any device extending greater than 125mm forward/outward/rearward from the bottom leading edge of the bumper],
 )
 
-== Rear Aero
+== Underbody Aero
+
+_Take points for EACH applicable row:_
+
 #table(
   table.header([Points], [Modifications]),
   [0.5], [Any rear diffuser extending forward of the rear axle or backward beyond the rear bumper],
 )
 
-#highlight[_And take points for one of the following:_]
+== Rear Aero
+
+_Take points for ONE of the following:_
 
 #table(
   table.header([Points], [Modifications]),
@@ -461,6 +479,9 @@ Octane ratings below use (RON+MON)/2, or AKI. This is the octane number displaye
 )
 
 == Suspension
+
+_Take points for EACH applicable row:_
+
 #table(
   table.header([Points], [Modifications]),
 
@@ -476,9 +497,10 @@ Octane ratings below use (RON+MON)/2, or AKI. This is the octane number displaye
   [#highlight[0.5]], [#highlight[Remote reservoirs]],
 )
 
-#pagebreak()
-
 == Weight Reduction
+
+_Take points for EACH applicable row:_
+
 #table(
   table.header([Points], [Modifications]),
 
@@ -487,6 +509,9 @@ Octane ratings below use (RON+MON)/2, or AKI. This is the octane number displaye
 )
 
 == Safety
+
+_Take points for EACH applicable row:_
+
 #table(
   table.header([Points], [Modifications]),
 
@@ -494,23 +519,4 @@ Octane ratings below use (RON+MON)/2, or AKI. This is the octane number displaye
     - Any in-cabin safety equipment
     - Aftermarket brake calipers, rotors, pads, or brake ducting
   ],
-)
-
-== #highlight[Prohibited Modifications]
-#table(
-  table.header([Points], [Modifications]),
-
-  [#highlight[∞]], [#highlight[
-      - Active aero devices
-      - Active dampers
-      - Adding oxidising agents to the combustion chamber (e.g. nitrous oxide)
-      - Aftermarket ABS or TCS, or modified driver assist firmware
-      - Air suspension
-      - Any non-aluminum or non-steel wheels (e.g. carbon fiber, magnesium, titanium)
-      - Any non-pump-gasoline or non-ethanol/gasoline fuel
-      - Changing suspension type (e.g. double A-arm, inboard shocks/springs) is prohibited
-      - Cutting, removing, or reshaping exterior parts not required for pointed modifications
-      - Removing or perforating window glass
-      - Replacing window glass with lightweight materials (e.g. Lexan)
-    ]],
 )
