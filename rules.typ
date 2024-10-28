@@ -139,7 +139,7 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
 
   + *Engine & Powertrain*
     + Engine software must be OEM
-    + Oil coolers, accumulators, and/or sump changes are allowed
+    + Oil coolers, #highlight[catch cans], accumulators, and/or sump changes are allowed
     + Gen. 2 intake charcoal filters shall be present and unaltered
     + #highlight[Any pump gasoline (including blending high-octane pump gasoline) is allowed]
 
