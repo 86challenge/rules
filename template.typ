@@ -52,7 +52,6 @@
       )
     ]
 
-    // #strong("Revision: ") \
     #text("Version") #text((str(year), str(revision)).join(".")) \
     #datetime.today().display("[month repr:long] [day], [year]")
   ]

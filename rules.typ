@@ -12,7 +12,7 @@ Welcome to 86 Challenge. Drivers of all skill levels are welcome and there is no
 
 See #link("https://86challenge.us")[86challenge.us] for more information, including schedule, historical results, and forms for registering for GT Radial's Championship Cash Prize and tire contingency program.
 
-Questions, corrections, and clarifications can be raised on our #link("https://www.facebook.com/groups/1009986312348877")[Facebook Group] or #link("https://discord.gg/sDKdV4TS4T")[Discord server].
+Questions, corrections, and clarifications can be raised on our #link("https://www.facebook.com/groups/1009986312348877")[Facebook Group] or #link("https://discord.gg/sDKdV4TS4T")[Discord Server].
 
 Significant additions or changes for the 2025 season are #highlight[highlighted].
 
@@ -39,10 +39,12 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
     )
 
   + *Registration*
-    + #highlight[Registration with 86 Challenge (separate from buying a ticket with the trackday organizer) must be submitted by the end of the day following a given event. Registering before the event begins is recommended.]
+    + #highlight[Registration with 86 Challenge (separate from buying a ticket with the trackday organizer) must be submitted prior to the start of each event. Late registrations are allowed only for a driver’s first 86 Challenge event.]
+    + Drivers must declare the class they are competing in for each event on the event registration form
+    + A car may be shared by different drivers. Please enter one event registration per driver and indicate the class _and_ run group each driver is participating in.
 
   + *Timing*
-    + The following timing methods are accepted. Priority is given from top to bottom if more than one method is available for a given lap:
+    + The following timing methods are accepted (see table below). Priority is given from top to bottom if more than one method is available for a given lap:
       #table(
         columns: 2,
         align: (left, center),
@@ -53,29 +55,15 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
         [#highlight[Unedited onboard video (may be accepted for a driver’s first event only)]],
         [0.5],
       )
-    + #highlight[*Multiple run groups*: For drivers participating in multiple run groups (in a single cycle of run groups), their time will be taken from the highest run group, according to the following order. (If run groups are further divided into fast/slow, the faster run group is considered higher.)
-        - 86 Challenge (dedicated run group)
-        - Open Passing
-        - Intermediate/Mixed Passing
-        - Novice
-        - Beginner
-      ]
-    + #highlight[*Tiebreaker*: If competitors have identical times, times set earlier ranks above times set later]
+    + #highlight[*Tiebreaker*: If competitors have identical times in an event, times set earlier in the day rank above times set later]
 
-  + *Classes*
-    + Cars will be classed according to rules and modification points listed in the following sections
-    + A car may be shared by different drivers. Please enter one event registration per driver and indicate the run group each driver is participating in.
-    + A driver may run in a higher class than their modification points dictate
-    + A driver may only compete in one class during a single event
-    + #highlight[If a driver moves to a different class during a season, the points earned in the previous class will _not_ be carried over to the new class. Drivers may choose to not earn points in the new class and keep the points in the previous class. Drivers cannot participate in the GT Radial Championship Prize in multiple classes in a season.]
-
-  + *Championship Scoring*
-    + Championship points are awarded at the end of each event according to the chart below:
+  + *Scoring*
+    + Points are awarded at the end of each event according to the table below:
       #table(
         columns: 2,
         align: (center, center),
         table.header(
-          [Finish Position],
+          [Finishing Position],
           [Points],
         ),
 
@@ -87,8 +75,31 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
         [6th], [2],
         [7th+], [1],
       )
-    + *Best of 7*: At the end of the season, the driver with the most points from 7 of the best scores out of 10 events wins the championship
-    + #highlight[*Tiebreaker*: Championship ties are broken via finishing position countback: The competitor with the most 1st place finishes wins. If still tied, the countback moves to 2nd place, 3rd place, and all subsequent finishing positions. If still tied, the competitor who held a lead last wins.]
+    + Separate points tallies are used to track championship standings and tire contingency:
+      #table(
+        columns: 2,
+        align: (left, left),
+        table.header(
+          [Type],
+          [Definition],
+        ),
+
+        [*Total Points*], [The sum of a driver’s points earned from all events],
+        [*Championship Points*],
+        [The sum of a driver’s 7 best finishes, only from the class the driver is participating in for the championship (see #link(<changing-classes>)[Changing Classes])],
+
+        [*Tire Points*],
+        [The sum of a driver’s points earned satisfying the terms of the GT Radial Tire Contingency program],
+      )
+    + #highlight[
+        *Changing Classes* <changing-classes> If a driver changes classes during a season, they can choose to:
+        - Keep the _Championship Points_ earned in their previous class and not earn _Championship Points_ in the new class, or
+        - Forfeit the _Championship Points_ earned in their previous class and earn _Championship Points_ in the new class
+      ]
+    + #highlight[The per-class standings are determined by _Championship Points_ (most points wins)]
+    + #highlight[
+        *Tiebreaker*: Championship ties are broken via finishing position countback: The competitor with the most 1st place finishes wins. If still tied, the countback moves to 2nd place, 3rd place, and all subsequent finishing positions. If still tied, the competitor who held a lead last wins.
+      ]
 
   + #highlight[*In-Season Rule Changes*
       + Changes which make the rules more _restrictive_ will be announced 60 days ahead of enforcement
@@ -128,10 +139,9 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
 
   + *Engine & Powertrain*
     + Engine software must be OEM
-    + Engine oil coolers, accumulators, and/or sump changes are allowed
+    + Oil coolers, accumulators, and/or sump changes are allowed
     + Gen. 2 intake charcoal filters shall be present and unaltered
-    + #highlight[Transmission and diff oil coolers are allowed]
-    + #highlight[Any pump gasoline (including blending high-octane gasoline) is allowed]
+    + #highlight[Any pump gasoline (including blending high-octane pump gasoline) is allowed]
 
   + *Alignment*
     + Front camber shall not exceed (be more negative than) -2.5 degrees
@@ -260,13 +270,13 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
   + Maximum tire width: 255 mm
   + Minimum weight is 2750 lbs without driver and with a full tank of gas
   + Event standings will be determined by _Adjusted Track Time_, as defined below:
-    $
+    #highlight($
       italic("Adjustment Factor") =
       "Street Class record at event track" / "Street Class record at Thunderhill East Bypass"
-    $
-    $
+    $)
+    #highlight($
       italic("Touring Handicap") = italic("Adjustment Factor") x max(0, italic("Modification Points") - "3")
-    $
+    $)
     $
       italic("Adjusted Track Time") =
       "Raw Time" + italic("Touring Handicap")
@@ -393,7 +403,7 @@ _Take points for EACH applicable row:_
     - Aftermarket radiator, oil cooler, oil catch can, oil pan baffle, and/or modified sump
     - #highlight[Any transmission cooling or diff cooling system]
     - Any cat-back exhaust
-    - #highlight[Any pump gasoline (including blending high-octane gasoline)]
+    - #highlight[Any pump gasoline (including blending high-octane pump gasoline)]
   ],
   [0.5], [Aftermarket intake, header, front-pipe, overpipe, and/or any removal of OEM catalytic converter],
   [0.5], [Lighter-than-OEM rotational inertia flywheel, clutch, and/or driveshaft],
