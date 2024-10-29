@@ -276,7 +276,9 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
         columns: (1fr, 1fr),
         align: (left, left),
         table.header([Models], [Sizes]),
-        [GT Radial Champiro SX2 or HPY], [- 17” only with 245mm maximum width],
+        [GT Radial Champiro SX2 or HPY],
+        [- 17” with 245mm maximum section width],
+
         [Michelin Primacy HP (OEM)\*], [- 215/45R17],
         [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [- 215/40R18],
       )
@@ -286,7 +288,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
   _Allows significant modification freedom, with a balance of performance handicap based on Modification Points. Participants are eligible for GT Radial Tire Contingency._
 
   + Drivers are allotted 10 #link(<mods>)[Modification Points]
-  + Maximum tire width: 255 mm
+  + Maximum tire section width: 255 mm
   + Minimum weight is 2750 lbs without driver and with a full tank of gas
   + Event standings will be determined by _Adjusted Track Time_, as defined below:
     #highlight($
