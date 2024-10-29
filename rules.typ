@@ -1,4 +1,11 @@
-#import "template.typ": template, frontmatter, spacer
+#import "template.typ": (
+  discord,
+  facebook,
+  frontmatter,
+  spacer,
+  template,
+  website,
+)
 
 #show: template
 
@@ -10,9 +17,9 @@
 
 Welcome to 86 Challenge. Drivers of all skill levels are welcome and there is no charge to participate.
 
-See #link("https://86challenge.us")[86challenge.us] for more information, including schedule, historical results, and forms for registering for GT Radial's Championship Cash Prize and tire contingency program.
+See #website for more information, including schedule, historical results, and forms for registering for GT Radial's Championship Cash Prize and tire contingency program.
 
-Questions, corrections, and clarifications can be raised on our #link("https://www.facebook.com/groups/1009986312348877")[Facebook Group] or #link("https://discord.gg/sDKdV4TS4T")[Discord Server].
+Questions, corrections, and clarifications can be raised on our #facebook or #discord.
 
 #spacer
 
@@ -37,7 +44,9 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
     )
 
   + *Registration*
-    + #highlight[Registration with 86 Challenge (separate from buying a ticket with the trackday organizer) must be submitted prior to the start of each event. Late registrations are allowed only for a driver’s first 86 Challenge event.]
+    + #highlight[
+        Registration with 86 Challenge (separate from buying a ticket with the trackday organizer) must be submitted prior to the start of each event. Late registrations are allowed only for a driver’s first 86 Challenge event.
+      ]
     + Drivers must declare the class they wish to compete in on the registration form for each event
     + A car may be shared by different drivers. Please enter one event registration per driver and indicate the class _and_ run group each driver is participating in.
 
@@ -53,7 +62,9 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
         [#highlight[Unedited onboard video (may be accepted for a driver’s first event only)]],
         [0.5],
       )
-    + #highlight[*Tiebreaker*: If competitors have identical times in an event, times set earlier in the day rank above times set later]
+    + #highlight[
+        *Tiebreaker*: If competitors have identical times in an event, times set earlier in the day rank above times set later
+      ]
 
   + *Scoring*
     + Points are awarded at the end of each event according to the table below:
@@ -94,15 +105,17 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
         - Keep the _Championship Points_ earned in their previous class and not earn _Championship Points_ in the new class, or
         - Forfeit the _Championship Points_ earned in their previous class and earn _Championship Points_ in the new class
       ]
-    + #highlight[The per-class standings are determined by _Championship Points_ (most points wins)]
+    + #highlight[
+        The per-class standings are determined by _Championship Points_ (most points wins)
+      ]
     + #highlight[
         *Tiebreaker*: Championship ties are broken via finishing position countback: The competitor with the most 1st place finishes wins. If still tied, the countback moves to 2nd place, 3rd place, and all subsequent finishing positions. If still tied, the competitor who held a lead last wins.
       ]
 
   + #highlight[*In-Season Rule Changes*
+      + All rule changes will be announced on our #discord and #website. Announcements will include the date on which changes become effective.
       + Changes which make the rules more _restrictive_ will be announced 60 days ahead of enforcement
       + Changes which make the rules more _permissive_ may be enforced immediately
-      + All rule changes will be announced and will include the date on which become effective
     ]
 
   + #highlight[*Protests*
@@ -139,7 +152,30 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
     + Engine software must be OEM
     + Oil coolers, #highlight[catch cans], accumulators, and/or sump changes are allowed
     + Gen. 2 intake charcoal filters shall be present and unaltered
-    + #highlight[Any pump gasoline (including blending high-octane pump gasoline) is allowed]
+    + #highlight[
+        Any pump gasoline (including blending high-octane pump gasoline) is allowed
+      ]
+
+  + *Wheels*
+    + Wheels must have a maximum width of 8.0 inches
+    + Wheel spacers are allowed
+
+  + *Tires*
+    + Tires must be one of the following:
+      #table(
+        columns: 2,
+        align: (left, left),
+        table.header([Models], [Sizes]),
+        [GT Radial Champiro SX2 or HPY],
+        [
+          - 215/45R17
+          - 225/45R17
+        ],
+
+        [Michelin Primacy HP (OEM)\*], [- 215/45R17],
+        [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [- 215/40R18],
+      )
+      \* OEM tires are only allowed for a competitor’s first 2 events. Points earned with OEM Michelin tires will not be eligible toward GT Radial tire contingency nor toward GT Radial Championship Cash Prize
 
   + *Alignment*
     + Front camber shall not exceed (be more negative than) -2.5 degrees
@@ -175,9 +211,14 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
 
         [Camber plates], [- Any],
       )
-    + #highlight[Rear camber with stock, unmodified, and undamaged components is not restricted]
-    + #highlight[Rear camber with adjustable components shall not exceed -2.0 degrees]
-    + #highlight[Rear camber may be adjusted using only the following parts:
+    + #highlight[
+        Rear camber with stock, unmodified, and undamaged components is not restricted
+      ]
+    + #highlight[
+        Rear camber with adjustable components shall not exceed -2.0 degrees
+      ]
+    + #highlight[
+        Rear camber may be adjusted using only the following parts:
         #table(
           columns: 2,
           align: (left, left),
@@ -198,27 +239,6 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
       ]
     + Toe angle may be adjusted without limitation
     + Cutting or bending of any vehicle sheet metal or suspension components to change alignment or ride height is not allowed
-
-  + *Wheels*
-    + Wheels must have a maximum width of 8.0 inches
-    + Wheel spacers are allowed
-
-  + *Tires*
-    + Tires must be one of the following:
-      #table(
-        columns: 2,
-        align: (left, left),
-        table.header([Models], [Sizes]),
-        [GT Radial Champiro SX2 or HPY],
-        [
-          - 215/45R17
-          - 225/45R17
-        ],
-
-        [Michelin Primacy HP (OEM)\*], [- 215/45R17],
-        [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [- 215/40R18],
-      )
-      \* OEM tires are only allowed for a competitor’s first 2 events. Points earned with OEM Michelin tires will not be eligible toward GT Radial tire contingency nor toward GT Radial Championship Cash Prize
 
   + *Aero*
     + STI lip and TRD lip are not allowed
@@ -279,7 +299,7 @@ Questions, corrections, and clarifications can be raised on our #link("https://w
       italic("Adjusted Track Time") =
       "Raw Time" + italic("Touring Handicap")
     $
-  + You can use the following table to find the _Touring Handicap_ given Modification Points and a track:
+  + You can use the following table to find the _Touring Handicap_ (s) given _Modification Points_ and track. (Builds with 3 points or fewer receive a 0s handicap.)
   #let thunderhill_east_bypass_record = 125.418
   #let mod_points = range(3 * 2, 21, step: 1).map(n => n / 2)
   #let records = csv("records.csv")
@@ -342,7 +362,7 @@ _Any tire not on this list is automatically 6pts_
     - GT Radial SX2 RS
   ],
   [2], [
-    #box(height: 112pt)[
+    #box(height: 12em)[
       #columns(2)[
         - Continental ExtremeContact Sport (ECS)
         - Dunlop Direzza ZII Star Spec
@@ -366,7 +386,7 @@ _Any tire not on this list is automatically 6pts_
     ]
   ],
   [3], [
-    #box(height: 73pt)[
+    #box(height: 8em)[
       #columns(2)[
         - BFGoodrich g-Force Rival S
         - Bridgestone Potenza RE71R
