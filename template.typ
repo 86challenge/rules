@@ -49,7 +49,7 @@
 
 #let website = link("https://86challenge.us")[86challenge.us]
 
-#let facebook = link("https://www.facebook.com/groups/1009986312348877")[Facebook Group]
+#let facebook = link("https://www.facebook.com/groups/86challenge")[Facebook Group]
 
 #let discord = link("https://86challenge.us")[Discord Server]
 
