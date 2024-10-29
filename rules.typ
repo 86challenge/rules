@@ -50,7 +50,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
     + #highlight[
         Registration with 86 Challenge (separate from buying a ticket with the trackday organizer) must be submitted prior to the start of each event. Late registrations are allowed only for a driver’s first 86 Challenge event.
       ]
-    + Drivers must declare the class they wish to compete in on the registration form for each event
+    + Drivers must declare the class they wish to compete in on the registration form for each event.
     + A car may be shared by different drivers. Please enter one event registration per driver and indicate the class _and_ run group each driver is participating in.
 
   + *Timing*
@@ -105,11 +105,11 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
       )
     + #highlight[
         *Changing Classes* <changing-classes> If a driver changes classes during a season, they can choose to:
-        - Keep the _Championship Points_ earned in their previous class and not earn _Championship Points_ in the new class, or
-        - Forfeit the _Championship Points_ earned in their previous class and earn _Championship Points_ in the new class
+        - Keep the _Championship Points_ earned in their previous class and not earn _Championship Points_ in the new class; or,
+        - Forfeit the _Championship Points_ earned in their previous class and earn _Championship Points_ in the new class.
       ]
     + #highlight[
-        The per-class standings are determined by _Championship Points_ (most points wins)
+        The per-class standings are determined by _Championship Points_ (most points wins).
       ]
     + #highlight[
         *Tiebreaker*: Championship ties are broken via finishing position countback: The competitor with the most 1st place finishes wins. If still tied, the countback moves to 2nd place, 3rd place, and all subsequent finishing positions. If still tied, the competitor who held a lead last wins.
@@ -117,22 +117,22 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
 
   + #highlight[*In-Season Rule Changes*
       + All rule changes will be announced on our #discord and #website. Announcements will include the date on which changes become effective.
-      + Changes which make the rules more _restrictive_ will be announced 60 days ahead of enforcement
-      + Changes which make the rules more _permissive_ may be enforced immediately
+      + Changes which make the rules more _restrictive_ will be announced 60 days ahead of enforcement.
+      + Changes which make the rules more _permissive_ may be enforced immediately.
     ]
 
   + #highlight[*Protests*
-      + A competitor may protest the results of an event to the Rules Board if they believe a competitor was out of compliance with the rules
-      + The Rules Board will review the protest and may move a competitor to a different class or invalidate their results for one or more events
-      + After the first event of new season, the previous season’s results are final
+      + A competitor may protest the results of an event to the Rules Board if they believe a competitor was out of compliance with the rules.
+      + The Rules Board will review the protest and may move a competitor to a different class or invalidate their results for one or more events.
+      + After the first event of new season, the previous season’s results are final.
     ]
 
 + #heading[GT Radial Stock Class]
   _Designed to keep costs to a minimum and be attractive to drivers with nearly-stock vehicles. Participants are eligible for GT Radial Championship Cash Prizes and GT Radial Tire Contingency._
 
-  + Vehicles in this class are only allowed performance modifications included in this section
+  + Vehicles in this class are only allowed performance modifications included in this section.
 
-  + In order to balance performance between Gen. 1 and Gen. 2 cars, a time handicap will be added to Gen. 2 lap times, according to the table below. For any tracks/configurations not listed below, the closest comparable track configuration will be used
+  + In order to balance performance between Gen. 1 and Gen. 2 cars, a time handicap will be added to Gen. 2 lap times, according to the table below. For any tracks/configurations not listed below, the closest comparable track configuration will be used.
     #table(
       columns: 2,
       align: (left, center),
@@ -152,16 +152,16 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
     )
 
   + *Engine & Powertrain*
-    + Engine software must be OEM
-    + Oil coolers, #highlight[catch cans], accumulators, and/or sump changes are allowed
-    + Gen. 2 intake charcoal filters shall be present and unaltered
+    + Engine software must be OEM.
+    + Oil coolers, #highlight[catch cans], accumulators, and/or sump changes are allowed.
+    + Gen. 2 intake charcoal filters shall be present and unaltered.
     + #highlight[
-        Any pump gasoline (including blending high-octane pump gasoline) is allowed
+        Any pump gasoline (including blending high-octane pump gasoline) is allowed.
       ]
 
   + *Wheels*
-    + Wheels must have a maximum width of 8.0 in
-    + Wheel spacers are allowed
+    + Wheels must have a maximum width of 8.0 in.
+    + Wheel spacers are allowed.
 
   + *Tires*
     + Tires must be one of the following:
@@ -181,7 +181,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
       #oem_tire_disclaimer
 
   + *Alignment*
-    + Front camber shall not exceed (be more negative than) -2.5 degrees
+    + Front camber shall not exceed (be more negative than) -2.5 degrees.
     + Front camber may be adjusted using only the following parts:
       #table(
         columns: (1fr, 1fr),
@@ -215,10 +215,10 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
         [Camber plates], [- Any],
       )
     + #highlight[
-        Rear camber with stock, unmodified, and undamaged components is not restricted
+        Rear camber with stock, unmodified, and undamaged components is not restricted.
       ]
     + #highlight[
-        Rear camber with adjustable components shall not exceed -2.0 degrees
+        Rear camber with adjustable components shall not exceed -2.0 degrees.
       ]
     + #highlight[
         Rear camber may be adjusted using only the following parts:
@@ -240,37 +240,37 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
           [Camber bolts], [- H&R TC112],
         )
       ]
-    + Toe angle may be adjusted without limitation
-    + Cutting or bending of any vehicle sheet metal or suspension components to change alignment or ride height is not allowed
+    + Toe angle may be adjusted without limitation.
+    + Cutting or bending of any vehicle sheet metal or suspension components to change alignment or ride height is not allowed.
 
   + *Aero*
-    + STI lip and TRD lip are not allowed
-    + Gen. 1 BRZ tS wing is not allowed
-    + Gen. 2 ducktails (OEM or equivalently-sized) are allowed
+    + STI lip and TRD lip are not allowed.
+    + Gen. 1 BRZ tS wing is not allowed.
+    + Gen. 2 ducktails (OEM or equivalently-sized) are allowed.
 
   + *Safety*
-    + Any safety device may be used
+    + Any safety device may be used.
     + Cars equipped with a full aftermarket safety system (bucket seats, racing harnesses, neck restraint system, full or half roll cage, etc.) are allowed, as long as total curb weight of the car remains above #highlight[2800 lbs without driver and with a full tank of fuel]. The car will need to be weighed at a location approved by the Rules Board before it is allowed to enter Stock Class.
 
   + *Misc*
-    + Braking upgrades are allowed
-    + Replacing OEM parts with newer/older OEM parts is allowed (e.g. dampers, sway bars, etc)
-    + No lightweight replacement parts are allowed (e.g. battery or lighter-than-OEM trunk) or removal of parts allowed
-    + Removal of spare tire, floor mats, and tools is allowed
-    + OEM-style, off-the-shelf dampers are allowed as long as they have: non-adjustable damping, non-adjustable ride-height, and unaltered valving
-    + Non-OEM cat-back exhaust with a weight greater than 32 lbs #highlight[or axle-back with a weight greater than 19 lbs] is allowed (removal of any catalyst is prohibited)
+    + Braking upgrades are allowed.
+    + Replacing OEM parts with newer/older OEM parts is allowed (e.g. dampers, sway bars, etc).
+    + No lightweight replacement parts are allowed (e.g. battery or lighter-than-OEM trunk) or removal of parts allowed.
+    + Removal of spare tire, floor mats, and tools is allowed.
+    + OEM-style, off-the-shelf dampers are allowed as long as they have: non-adjustable damping, non-adjustable ride-height, and unaltered valving.
+    + Non-OEM cat-back exhaust with a weight greater than 32 lbs #highlight[or axle-back with a weight greater than 19 lbs] is allowed (removal of any catalyst is prohibited).
 
 + #heading[GT Radial Street Class]
   _Allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT Radial Championship Cash Prizes and GT Radial Tire Contingency._
 
-  + Drivers are allotted 3 #link(<mods>)[Modification Points]
+  + Drivers are allotted 3 #link(<mods>)[Modification Points].
 
-  + Any performance modification not listed in #link(<mods>)[Modification Points] is prohibited
+  + Any performance modification not listed in #link(<mods>)[Modification Points] is prohibited.
 
-  + Minimum weight is #highlight[2800 lbs without driver and with a full tank of gas]
+  + Minimum weight is #highlight[2800 lbs without driver and with a full tank of gas].
 
   + *Wheels*
-    + Wheels must have a maximum width of 9.0 in
+    + Wheels must have a maximum width of 9.0 in.
 
   + *Tires*
     + Tires must be one of the following:
@@ -289,9 +289,9 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
 + #heading[Touring Class]
   _Allows significant modification freedom, with a balance of performance handicap based on Modification Points. Participants are eligible for GT Radial Tire Contingency._
 
-  + Drivers are allotted 10 #link(<mods>)[Modification Points]
-  + Maximum tire section width: 255 mm
-  + Minimum weight is 2750 lbs without driver and with a full tank of gas
+  + Drivers are allotted 10 #link(<mods>)[Modification Points].
+  + Maximum tire section width is 255 mm.
+  + Minimum weight is 2750 lbs without driver and with a full tank of gas.
   + Event standings will be determined by _Adjusted Track Time_, as defined below:
     #highlight($
       italic("Adjustment Factor") =
