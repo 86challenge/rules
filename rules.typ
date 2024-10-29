@@ -1,7 +1,9 @@
 #import "template.typ": (
+  boxed,
   discord,
   facebook,
   frontmatter,
+  numstr,
   oem_tire_disclaimer,
   spacer,
   template,
@@ -307,7 +309,6 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
   #let mod_points = range(3 * 2, 21, step: 1).map(n => n / 2)
   #let records = csv("records.csv")
   #show table.cell.where(x: 0): strong
-  #show table: set text(size: 8pt)
   #table(
     columns: (auto, ..mod_points.map(point => 1fr)),
     align: (left, ..mod_points.map(point => center)),
@@ -316,11 +317,9 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
       let adjustment_factor = float(time) / thunderhill_east_bypass_record
       (
         [#track],
-        ..mod_points.map(points => str(
-          calc.round(
-            calc.max(0, points - 3) * adjustment_factor,
-            digits: 1,
-          ),
+        ..mod_points.map(points => numstr(
+          calc.max(0, points - 3) * adjustment_factor,
+          precision: 1,
         )),
       )
     }
@@ -412,47 +411,47 @@ _Any tire not on this list is automatically 6pts_
 
 == Engine Mechanical & Drivetrain
 
+#boxed[
+  === Free Modifications
+  - Removal of intake resonators
+  - Any drop-in replacement air filter for OEM intake
+  - Gen. 2 charcoal airbox filter removal
+  - Aftermarket radiator, oil cooler, oil catch can, oil pan baffle, and/or modified sump
+  - #highlight[Any transmission cooling or diff cooling system]
+  - Any cat-back exhaust
+  - #highlight[Any pump gasoline (including blending high-octane pump gasoline)]
+]
+
 _Take points for EACH applicable row:_
 
 #table(
   table.header([Points], [Modifications]),
 
-  [0], [
-    - Removal of intake resonators
-    - Any drop-in replacement air filter for OEM intake
-    - Gen. 2 charcoal airbox filter removal
-    - Aftermarket radiator, oil cooler, oil catch can, oil pan baffle, and/or modified sump
-    - #highlight[Any transmission cooling or diff cooling system]
-    - Any cat-back exhaust
-    - #highlight[Any pump gasoline (including blending high-octane pump gasoline)]
-  ],
   [0.5], [Aftermarket intake, header, front-pipe, overpipe, and/or any removal of OEM catalytic converter],
   [0.5], [Lighter-than-OEM rotational inertia flywheel, clutch, and/or driveshaft],
   [0.5], [Non-OEM limited slip differential],
   [1], [Non-OEM transmission],
   [#highlight[2]], [#highlight[FA20 to FA24 engine swap]],
-  [5], [Forced induction (FI)],
+  [5], [Forced induction],
   [TBD], [Any other engine swap (contact Rules Board for individual engine swap classification)],
 )
 
 == #highlight[Engine Tuning]
 
-_Take points for ONE of the following:_
+Octane ratings below use (RON+MON)/2 or AKI. This is the octane number displayed at the pump in the US.
 
-Octane ratings below use (RON+MON)/2, or AKI. This is the octane number displayed at the pump in the US.
+_Take points for ONE of the following:_
 
 #table(
   table.header([Points], [Modifications]),
 
   [0], [
-    - OEM tune
-    - FI tune for 93 octane gasoline or lower (only when taken with 5 point FI modification)
+    OEM tune or forced induction tune for 93 octane gasoline or lower (only when taken with 5 point FI modification)
   ],
   [0.5], [NA tune for 93 octane gasoline or lower (non-OEM)],
   [1.5], [NA tune for greater than 93 octane gasoline or greater than 15% ethanol content],
   [2], [FI tune for greater than 93 octane gasoline or greater than 15% ethanol content],
 )
-
 
 == Front Aero
 
@@ -460,9 +459,7 @@ _Take points for ONE of the following:_
 
 #table(
   table.header([Points], [Modifications]),
-  [0], [
-    Any device extending less than 50mm forward/outward/rearward from the bottom leading edge of the bumper (including STI lip and TRD lip)
-  ],
+  [0], [No aero modifications or any device extending less than 50mm forward/outward/rearward from the bottom leading edge of the bumper (including STI lip and TRD lip)],
   [1], [Any device extending 50-74mm forward/outward/rearward from the bottom leading edge of the bumper],
   [1.5], [Any device extending 75-124mm forward/outward/rearward from the bottom leading edge of the bumper],
   [3], [Any device extending greater than 125mm forward/outward/rearward from the bottom leading edge of the bumper],
@@ -503,18 +500,20 @@ _Take points for EACH applicable row:_
 
 == Suspension
 
+#boxed[
+  === Free Modifications
+  - Any spherical bushings including strut top mounts
+  - Any alignment bolt/kit, bump steer kit, tie rod end, roll center adjuster
+  - Any bolt-on chassis bracing
+  - Any sway bars
+  - OEM-style, non-adjustable dampers with fixed spring perches and unaltered valving
+]
+
 _Take points for EACH applicable row:_
 
 #table(
   table.header([Points], [Modifications]),
 
-  [0], [
-    - Any spherical bushings including strut top mounts
-    - Any alignment bolt/kit, bump steer kit, tie rod end, roll center adjuster
-    - Any bolt-on chassis bracing
-    - Any sway bars
-    - OEM-style, non-adjustable dampers with fixed spring perches and unaltered valving
-  ],
   [#highlight[0.5]], [#highlight[Non-OEM springs]],
   [#highlight[0.5]], [#highlight[Adjustable dampers (valving or ride height) or modification to off-the-shelf damper valving]],
   [#highlight[0.5]], [#highlight[Remote reservoirs]],
@@ -522,24 +521,23 @@ _Take points for EACH applicable row:_
 
 == Weight Reduction
 
+#boxed[
+  === Free Modifications
+  - Any lightweight battery
+]
+
 _Take points for EACH applicable row:_
 
 #table(
   table.header([Points], [Modifications]),
 
-  [0], [Any lightweight battery],
   [1], [Removal of any interior trim pieces or seating not required for installation of a roll cage],
 )
 
 == Safety
 
-_Take points for EACH applicable row:_
-
-#table(
-  table.header([Points], [Modifications]),
-
-  [0], [
-    - Any in-cabin safety equipment
-    - Aftermarket brake calipers, rotors, pads, or brake ducting
-  ],
-)
+#boxed[
+  === Free Modifications
+  - Any in-cabin safety equipment
+  - Aftermarket brake calipers, rotors, pads, or brake ducting
+]
