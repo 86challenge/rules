@@ -64,7 +64,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
         [0.5],
       )
     + #highlight[
-        *Tiebreaker*: If competitors have identical times in an event, times set earlier in the day rank above times set later
+        *Tiebreaker*: If multiple competitors have identical times in an event, the tie is broken by comparing each driver’s second fastest lap, then third fastest lap, and so on.
       ]
 
   + *Scoring*
