@@ -1,13 +1,19 @@
 #let template(doc) = [
-  #set page("us-letter")
   #set page(numbering: "(1)")
-
-  #set text(size: 10pt)
+  #set page(
+    paper: "us-letter",
+    margin: (x: 2cm, y: 2cm),
+  )
+  #set text(
+    font: "Helvetica",
+    size: 10pt,
+  )
   #show link: set text(blue)
   #show link: underline
   #show outline.entry: set text(blue)
   #show outline.entry: underline
   #show table.cell.where(y: 0): strong
+
   #set table(
     stroke: (x: 0pt, y: 0.5pt),
     fill: (_, y) => {
@@ -52,8 +58,10 @@
       )
     ]
 
-    #text("Version") #text((str(year), str(revision)).join(".")) \
-    #datetime.today().display("[month repr:long] [day], [year]")
+    Version #text((str(year), str(revision)).join(".")) \
+    Released #datetime.today().display("[month repr:long] [day], [year]")
+
+    Significant additions or changes are #highlight[highlighted].
   ]
 
   #spacer
