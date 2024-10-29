@@ -2,6 +2,7 @@
   discord,
   facebook,
   frontmatter,
+  oem_tire_disclaimer,
   spacer,
   template,
   website,
@@ -27,7 +28,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
   + Chassis must be one of the following (hereafter referred to by its _Designation_):
     #table(
       columns: 2,
-      align: (center, left),
+      align: (left, left),
       table.header([Designation], [Chassis]),
       [Gen. 1],
       [
@@ -163,7 +164,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
   + *Tires*
     + Tires must be one of the following:
       #table(
-        columns: 2,
+        columns: (1fr, 1fr),
         align: (left, left),
         table.header([Models], [Sizes]),
         [GT Radial Champiro SX2 or HPY],
@@ -175,13 +176,13 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
         [Michelin Primacy HP (OEM)\*], [- 215/45R17],
         [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [- 215/40R18],
       )
-      \* OEM tires are only allowed for a competitor’s first 2 events. Points earned with OEM Michelin tires will not be eligible toward GT Radial tire contingency nor toward GT Radial Championship Cash Prize
+      #oem_tire_disclaimer
 
   + *Alignment*
     + Front camber shall not exceed (be more negative than) -2.5 degrees
     + Front camber may be adjusted using only the following parts:
       #table(
-        columns: 2,
+        columns: (1fr, 1fr),
         align: (left, left),
         table.header(
           [Description],
@@ -220,7 +221,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
     + #highlight[
         Rear camber may be adjusted using only the following parts:
         #table(
-          columns: 2,
+          columns: (1fr, 1fr),
           align: (left, left),
           table.header(
             [Description],
@@ -260,9 +261,9 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
 + #heading[GT Radial Street Class]
   _Allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT Radial Championship Cash Prizes and GT Radial Tire Contingency._
 
-  + Drivers are allotted 3 modification points according to #link(<mods>)[Modification Points]
+  + Drivers are allotted 3 #link(<mods>)[Modification Points]
 
-  + Any performance modification not listed in #link(<mods>)[Modification Points] is prohibited.
+  + Any performance modification not listed in #link(<mods>)[Modification Points] is prohibited
 
   + Minimum weight is #highlight[2800 lbs without driver and with a full tank of gas]
 
@@ -272,19 +273,19 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
   + *Tires*
     + Tires must be one of the following:
       #table(
-        columns: 2,
+        columns: (1fr, 1fr),
         align: (left, left),
         table.header([Models], [Sizes]),
         [GT Radial Champiro SX2 or HPY], [- 17” only with 245mm maximum width],
         [Michelin Primacy HP (OEM)\*], [- 215/45R17],
         [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [- 215/40R18],
       )
-      \* OEM tires are only allowed for a competitor’s first 2 events. Points earned with OEM Michelin tires will not be eligible toward GT Radial tire contingency nor toward GT Radial Championship Cash Prize
+      #oem_tire_disclaimer
 
 + #heading[Touring Class]
   _Allows significant modification freedom, with a balance of performance handicap based on Modification Points. Participants are eligible for GT Radial Tire Contingency._
 
-  + Drivers are allotted 10 modification points according to #link(<mods>)[Modification Points]
+  + Drivers are allotted 10 #link(<mods>)[Modification Points]
   + Maximum tire width: 255 mm
   + Minimum weight is 2750 lbs without driver and with a full tank of gas
   + Event standings will be determined by _Adjusted Track Time_, as defined below:
@@ -510,7 +511,7 @@ _Take points for EACH applicable row:_
     - Any alignment bolt/kit, bump steer kit, tie rod end, roll center adjuster
     - Any bolt-on chassis bracing
     - Any sway bars
-    - OEM-style, non-adjustable dampers, with fixed spring perches
+    - OEM-style, non-adjustable dampers with fixed spring perches and unaltered valving
   ],
   [#highlight[0.5]], [#highlight[Non-OEM springs]],
   [#highlight[0.5]], [#highlight[Adjustable dampers (valving or ride height) or modification to off-the-shelf damper valving]],

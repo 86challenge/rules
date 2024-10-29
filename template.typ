@@ -53,6 +53,10 @@
 
 #let discord = link("https://86challenge.us")[Discord Server]
 
+#let oem_tire_disclaimer = text[
+  \* OEM tires are only allowed for a competitor’s first 2 events. Competitors will not earn Championship Points or Tire Points while using OEM tires.
+]
+
 #let frontmatter(year: int, revision: int) = [
   #block(width: 100%)[
     #set align(center)
