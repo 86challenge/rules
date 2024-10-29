@@ -12,6 +12,7 @@
   #show link: underline
   #show outline.entry: set text(blue)
   #show outline.entry: underline
+  #show table: set text(size: 9pt)
   #show table.cell.where(y: 0): strong
 
   #set table(
@@ -57,6 +58,17 @@
   \* OEM tires are only allowed for a competitor’s first 2 events. Competitors will not earn Championship Points or Tire Points while using OEM tires.
 ]
 
+#let boxed(body) = rect(
+  width: 100%,
+  stroke: 0.5pt + black,
+  fill: rgb("f6f6f6"),
+  inset: 8pt,
+)[
+  #set align(left)
+  #set text(size: 9pt)
+  #body
+]
+
 #let frontmatter(year: int, revision: int) = [
   #block(width: 100%)[
     #set align(center)
@@ -80,3 +92,16 @@
 
   #spacer
 ]
+
+#let numstr(number, precision: int) = {
+  assert(precision > 0)
+  let s = str(calc.round(number, digits: precision))
+  let tail = s.find(regex("\\..*"))
+  let pad = if tail == none {
+    s = s + "."
+    precision
+  } else {
+    precision - tail.len() + 1
+  }
+  s + pad * "0"
+}
