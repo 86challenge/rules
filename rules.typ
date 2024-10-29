@@ -14,8 +14,6 @@ See #link("https://86challenge.us")[86challenge.us] for more information, includ
 
 Questions, corrections, and clarifications can be raised on our #link("https://www.facebook.com/groups/1009986312348877")[Facebook Group] or #link("https://discord.gg/sDKdV4TS4T")[Discord Server].
 
-Significant additions or changes for the 2025 season are #highlight[highlighted].
-
 #spacer
 
 + #heading[General Rules]
@@ -40,7 +38,7 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
 
   + *Registration*
     + #highlight[Registration with 86 Challenge (separate from buying a ticket with the trackday organizer) must be submitted prior to the start of each event. Late registrations are allowed only for a driver’s first 86 Challenge event.]
-    + Drivers must declare the class they are competing in for each event on the event registration form
+    + Drivers must declare the class they wish to compete in on the registration form for each event
     + A car may be shared by different drivers. Please enter one event registration per driver and indicate the class _and_ run group each driver is participating in.
 
   + *Timing*
@@ -236,8 +234,8 @@ Significant additions or changes for the 2025 season are #highlight[highlighted]
     + Replacing OEM parts with newer/older OEM parts is allowed (e.g. dampers, sway bars, etc)
     + No lightweight replacement parts are allowed (e.g. battery or lighter-than-OEM trunk) or removal of parts allowed
     + Removal of spare tire, floor mats, and tools is allowed
-    + OEM-style, non-rebuildable, off-the-shelf dampers are allowed as long as they have: non-adjustable damping, non-adjustable ride-height, and unaltered valving
-    + Non-OEM cat-back exhaust with a weight greater than 32 lbs is allowed (removal of any catalyst is prohibited)
+    + OEM-style, off-the-shelf dampers are allowed as long as they have: non-adjustable damping, non-adjustable ride-height, and unaltered valving
+    + Non-OEM cat-back exhaust with a weight greater than 32 lbs #highlight[or axle-back with a weight greater than 19 lbs] is allowed (removal of any catalyst is prohibited)
 
 + #heading[GT Radial Street Class]
   _Allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT Radial Championship Cash Prizes and GT Radial Tire Contingency._
@@ -354,7 +352,7 @@ _Any tire not on this list is automatically 6pts_
         - Goodyear Eagle F1 Supercar 3
         - Hankook Ventus RS-4
         - Kumho Ecsta V730
-        - #highlight[Maxxis VR-1]
+        - #highlight[Maxxis Victra VR-1]
         - Michelin Pilot Sport 4S
         - Michelin Pilot Sport Cup 2 (180TW)
         - Michelin Pilot Sport Cup 2 Connect
@@ -435,34 +433,16 @@ Octane ratings below use (RON+MON)/2, or AKI. This is the octane number displaye
 
 == Front Aero
 
-_Take points for EACH applicable row:_
-
-#table(
-  table.header([Points], [Modifications]),
-
-  [0.5], [Canards, dive planes, hood vents, fender vents, and/or vertical deviations on splitters],
-)
-
-_And take points for ONE of the following:_
+_Take points for ONE of the following:_
 
 #table(
   table.header([Points], [Modifications]),
   [0], [
     Any device extending less than 50mm forward/outward/rearward from the bottom leading edge of the bumper (including STI lip and TRD lip)
-    )
   ],
   [1], [Any device extending 50-74mm forward/outward/rearward from the bottom leading edge of the bumper],
   [1.5], [Any device extending 75-124mm forward/outward/rearward from the bottom leading edge of the bumper],
   [3], [Any device extending greater than 125mm forward/outward/rearward from the bottom leading edge of the bumper],
-)
-
-== Underbody Aero
-
-_Take points for EACH applicable row:_
-
-#table(
-  table.header([Points], [Modifications]),
-  [0.5], [Any rear diffuser extending forward of the rear axle or backward beyond the rear bumper],
 )
 
 == Rear Aero
@@ -486,6 +466,16 @@ _Take points for ONE of the following:_
   [2], [
     Any wing wider than 1460mm, higher than 245mm, or chord length >250mm
   ],
+)
+
+== Other Aero
+
+_Take points for EACH applicable row:_
+
+#table(
+  table.header([Points], [Modifications]),
+  [0.5], [Canards, dive planes, hood vents, fender vents, and/or vertical deviations on splitters],
+  [0.5], [Any rear diffuser extending forward of the rear axle or backward beyond the rear bumper],
 )
 
 == Suspension
