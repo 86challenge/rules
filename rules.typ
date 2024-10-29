@@ -160,7 +160,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
       ]
 
   + *Wheels*
-    + Wheels must have a maximum width of 8.0 inches
+    + Wheels must have a maximum width of 8.0 in
     + Wheel spacers are allowed
 
   + *Tires*
@@ -191,7 +191,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
           [Allowed Parts],
         ),
 
-        [Crash bolt (i.e. 14mm lower bolt used in upper position)],
+        [Crash bolt (i.e. 14 mm lower bolt used in upper position)],
         [
           - Toyota SU003–02818
           - Subaru 901000394
@@ -270,7 +270,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
   + Minimum weight is #highlight[2800 lbs without driver and with a full tank of gas]
 
   + *Wheels*
-    + Wheels must have a maximum width of 9.0 inches
+    + Wheels must have a maximum width of 9.0 in
 
   + *Tires*
     + Tires must be one of the following:
@@ -279,7 +279,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
         align: (left, left),
         table.header([Models], [Sizes]),
         [GT Radial Champiro SX2 or HPY],
-        [- 17” with 245mm maximum section width],
+        [- 17” with 245 mm maximum section width],
 
         [Michelin Primacy HP (OEM)\*], [- 215/45R17],
         [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [- 215/40R18],
@@ -459,10 +459,10 @@ _Take points for ONE of the following:_
 
 #table(
   table.header([Points], [Modifications]),
-  [0], [No aero modifications or any device extending less than 50mm forward/outward/rearward from the bottom leading edge of the bumper (including STI lip and TRD lip)],
-  [1], [Any device extending 50-74mm forward/outward/rearward from the bottom leading edge of the bumper],
-  [1.5], [Any device extending 75-124mm forward/outward/rearward from the bottom leading edge of the bumper],
-  [3], [Any device extending greater than 125mm forward/outward/rearward from the bottom leading edge of the bumper],
+  [0], [No aero modifications or any device extending less than 50 mm forward/outward/rearward from the bottom leading edge of the bumper (including STI lip and TRD lip)],
+  [1], [Any device extending 50-74 mm forward/outward/rearward from the bottom leading edge of the bumper],
+  [1.5], [Any device extending 75-124 mm forward/outward/rearward from the bottom leading edge of the bumper],
+  [3], [Any device extending greater than 125 mm forward/outward/rearward from the bottom leading edge of the bumper],
 )
 
 == Rear Aero
@@ -472,19 +472,19 @@ _Take points for ONE of the following:_
 #table(
   table.header([Points], [Modifications]),
   [0], [
-    OEM rear spoiler, OEM wing (except Gen. 1 BRZ tS wing), or any aftermarket spoiler less than 60mm in height
+    OEM rear spoiler, OEM wing (except Gen. 1 BRZ tS wing), or any aftermarket spoiler less than 60 mm in height
   ],
   [0.5], [
-    Aftermarket rear spoiler greater than 60mm in height
+    Aftermarket rear spoiler greater than 60 mm in height
   ],
   [1], [
-    Gen. 1 BRZ tS wing, SARD LSR, or any wing with max width of 1400mm
+    Gen. 1 BRZ tS wing, SARD LSR, or any wing with max width of 1400 mm
   ],
   [1.5], [
-    APR GTC-200, Voltex Type 12, or any wing with max width of 1460mm
+    APR GTC-200, Voltex Type 12, or any wing with max width of 1460 mm
   ],
   [2], [
-    Any wing wider than 1460mm, higher than 245mm, or chord length >250mm
+    Any wing wider than 1460 mm, higher than 245 mm, or chord length greater than 250 mm
   ],
 )
 
