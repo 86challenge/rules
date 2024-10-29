@@ -47,6 +47,12 @@
 
 #let spacer = block(above: 1.25em, below: 1.25em)
 
+#let website = link("https://86challenge.us")[86challenge.us]
+
+#let facebook = link("https://www.facebook.com/groups/1009986312348877")[Facebook Group]
+
+#let discord = link("https://86challenge.us")[Discord Server]
+
 #let frontmatter(year: int, revision: int) = [
   #block(width: 100%)[
     #set align(center)
