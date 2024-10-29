@@ -472,7 +472,7 @@ _Take points for ONE of the following:_
 #table(
   table.header([Points], [Modifications]),
   [0], [
-    OEM rear spoiler, OEM wing (except Gen. 1 BRZ tS wing), or any aftermarket spoiler less than 60 mm in height
+    No aero modifications, OEM rear spoiler, OEM wing (except Gen. 1 BRZ tS wing), or any aftermarket spoiler less than 60 mm in height
   ],
   [0.5], [
     Aftermarket rear spoiler greater than 60 mm in height
