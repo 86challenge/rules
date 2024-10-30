@@ -478,13 +478,13 @@ _Take points for ONE of the following:_
     Aftermarket rear spoiler greater than 60 mm in height
   ],
   [1], [
-    Gen. 1 BRZ tS wing, SARD LSR, or any wing with max width of 1400 mm
+    Gen. 1 BRZ tS, SARD LSR, or any wing with maximum width of 1400 mm, maximum stand height of 200 mm, maximum chord length of 200 mm, and no added gurney flap
   ],
   [1.5], [
-    APR GTC-200, Voltex Type 12, or any wing with max width of 1460 mm
+    APR GTC-200, Voltex Type 12, Voltex Type 1S, or any wing with maximum width of 1460 mm, maximum stand height of 245 mm, and maximum chord length of 250 mm
   ],
   [2], [
-    Any wing wider than 1460 mm, higher than 245 mm, or chord length greater than 250 mm
+    Any wing wider than 1460 mm, higher than 245 mm, or with a chord length greater than 250 mm
   ],
 )
 
