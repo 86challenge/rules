@@ -516,7 +516,7 @@ _Take points for EACH applicable row:_
 
   [#highlight[0.5]], [#highlight[Non-OEM springs]],
   [#highlight[0.5]], [#highlight[Adjustable dampers (valving or ride height) or modification to off-the-shelf damper valving]],
-  [#highlight[0.5]], [#highlight[Remote reservoirs]],
+  [#highlight[0.5]], [#highlight[Shock volume-expanding devices (e.g. remote reservoirs or piggybacks)]],
 )
 
 == Weight Reduction
