@@ -126,7 +126,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
   + #highlight[*Protests*
       + A competitor may protest the results of an event to the Rules Board if they believe a competitor was out of compliance with the rules.
       + The Rules Board will review the protest and may move a competitor to a different class or invalidate their results for one or more events.
-      + After the first event of new season, the previous season’s results are final.
+      + Results are final and no further protests will be accepted once the season-ending award ceremony has begun.
     ]
 
 + #heading[GT~Radial Stock Class]
@@ -295,18 +295,22 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
   + Maximum tire section width is 255 mm.
   + Minimum weight is 2750 lbs without driver and with a full tank of gas.
   + Event standings will be determined by _Adjusted Track Time_, as defined below:
-    #highlight($
+  #highlight[
+    $
       italic("Adjustment Factor") =
       "Street Class record at event track" / "Street Class record at Thunderhill East Bypass"
-    $)
-    #highlight($
+    $
+    $
       italic("Touring Handicap") = italic("Adjustment Factor") x max(0, italic("Modification Points") - "3")
-    $)
+    $
     $
       italic("Adjusted Track Time") =
       "Raw Time" + italic("Touring Handicap")
     $
-  + You can use the following table to find the _Touring Handicap_ (s) given _Modification Points_ and track. (Builds with 3 points or fewer receive a 0s handicap.)
+  ]
+  + #highlight[
+      You can use the following table to find the _Touring Handicap_ (s), given _Modification Points_ and track. (Builds with 3 points or fewer receive a 0 s handicap.)
+    ]
   #let thunderhill_east_bypass_record = 125.418
   #let mod_points = range(3 * 2, 21, step: 1).map(n => n / 2)
   #let records = csv("records.csv")
