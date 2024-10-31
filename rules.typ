@@ -18,11 +18,11 @@
   Introduction
 ]
 
-Welcome to 86 Challenge. Drivers of all skill levels are welcome and there is no charge to participate.
+Welcome to 86~Challenge. Drivers of all skill levels are welcome and there is no charge to participate.
 
-See #website for more information, including schedule, historical results, and forms for registering for GT Radial's Championship Cash Prize and tire contingency program.
+See #website for more information, including schedule, historical results, and forms for registering for GT~Radial's Championship Cash Prize and tire contingency program.
 
-Questions, corrections, and clarifications can be raised on our #facebook or #discord.
+Questions, corrections, and clarifications can be raised on our #discord or #facebook.
 
 #spacer
 
@@ -48,10 +48,12 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
 
   + *Registration*
     + #highlight[
-        Registration with 86 Challenge (separate from buying a ticket with the trackday organizer) must be submitted prior to the start of each event. Late registrations are allowed only for a driver’s first 86 Challenge event.
+        Drivers must register for 86~Challenge prior to the start of each event (separate from buying a ticket with the trackday organizer). The registration form is made available on #website 1~week before each event. In case of multiple submissions, the latest will be used.
       ]
-    + Drivers must declare the class they wish to compete in on the registration form for each event.
-    + A car may be shared by different drivers. Please enter one event registration per driver and indicate the class _and_ run group each driver is participating in.
+    + #highlight[
+        Late registrations may be accepted on a case-by-case basis, but a driver registering late may not change to a different class from their previous event or previous registration for the same event.
+      ]
+    + Drivers may share a car. Each driver must register separately, indicating the class _and_ run group they will participate in. #highlight[Drivers sharing a car may not switch drivers during a single session.]
 
   + *Timing*
     + The following timing methods are accepted (see table below). Priority is given from top to bottom if more than one method is available for a given lap:
@@ -60,8 +62,8 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
         align: (left, center),
         table.header([Timing Method], [Time Penalty (s)]),
         [Official timing transponder], [0.0],
-        [Data logger with at least 10Hz GPS (e.g. AiM, Racebox)], [0.2],
-        [Data logger with at least 1Hz GPS (e.g. smartphone)], [0.5],
+        [Lap timer with at least 10Hz GPS (e.g. AiM, Racebox, Catalyst)], [0.2],
+        [Lap timer with at least 1Hz GPS (e.g. built-in smartphone GPS)], [0.5],
         [#highlight[Unedited onboard video (may be accepted for a driver’s first event only)]],
         [0.5],
       )
@@ -101,7 +103,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
         [The sum of a driver’s 7 best finishes, only from the class the driver is participating in for the championship (see #link(<changing-classes>)[Changing Classes])],
 
         [*Tire Points*],
-        [The sum of a driver’s points earned satisfying the terms of the GT Radial Tire Contingency program],
+        [The sum of a driver’s points earned satisfying the terms of the GT~Radial Tire Contingency program],
       )
     + #highlight[
         *Changing Classes* <changing-classes> If a driver changes classes during a season, they can choose to:
@@ -127,12 +129,12 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
       + After the first event of new season, the previous season’s results are final.
     ]
 
-+ #heading[GT Radial Stock Class]
-  _Designed to keep costs to a minimum and be attractive to drivers with nearly-stock vehicles. Participants are eligible for GT Radial Championship Cash Prizes and GT Radial Tire Contingency._
++ #heading[GT~Radial Stock Class]
+  _Designed to keep costs to a minimum and be attractive to drivers with nearly-stock vehicles. Participants are eligible for GT~Radial Championship Cash Prizes and GT~Radial Tire Contingency._
 
   + Vehicles in this class are only allowed performance modifications included in this section.
 
-  + In order to balance performance between Gen. 1 and Gen. 2 cars, a time handicap will be added to Gen. 2 lap times, according to the table below. For any tracks/configurations not listed below, the closest comparable track configuration will be used.
+  + In order to balance performance between Gen. 1 and Gen. 2 cars, a time handicap will be added to Gen. 2 lap times, according to the table below. The same handicaps are used whether the track is run in the clockwise or counterclockwise direction. For any tracks/configurations not listed below, the closest comparable track configuration will be used.
     #table(
       columns: 2,
       align: (left, center),
@@ -154,7 +156,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
   + *Engine & Powertrain*
     + Engine software must be OEM.
     + Oil coolers, #highlight[catch cans], accumulators, and/or sump changes are allowed.
-    + Gen. 2 intake charcoal filters shall be present and unaltered.
+    + Gen. 2 only: intake charcoal filters shall be present and unaltered.
     + #highlight[
         Any pump gasoline (including blending high-octane pump gasoline) is allowed.
       ]
@@ -169,7 +171,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
         columns: (1fr, 1fr),
         align: (left, left),
         table.header([Models], [Sizes]),
-        [GT Radial Champiro SX2 or HPY],
+        [GT~Radial Champiro SX2 or HPY],
         [
           - 215/45R17
           - 225/45R17
@@ -250,18 +252,18 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
 
   + *Safety*
     + Any safety device may be used.
-    + Cars equipped with a full aftermarket safety system (bucket seats, racing harnesses, neck restraint system, full or half roll cage, etc.) are allowed, as long as total curb weight of the car remains above #highlight[2800 lbs without driver and with a full tank of fuel]. The car will need to be weighed at a location approved by the Rules Board before it is allowed to enter Stock Class.
+    + Cars may be equipped with aftermarket safety systems (bucket seats, racing harnesses, neck restraint system, full or half roll cage, etc.), as long as total curb weight of the car remains above #highlight[2800 lbs without driver and with a full tank of fuel]. Removing interior trim is allowed only as necessary to install the safety systems. The car must be weighed at a location approved by the Rules Board before it is allowed to enter Stock Class.
 
   + *Misc*
     + Braking upgrades are allowed.
     + Replacing OEM parts with newer/older OEM parts is allowed (e.g. dampers, sway bars, etc).
-    + No lightweight replacement parts are allowed (e.g. battery or lighter-than-OEM trunk) or removal of parts allowed.
-    + Removal of spare tire, floor mats, and tools is allowed.
+    + No lightweight replacement parts are allowed (e.g. battery or lighter-than-OEM trunk).
+    + Removal of parts is prohibited, except the following: spare tire, floor mats, and included tools.
     + OEM-style, off-the-shelf dampers are allowed as long as they have: non-adjustable damping, non-adjustable ride-height, and unaltered valving.
     + Non-OEM cat-back exhaust with a weight greater than 32 lbs #highlight[or axle-back with a weight greater than 19 lbs] is allowed (removal of any catalyst is prohibited).
 
-+ #heading[GT Radial Street Class]
-  _Allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT Radial Championship Cash Prizes and GT Radial Tire Contingency._
++ #heading[GT~Radial Street Class]
+  _Allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT~Radial Championship Cash Prizes and GT~Radial Tire Contingency._
 
   + Drivers are allotted 3 #link(<mods>)[Modification Points].
 
@@ -278,7 +280,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
         columns: (1fr, 1fr),
         align: (left, left),
         table.header([Models], [Sizes]),
-        [GT Radial Champiro SX2 or HPY],
+        [GT~Radial Champiro SX2 or HPY],
         [- 17” with 245 mm maximum section width],
 
         [Michelin Primacy HP (OEM)\*], [- 215/45R17],
@@ -287,7 +289,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
       #oem_tire_disclaimer
 
 + #heading[Touring Class]
-  _Allows significant modification freedom, with a balance of performance handicap based on Modification Points. Participants are eligible for GT Radial Tire Contingency._
+  _Allows significant modification freedom, with a balance of performance handicap based on Modification Points. Participants are eligible for GT~Radial Tire Contingency._
 
   + Drivers are allotted 10 #link(<mods>)[Modification Points].
   + Maximum tire section width is 255 mm.
@@ -331,7 +333,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
   + Anything goes!
 
 + #heading[Modification Points] <mods>
-  This section applies only to GT Radial Street Class and Touring Class.
+  This section applies only to GT~Radial Street Class and Touring Class.
 
 #set align(center)
 #set table(columns: (60pt, 1fr), align: (center, left))
@@ -351,8 +353,8 @@ _Any tire not on this list is automatically 6pts_
 #table(
   table.header([Points], [Modifications]),
   [-1], [
-    - 17" GT Radial SX2
-    - 17" GT Radial HPY
+    - 17" GT~Radial SX2
+    - 17" GT~Radial HPY
     - 17" Michelin Primacy HP
   ],
   [0], [
@@ -360,11 +362,12 @@ _Any tire not on this list is automatically 6pts_
     - #highlight[Yokohama Advan Apex V601]
   ],
   [1], [
-    - 18" GT Radial SX2
-    - GT Radial SX2 RS
+    - 18" GT~Radial SX2
+    - GT~Radial SX2 RS
   ],
   [2], [
     #box(height: 12em)[
+      #set block(breakable: true)
       #columns(2)[
         - Continental ExtremeContact Sport (ECS)
         - Dunlop Direzza ZII Star Spec
@@ -389,6 +392,7 @@ _Any tire not on this list is automatically 6pts_
   ],
   [3], [
     #box(height: 8em)[
+      #set block(breakable: true)
       #columns(2)[
         - BFGoodrich g-Force Rival S
         - Bridgestone Potenza RE71R
@@ -432,7 +436,7 @@ _Take points for EACH applicable row:_
   [0.5], [Non-OEM limited slip differential],
   [1], [Non-OEM transmission],
   [#highlight[2]], [#highlight[FA20 to FA24 engine swap]],
-  [5], [Forced induction],
+  [5], [Forced induction (FI)],
   [TBD], [Any other engine swap (contact Rules Board for individual engine swap classification)],
 )
 
@@ -448,9 +452,9 @@ _Take points for ONE of the following:_
   [0], [
     OEM tune or forced induction tune for 93 octane gasoline or lower (only when taken with 5 point FI modification)
   ],
-  [0.5], [NA tune for 93 octane gasoline or lower (non-OEM)],
-  [1.5], [NA tune for greater than 93 octane gasoline or greater than 15% ethanol content],
-  [2], [FI tune for greater than 93 octane gasoline or greater than 15% ethanol content],
+  [0.5], [Naturally aspirated (NA) tune for 93 octane gasoline or lower (non-OEM)],
+  [1.5], [Naturally aspirated (NA) tune for greater than 93 octane gasoline or greater than 15% ethanol content],
+  [2], [Forced induction (FI) tune for greater than 93 octane gasoline or greater than 15% ethanol content],
 )
 
 == Front Aero
@@ -459,10 +463,10 @@ _Take points for ONE of the following:_
 
 #table(
   table.header([Points], [Modifications]),
-  [0], [No aero modifications or any device extending less than 50 mm forward/outward/rearward from the bottom leading edge of the bumper (including STI lip and TRD lip)],
-  [1], [Any device extending 50-74 mm forward/outward/rearward from the bottom leading edge of the bumper],
-  [1.5], [Any device extending 75-124 mm forward/outward/rearward from the bottom leading edge of the bumper],
-  [3], [Any device extending greater than 125 mm forward/outward/rearward from the bottom leading edge of the bumper],
+  [0], [No aero modifications or any device extending less than 50 mm #highlight[in any direction] from the bottom leading edge of the bumper (including STI lip and TRD lip)],
+  [1], [Any device extending 50-74 mm #highlight[in any direction] from the bottom leading edge of the bumper],
+  [1.5], [Any device extending 75-124 mm #highlight[in any direction] from the bottom leading edge of the bumper],
+  [3], [Any device extending greater than 125 mm #highlight[in any direction] from the bottom leading edge of the bumper],
 )
 
 == Rear Aero
@@ -478,7 +482,7 @@ _Take points for ONE of the following:_
     Aftermarket rear spoiler greater than 60 mm in height
   ],
   [1], [
-    Gen. 1 BRZ tS, SARD LSR, or any wing with maximum width of 1400 mm, maximum stand height of 200 mm, maximum chord length of 200 mm, and no added gurney flap
+    Gen. 1 BRZ tS wing, SARD LSR, or any wing with maximum width of 1400 mm, maximum stand height of 200 mm, maximum chord length of 200 mm, and no added gurney flap
   ],
   [1.5], [
     APR GTC-200, Voltex Type 12, Voltex Type 1S, or any wing with maximum width of 1460 mm, maximum stand height of 245 mm, and maximum chord length of 250 mm
@@ -504,7 +508,7 @@ _Take points for EACH applicable row:_
 
 #boxed[
   === Free Modifications
-  - Any spherical bushings including strut top mounts
+  - Any spherical bushings, including strut top mounts
   - Any alignment bolt/kit, bump steer kit, tie rod end, roll center adjuster
   - Any bolt-on chassis bracing
   - Any sway bars
