@@ -106,7 +106,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
         [The sum of a driver’s points earned satisfying the terms of the GT~Radial Tire Contingency program],
       )
     + #highlight[
-        *Changing Classes* <changing-classes> If a driver changes classes during a season, they can choose to:
+        *Changing Classes*: <changing-classes> If a driver changes classes during a season, they can choose to:
         - Keep the _Championship Points_ earned in their previous class and not earn _Championship Points_ in the new class; or,
         - Forfeit the _Championship Points_ earned in their previous class and earn _Championship Points_ in the new class.
       ]
@@ -134,13 +134,13 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
 
   + Vehicles in this class are only allowed performance modifications included in this section.
 
-  + In order to balance performance between Gen. 1 and Gen. 2 cars, a time handicap will be added to Gen. 2 lap times, according to the table below. The same handicaps are used whether the track is run in the clockwise or counterclockwise direction. For any tracks/configurations not listed below, the closest comparable track configuration will be used.
+  + *Time Handicap*: In order to balance performance between Gen. 1 and Gen. 2 cars, a time handicap will be added to Gen. 2 lap times, according to the table below. The same handicaps are used whether the track is run in the clockwise or counterclockwise direction. For any tracks/configurations not listed below, the closest comparable track configuration will be used.
     #table(
       columns: 2,
       align: (left, center),
       table.header(
         [Track],
-        [Handicap Time (s)],
+        [Time Handicap (s)],
       ),
 
       [#highlight[Buttonwillow Raceway \#1]], [#highlight[2.5]],
@@ -183,8 +183,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
       #oem_tire_disclaimer
 
   + *Alignment*
-    + Front camber shall not exceed (be more negative than) -2.5 degrees.
-    + Front camber may be adjusted using only the following parts:
+    + Front camber shall not exceed (be more negative than) -2.5 degrees. Front camber may be adjusted using only the following parts:
       #table(
         columns: (5fr, 3fr),
         align: (left, left),
@@ -220,10 +219,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
         Rear camber with stock, unmodified, and undamaged components is not restricted.
       ]
     + #highlight[
-        Rear camber with adjustable components shall not exceed -2.0 degrees.
-      ]
-    + #highlight[
-        Rear camber may be adjusted using only the following parts:
+        Rear camber with adjustable components shall not exceed -2.0 degrees. Rear camber may be adjusted using only the following parts:
         #table(
           columns: (5fr, 3fr),
           align: (left, left),
@@ -295,19 +291,19 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
   + Maximum tire section width is 255 mm.
   + Minimum weight is 2750 lbs without driver and with a full tank of gas.
   + Event standings will be determined by _Adjusted Track Time_, as defined below:
-  #highlight[
-    $
-      italic("Adjustment Factor") =
-      "Street Class record at event track" / "Street Class record at Thunderhill East Bypass"
-    $
-    $
-      italic("Touring Handicap") = italic("Adjustment Factor") x max(0, italic("Modification Points") - "3")
-    $
-    $
-      italic("Adjusted Track Time") =
-      "Raw Time" + italic("Touring Handicap")
-    $
-  ]
+    #highlight[
+      $
+        italic("Adjustment Factor") =
+        "Street Class record at event track" / "Street Class record at Thunderhill East Bypass"
+      $
+      $
+        italic("Touring Handicap") = italic("Adjustment Factor") x max(0, italic("Modification Points") - "3")
+      $
+      $
+        italic("Adjusted Track Time") =
+        "Raw Time" + italic("Touring Handicap")
+      $
+    ]
   + #highlight[
       You can use the following table to find the _Touring Handicap_ (s), given _Modification Points_ and track. (Builds with 3 points or fewer receive a 0 s handicap.)
     ]
