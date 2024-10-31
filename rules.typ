@@ -117,7 +117,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
 
   + #highlight[*In-Season Rule Changes*
       + All rule changes will be announced on our #discord and #website. Announcements will include the date on which changes become effective.
-      + Changes which make the rules more _restrictive_ will be announced 60 days ahead of enforcement.
+      + Changes which make the rules more _restrictive_ will be announced 60 days before enforcement.
       + Changes which make the rules more _permissive_ may be enforced immediately.
     ]
 
@@ -184,7 +184,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
     + Front camber shall not exceed (be more negative than) -2.5 degrees.
     + Front camber may be adjusted using only the following parts:
       #table(
-        columns: (1fr, 1fr),
+        columns: (5fr, 3fr),
         align: (left, left),
         table.header(
           [Description],
@@ -223,7 +223,7 @@ Questions, corrections, and clarifications can be raised on our #facebook or #di
     + #highlight[
         Rear camber may be adjusted using only the following parts:
         #table(
-          columns: (1fr, 1fr),
+          columns: (5fr, 3fr),
           align: (left, left),
           table.header(
             [Description],
@@ -487,6 +487,8 @@ _Take points for ONE of the following:_
     Any wing wider than 1460 mm, higher than 245 mm, or with a chord length greater than 250 mm
   ],
 )
+
+#pagebreak()
 
 == Other Aero
 
