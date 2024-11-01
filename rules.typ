@@ -148,7 +148,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
       [#highlight[Buttonwillow Raceway New Track]], [#highlight[1.5]],
       [Laguna Seca], [2.5],
       [Sonoma Raceway], [2.5],
-      [Thunderhill 5-mile Bypass], [4.0],
+      [Thunderhill 5-mile], [4.0],
       [Thunderhill East], [2.5],
       [Thunderhill West], [1.5],
     )
@@ -185,7 +185,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
   + *Alignment*
     + Front camber shall not exceed (be more negative than) -2.5 degrees. Front camber may be adjusted using only the following parts:
       #table(
-        columns: (5fr, 3fr),
+        columns: (1fr, 1fr),
         align: (left, left),
         table.header(
           [Description],
@@ -207,13 +207,11 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
           - Eibach 5.81305K
         ],
 
-        [Front Strut Mounts],
+        [Front strut mounts / camber plates],
         [
           - Pedders PED-580096
           - Whiteline KCA335
         ],
-
-        [Camber plates], [- Any],
       )
     + #highlight[
         Rear camber with stock, unmodified, and undamaged components is not restricted.
@@ -221,7 +219,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
     + #highlight[
         Rear camber with adjustable components shall not exceed -2.0 degrees. Rear camber may be adjusted using only the following parts:
         #table(
-          columns: (5fr, 3fr),
+          columns: (1fr, 1fr),
           align: (left, left),
           table.header(
             [Description],
@@ -244,6 +242,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
   + *Aero*
     + STI lip and TRD lip are not allowed.
     + Gen. 1 BRZ tS wing is not allowed.
+    + Gen. 2 vortex generators are not allowed.
     + Gen. 2 ducktails (OEM or equivalently-sized) are allowed.
 
   + *Safety*
@@ -256,7 +255,34 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
     + No lightweight replacement parts are allowed (e.g. battery or lighter-than-OEM trunk).
     + Removal of parts is prohibited, except the following: spare tire, floor mats, and included tools.
     + OEM-style, off-the-shelf dampers are allowed as long as they have: non-adjustable damping, non-adjustable ride-height, and unaltered valving.
-    + Non-OEM cat-back exhaust with a weight greater than 32 lbs #highlight[or axle-back with a weight greater than 19 lbs] is allowed (removal of any catalyst is prohibited).
+    + #highlight[
+        Replacement of the OEM catback or axleback exhaust is allowed only using the following parts:
+        #table(
+          columns: (1fr, 1fr),
+          align: (left, left),
+          table.header(
+            [Description],
+            [Allowed Parts],
+          ),
+
+          [Catback],
+          [
+            - AWE Touring Edition
+            - CSG Spec Touring
+            - GR Performance
+            - GReddy Supreme SP
+            - Perrin 2.5" Dual Tip
+            - TRD Performance
+            - Yonaka Stainless
+          ],
+
+          [Axleback],
+          [
+            - DC Sports
+            - STi Performance Muffler
+          ],
+        )
+      ]
 
 + #heading[GT~Radial Street Class]
   _Allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT~Radial Championship Cash Prizes and GT~Radial Tire Contingency._
@@ -307,28 +333,31 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
   + #highlight[
       You can use the following table to find the _Touring Handicap_ (s), given _Modification Points_ and track. (Builds with 3 points or fewer receive a 0 s handicap.)
     ]
-  #let thunderhill_east_bypass_record = 125.418
-  #let mod_points = range(3 * 2, 21, step: 1).map(n => n / 2)
-  #let records = csv("records.csv")
-  #show table.cell.where(x: 0): strong
-  #table(
-    columns: (auto, ..mod_points.map(point => 1fr)),
-    align: (left, ..mod_points.map(point => center)),
-    table.header([Track / Mod Points], ..mod_points.map(point => str(point))),
-    ..for (track, time) in records {
-      let adjustment_factor = float(time) / thunderhill_east_bypass_record
-      (
-        [#track],
-        ..mod_points.map(points => numstr(
-          calc.max(0, points - 3) * adjustment_factor,
-          precision: 1,
-        )),
-      )
-    }
-  )
+    #let thunderhill_east_bypass_record = 125.418
+    #let mod_points = range(3 * 2, 21, step: 1).map(n => n / 2)
+    #let records = csv("records.csv")
+    #show table.cell.where(x: 0): strong
+    #table(
+      columns: (auto, ..mod_points.map(point => 1fr)),
+      align: (left, ..mod_points.map(point => center)),
+      table.header([Track / Mod Points], ..mod_points.map(point => str(point))),
+      ..for (track, time) in records {
+        let adjustment_factor = float(time) / thunderhill_east_bypass_record
+        (
+          [#track],
+          ..mod_points.map(points => numstr(
+            calc.max(0, points - 3) * adjustment_factor,
+            precision: 1,
+          )),
+        )
+      }
+    )
+  + #highlight[
+      Any new tracks/configurations will have their _Adjustment Factor_ and _Touring Handicap_ calculated immediately following the event using the just-set Street Class record. Existing tracks/configurations will use the _Adjustment Factor_ as defined in the beginning of the season.
+    ]
 
 + #heading[Unlimited Class]
-  _Allows unconstrained builds to achieve the ultimate 86 lap times. For people who don’t like to conform to rules!_
+  _Allows unconstrained builds to achieve the ultimate 86 lap times. For people who don’t like rules!_
 
   + Anything goes!
 
@@ -349,6 +378,8 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
 
 == Tires
 _Any tire not on this list is automatically 6pts_
+
+#show table: set block(breakable: true)
 
 #table(
   table.header([Points], [Modifications]),
@@ -413,6 +444,8 @@ _Any tire not on this list is automatically 6pts_
   [6], [Racing slicks or any tire not listed above],
 )
 
+#show table: set block(breakable: false)
+
 == Engine Mechanical & Drivetrain
 
 #boxed[
@@ -440,7 +473,7 @@ _Take points for EACH applicable row:_
   [TBD], [Any other engine swap (contact Rules Board for individual engine swap classification)],
 )
 
-== #highlight[Engine Tuning]
+== Engine Tuning
 
 Octane ratings below use (RON+MON)/2 or AKI. This is the octane number displayed at the pump in the US.
 
@@ -457,19 +490,28 @@ _Take points for ONE of the following:_
   [2], [Forced induction (FI) tune for greater than 93 octane gasoline or greater than 15% ethanol content],
 )
 
-== Front Aero
+#figure(
+  image("images/side.png", width: 12cm),
+  caption: [Leading and trailing edges are measured as a straight line to the ground],
+)
+#figure(
+  image("images/top.png", width: 12cm),
+  caption: [Leading and trailing edges follow the contour of the vehicle],
+)
+
+== Aero: Splitters/Lips
 
 _Take points for ONE of the following:_
 
 #table(
   table.header([Points], [Modifications]),
-  [0], [No aero modifications or any device extending less than 50 mm #highlight[in any direction] from the bottom leading edge of the bumper (including STI lip and TRD lip)],
-  [1], [Any device extending 50-74 mm #highlight[in any direction] from the bottom leading edge of the bumper],
-  [1.5], [Any device extending 75-124 mm #highlight[in any direction] from the bottom leading edge of the bumper],
-  [3], [Any device extending greater than 125 mm #highlight[in any direction] from the bottom leading edge of the bumper],
+  [0], [No aero modifications or any device extending less than 50 mm #highlight[in any direction] from the leading edge of the bumper (including STI lip and TRD lip)],
+  [1], [Any device extending 50-74 mm #highlight[in any direction] from the leading edge of the bumper],
+  [1.5], [Any device extending 75-124 mm #highlight[in any direction] from the leading edge of the bumper],
+  [3], [Any device extending greater than 125 mm #highlight[in any direction] from the leading edge of the bumper],
 )
 
-== Rear Aero
+== Aero: Wings/Spoilers
 
 _Take points for ONE of the following:_
 
@@ -492,16 +534,23 @@ _Take points for ONE of the following:_
   ],
 )
 
-#pagebreak()
+== Aero: Other
 
-== Other Aero
+#boxed[
+  === Free Modifications
+  #highlight[
+    - Rear diffuser between the rear axle and the trailing edge of the bumper
+    - Side skirts
+    - Rear spats
+  ]
+]
 
 _Take points for EACH applicable row:_
 
 #table(
   table.header([Points], [Modifications]),
   [0.5], [Canards, dive planes, hood vents, fender vents, and/or vertical deviations on splitters],
-  [0.5], [Any rear diffuser extending forward of the rear axle or backward beyond the rear bumper],
+  [0.5], [Any #highlight[underbody aero modifications between the front and rear axle] and/or rear diffuser extending backward beyond the rear bumper trailing edge],
 )
 
 == Suspension
@@ -509,7 +558,8 @@ _Take points for EACH applicable row:_
 #boxed[
   === Free Modifications
   - Any spherical bushings, including strut top mounts
-  - Any alignment bolt/kit, bump steer kit, tie rod end, roll center adjuster
+  - Any alignment bolt/kit
+  - #highlight[Any altered suspension mounting points and suspension lengths]
   - Any bolt-on chassis bracing
   - Any sway bars
   - OEM-style, non-adjustable dampers with fixed spring perches and unaltered valving

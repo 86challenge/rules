@@ -13,6 +13,7 @@
   #show outline.entry: set text(blue)
   #show outline.entry: underline
   #show table: set text(size: 9pt)
+  #show figure: set text(size: 9pt)
   #show table.cell.where(y: 0): strong
   #show table: set block(breakable: false)
 
@@ -55,7 +56,12 @@
 
 #let discord = link("https://86challenge.us")[Discord Server]
 
-#let oem_tire_disclaimer = text[
+#let aside(body) = text[
+  #set text(size: 9pt)
+  #body
+]
+
+#let oem_tire_disclaimer = aside[
   \* OEM tires are only allowed for a competitor’s first 2 events. Competitors will not earn Tire Points while using OEM tires.
 ]
 
@@ -89,7 +95,12 @@
 
   #spacer
 
-  #outline(target: heading.where(level: 1), fill: none)
+  #outline(
+    target: heading.where(outlined: true),
+    indent: 12pt,
+    depth: 2,
+    fill: none,
+  )
 
   #spacer
 ]
