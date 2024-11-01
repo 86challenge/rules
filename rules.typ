@@ -7,6 +7,7 @@
   oem_tire_disclaimer,
   spacer,
   template,
+  twocols,
   website,
 )
 
@@ -258,7 +259,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
     + #highlight[
         Replacement of the OEM catback or axleback exhaust is allowed only using the following parts:
         #table(
-          columns: (1fr, 1fr),
+          columns: (1fr, 2fr),
           align: (left, left),
           table.header(
             [Description],
@@ -267,13 +268,15 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
 
           [Catback],
           [
-            - AWE Touring Edition
-            - CSG Spec Touring
-            - GR Performance
-            - GReddy Supreme SP
-            - Perrin 2.5" Dual Tip
-            - TRD Performance
-            - Yonaka Stainless
+            #twocols(height: 5em)[
+              - AWE Touring Edition
+              - CSG Spec Touring
+              - GR Performance
+              - GReddy Supreme SP
+              - Perrin 2.5" Dual Tip
+              - TRD Performance
+              - Yonaka Stainless
+            ]
           ],
 
           [Axleback],
@@ -397,47 +400,41 @@ _Any tire not on this list is automatically 6pts_
     - GT~Radial SX2 RS
   ],
   [2], [
-    #box(height: 12em)[
-      #set block(breakable: true)
-      #columns(2)[
-        - Continental ExtremeContact Sport (ECS)
-        - Dunlop Direzza ZII Star Spec
-        - Dunlop Direzza ZIII
-        - Falken Azenis RT615K
-        - Federal 595 RS-RR
-        - Goodyear Eagle F1 Supercar 3
-        - Hankook Ventus RS-4
-        - Kumho Ecsta V730
-        - #highlight[Maxxis Victra VR-1]
-        - Michelin Pilot Sport 4S
-        - Michelin Pilot Sport Cup 2 (180TW)
-        - Michelin Pilot Sport Cup 2 Connect
-        - Nankang NS-2R
-        - Nexen Nfera SUR4
-        - Nitto NT01
-        - Nitto NT05
-        - Toyo Proxes R888
-        - Yokohama Advan AD08R
-      ]
+    #twocols(height: 12em)[
+      - Continental ExtremeContact Sport (ECS)
+      - Dunlop Direzza ZII Star Spec
+      - Dunlop Direzza ZIII
+      - Falken Azenis RT615K
+      - Federal 595 RS-RR
+      - Goodyear Eagle F1 Supercar 3
+      - Hankook Ventus RS-4
+      - Kumho Ecsta V730
+      - #highlight[Maxxis Victra VR-1]
+      - Michelin Pilot Sport 4S
+      - Michelin Pilot Sport Cup 2 (180TW)
+      - Michelin Pilot Sport Cup 2 Connect
+      - Nankang NS-2R
+      - Nexen Nfera SUR4
+      - Nitto NT01
+      - Nitto NT05
+      - Toyo Proxes R888
+      - Yokohama Advan AD08R
     ]
   ],
   [3], [
-    #box(height: 8em)[
-      #set block(breakable: true)
-      #columns(2)[
-        - BFGoodrich g-Force Rival S
-        - Bridgestone Potenza RE71R
-        - Bridgestone Potenza RE71RS
-        - Continental ExtremeContact Force (ECF)
-        - Falken Azenis RT660
-        - Goodyear Eagle F1 Supercar 3R
-        - Maxxis Victra RC-1
-        - #highlight[Maxxis Victra VR2]
-        - Nankang AR-1
-        - Nankang CR-1
-        - Nexen N’Fera SUR4G
-        - Yokohama Advan A052
-      ]
+    #twocols(height: 8em)[
+      - BFGoodrich g-Force Rival S
+      - Bridgestone Potenza RE71R
+      - Bridgestone Potenza RE71RS
+      - Continental ExtremeContact Force (ECF)
+      - Falken Azenis RT660
+      - Goodyear Eagle F1 Supercar 3R
+      - Maxxis Victra RC-1
+      - #highlight[Maxxis Victra VR2]
+      - Nankang AR-1
+      - Nankang CR-1
+      - Nexen N’Fera SUR4G
+      - Yokohama Advan A052
     ]
   ],
   [5], [Treadwear 40–99],

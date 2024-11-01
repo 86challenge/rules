@@ -76,6 +76,12 @@
   #body
 ]
 
+#let twocols(height: length, body) = box(height: height)[
+  #set block(breakable: true)
+  #columns(2)[#body]
+]
+
+
 #let frontmatter(year: int, revision: int) = [
   #block(width: 100%)[
     #set align(center)
