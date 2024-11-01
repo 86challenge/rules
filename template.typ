@@ -58,7 +58,7 @@
 
 #let aside(body) = text[
   #set text(size: 9pt)
-  #body
+  #emph[#body]
 ]
 
 #let oem_tire_disclaimer = aside[

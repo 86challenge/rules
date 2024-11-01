@@ -1,4 +1,5 @@
 #import "template.typ": (
+  aside,
   boxed,
   discord,
   facebook,
@@ -380,7 +381,9 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
 )
 
 == Tires
-_Any tire not on this list is automatically 6pts_
+#aside[
+  Any tire not on this list is automatically 6pts
+]
 
 #show table: set block(breakable: true)
 
@@ -456,7 +459,7 @@ _Any tire not on this list is automatically 6pts_
   - #highlight[Any pump gasoline (including blending high-octane pump gasoline)]
 ]
 
-_Take points for EACH applicable row:_
+#aside[Take points for EACH applicable row:]
 
 #table(
   table.header([Points], [Modifications]),
@@ -472,9 +475,11 @@ _Take points for EACH applicable row:_
 
 == Engine Tuning
 
-Octane ratings below use (RON+MON)/2 or AKI. This is the octane number displayed at the pump in the US.
+#aside[
+  Octane ratings below use (RON+MON)/2 or AKI. This is the octane number displayed at the pump in the US.
+]
 
-_Take points for ONE of the following:_
+#aside[Take points for ONE of the following:]
 
 #table(
   table.header([Points], [Modifications]),
@@ -498,7 +503,7 @@ _Take points for ONE of the following:_
 
 == Aero: Splitters/Lips
 
-_Take points for ONE of the following:_
+#aside[Take points for ONE of the following:]
 
 #table(
   table.header([Points], [Modifications]),
@@ -510,7 +515,7 @@ _Take points for ONE of the following:_
 
 == Aero: Wings/Spoilers
 
-_Take points for ONE of the following:_
+#aside[Take points for ONE of the following:]
 
 #table(
   table.header([Points], [Modifications]),
@@ -542,7 +547,7 @@ _Take points for ONE of the following:_
   ]
 ]
 
-_Take points for EACH applicable row:_
+#aside[Take points for EACH applicable row:]
 
 #table(
   table.header([Points], [Modifications]),
@@ -562,7 +567,7 @@ _Take points for EACH applicable row:_
   - OEM-style, non-adjustable dampers with fixed spring perches and unaltered valving
 ]
 
-_Take points for EACH applicable row:_
+#aside[Take points for EACH applicable row:]
 
 #table(
   table.header([Points], [Modifications]),
@@ -579,7 +584,7 @@ _Take points for EACH applicable row:_
   - Any lightweight battery
 ]
 
-_Take points for EACH applicable row:_
+#aside[Take points for EACH applicable row:]
 
 #table(
   table.header([Points], [Modifications]),
