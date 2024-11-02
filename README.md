@@ -1,5 +1,8 @@
 <div align="center">
-    <img src="images/logo.png" width="200" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/logo-dark-mode.png">
+    <img src="./images/logo.png" width="200px">
+  </picture>
 </div>
 
 # 86 Challenge Rules
@@ -8,7 +11,7 @@ This repo holds the official rules for 86 Challenge. Competitors are welcome to 
 
 ## Install
 
-We are using `brew` to manage dependencies. To install, just run: 
+We are using `brew` to manage dependencies. To install, just run:
 
 ```bash
 brew bundle install
