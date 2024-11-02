@@ -14,7 +14,7 @@
 
 #show: template
 
-#frontmatter(year: 2025, revision: 1)
+#frontmatter(year: 2025, revision: 2)
 
 #heading(outlined: false)[
   Introduction
@@ -172,6 +172,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
   + *Wheels*
     + Wheels must have a maximum width of 8.0 in.
     + Wheel spacers are allowed.
+    + #highlight[Aftermarket lug nuts and wheel studs are allowed.]
 
   + *Tires*
     + Tires must be one of the following:
@@ -573,6 +574,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
   - Any spherical bushings, including strut top mounts
   - Any alignment bolt/kit
   - #highlight[Any altered suspension mounting points and suspension lengths]
+  - #highlight[Any wheel spacers]
   - Any bolt-on chassis bracing
   - Any sway bars
   - OEM-style, non-adjustable dampers with fixed spring perches and unaltered valving
@@ -583,8 +585,8 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 #table(
   table.header([Points], [Modifications]),
 
-  [#highlight[0.5]], [#highlight[Non-OEM springs]],
-  [#highlight[0.5]], [#highlight[Adjustable dampers (valving or ride height) or modification to off-the-shelf damper valving]],
+  [#highlight[0.5]], [#highlight[Non-OEM springs and/or bump stops]],
+  [#highlight[0.5]], [#highlight[Adjustable dampers (valving or ride height), modification to off-the-shelf damper valving, and/or bump stop packers]],
   [#highlight[0.5]], [#highlight[Damper volume-expanding devices (e.g. remote reservoirs or piggybacks)]],
 )
 
@@ -609,4 +611,5 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
   === Free Modifications
   - Any in-cabin safety equipment
   - Any brake fluid, brake pads, brake rotors, brake ducting, and/or big brake kit (BBK)
+  - #highlight[Any lug nuts and wheel studs]
 ]

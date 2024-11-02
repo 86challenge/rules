@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+### Added
+
+- Allow lug nuts and studs in Stock Class and Free Modifications
+- Allow wheel spacers in Free Modifications
+
+### Changed
+
+- Include bump stops in non-OEM springs
+- Include packers in pointed dampers
+
 ## 2025.1
 
 ### Added
