@@ -52,7 +52,7 @@
 
 #let website = link("https://86challenge.us")[86challenge.us]
 
-#let facebook = link("https://www.facebook.com/groups/86challenge")[Facebook Group]
+#let facebook = link("https://www.facebook.com/groups/86challenge")[Facebook]
 
 #let discord = link("https://86challenge.us")[Discord Server]
 
@@ -62,7 +62,7 @@
 ]
 
 #let oem_tire_disclaimer = aside[
-  \* OEM tires are only allowed for a competitor’s first 2 events. Competitors will not earn Tire Points while using OEM tires.
+  \* OEM tires are only allowed for a competitor’s first 2 events. Competitors do not earn Tire Points while using OEM tires.
 ]
 
 #let boxed(body) = rect(
