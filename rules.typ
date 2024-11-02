@@ -24,7 +24,7 @@ Welcome to 86~Challenge. Drivers of all skill levels are welcome and there is no
 
 See #website for more information, including schedule, historical results, and forms for registering for GT~Radial's Championship Cash Prize and tire contingency program.
 
-Questions, corrections, and clarifications can be raised on our #discord or #facebook.
+Feel free to raise questions/clarifications in \#regulations in our #discord or on #facebook.
 
 #spacer
 
@@ -55,7 +55,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
     + #highlight[
         Late registrations may be accepted on a case-by-case basis, but a driver registering late may not change to a different class from their previous event or previous registration for the same event.
       ]
-    + Drivers may share a car. Each driver must register separately, indicating the class _and_ run group they will participate in. #highlight[Drivers sharing a car may not switch drivers during a single session.]
+    + Drivers may share a car. #highlight[Each driver must register separately and indicate their class, run group, and with whom they are sharing a car. Drivers sharing a car may not switch drivers during a single session.]
 
   + *Timing*
     + The following timing methods are accepted (see table below). Priority is given from top to bottom if more than one method is available for a given lap:
@@ -64,8 +64,12 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
         align: (left, center),
         table.header([Timing Method], [Time Penalty (s)]),
         [Official timing transponder], [0.0],
-        [Lap timer with at least 10Hz GPS (e.g. AiM, Racebox, Catalyst)], [0.2],
-        [Lap timer with at least 1Hz GPS (e.g. built-in smartphone GPS)], [0.5],
+        [10 Hz or greater GPS lap timer (e.g. AiM, Garmin Catalyst, smartphone app with external GPS)],
+        [0.2],
+
+        [1 Hz or greater GPS lap timer (e.g. smartphone app with built-in GPS)],
+        [0.5],
+
         [#highlight[Unedited onboard video (may be accepted for a driver’s first event only)]],
         [0.5],
       )
@@ -100,12 +104,14 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
           [Definition],
         ),
 
-        [*Total Points*], [The sum of a driver’s points earned from all events],
+        [*Total Points*],
+        [The sum of a driver’s points earned from all events, per class],
+
         [*Championship Points*],
         [The sum of a driver’s 7 best finishes, only from the class the driver is participating in for the championship (see #link(<changing-classes>)[Changing Classes])],
 
         [*Tire Points*],
-        [The sum of a driver’s points earned satisfying the terms of the GT~Radial Tire Contingency program],
+        [The sum of a driver’s points earned satisfying the terms of the GT~Radial Tire Contingency program, per class],
       )
     + #highlight[
         *Changing Classes*: <changing-classes> If a driver changes classes during a season, they can choose to:
@@ -194,22 +200,26 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
           [Allowed Parts],
         ),
 
-        [Crash bolt (i.e. 14 mm lower bolt used in upper position)],
+        [Crash bolts (i.e. 14 mm lower bolt used in upper position)],
         [
-          - Toyota SU003–02818
           - Subaru 901000394
+          - Toyota SU003–02818
         ],
 
-        [Camber bolts (in either/both positions)],
+        [Upper camber bolts],
         [
           - SPC 81280
-          - SPC 81305
           - Whiteline KCA416
-          - Whiteline KCA414
-          - Eibach 5.81305K
         ],
 
-        [Front strut mounts / camber plates],
+        [Lower camber bolts],
+        [
+          - Eibach 5.81305K
+          - SPC 81305
+          - Whiteline KCA414
+        ],
+
+        [Front strut mounts],
         [
           - Pedders PED-580096
           - Whiteline KCA335
@@ -230,8 +240,8 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
 
           [OEM–style, adjustable, stamped steel rear lower control arms],
           [
-            - SPC 67660
             - Moog RK100136
+            - SPC 67660
             - Whiteline KTA216A
           ],
 
@@ -244,15 +254,14 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
   + *Aero*
     + STI lip and TRD lip are not allowed.
     + Gen. 1 BRZ tS wing is not allowed.
-    + Gen. 2 vortex generators are not allowed.
     + Gen. 2 ducktails (OEM or equivalently-sized) are allowed.
 
   + *Safety*
     + Any safety device may be used.
-    + Cars may be equipped with aftermarket safety systems (bucket seats, racing harnesses, neck restraint system, full or half roll cage, etc.), as long as total curb weight of the car remains above #highlight[2800 lbs without driver and with a full tank of fuel]. Removing interior trim is allowed only as necessary to install the safety systems. The car must be weighed at a location approved by the Rules Board before it is allowed to enter Stock Class.
+    + Cars may be equipped with aftermarket safety systems (bucket seats, racing harnesses, neck restraint system, full or half roll cage, etc.), as long as the total curb weight of the car remains above #highlight[2800 lbs without driver and with a full tank of fuel]. Removing interior trim is allowed only as necessary to install the safety systems. The car must be weighed at a location approved by the Rules Board before it is allowed to enter Stock Class.
 
   + *Misc*
-    + Braking upgrades are allowed.
+    + #highlight[Any brake fluid, brake pads, brake rotors, brake ducting, and/or big brake kit (BBK) is allowed.]
     + Replacing OEM parts with newer/older OEM parts is allowed (e.g. dampers, sway bars, etc).
     + No lightweight replacement parts are allowed (e.g. battery or lighter-than-OEM trunk).
     + Removal of parts is prohibited, except the following: spare tire, floor mats, and included tools.
@@ -287,6 +296,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
           ],
         )
       ]
+      #aside[If your preferred exhaust is not listed here, you may inquire in \#regulations in the #discord.]
 
 + #heading[GT~Radial Street Class]
   _Allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT~Radial Championship Cash Prizes and GT~Radial Tire Contingency._
@@ -395,7 +405,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
     - 17" Michelin Primacy HP
   ],
   [0], [
-    - Michelin Pilot Sport 4 (OEM size only 215/40R18)
+    - Michelin Pilot Sport 4
     - #highlight[Yokohama Advan Apex V601]
   ],
   [1], [
@@ -469,7 +479,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
   [0.5], [Non-OEM limited slip differential],
   [1], [Non-OEM transmission],
   [#highlight[2]], [#highlight[FA20 to FA24 engine swap]],
-  [5], [Forced induction (FI)],
+  [#highlight[4.5]], [Forced induction],
   [TBD], [Any other engine swap (contact Rules Board for individual engine swap classification)],
 )
 
@@ -480,17 +490,18 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
 ]
 
 #aside[Take points for ONE of the following:]
+#highlight[
+  #table(
+    table.header([Points], [Modifications]),
 
-#table(
-  table.header([Points], [Modifications]),
-
-  [0], [
-    OEM tune or forced induction tune for 93 octane gasoline or lower (only when taken with 5 point FI modification)
-  ],
-  [0.5], [Naturally aspirated (NA) tune for 93 octane gasoline or lower (non-OEM)],
-  [1.5], [Naturally aspirated (NA) tune for greater than 93 octane gasoline or greater than 15% ethanol content],
-  [2], [Forced induction (FI) tune for greater than 93 octane gasoline or greater than 15% ethanol content],
-)
+    [0], [
+      OEM engine tune
+    ],
+    [0.5], [Engine tune for 93 octane gasoline or lower],
+    [1.5], [Naturally aspirated engine tune for >93 octane gasoline or >15% ethanol content],
+    [2.5], [Forced induction engine tune for >93 octane gasoline or >15% ethanol content],
+  )
+]
 
 #figure(
   image("images/side.png", width: 12cm),
@@ -507,10 +518,10 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
 
 #table(
   table.header([Points], [Modifications]),
-  [0], [No aero modifications or any device extending less than 50 mm #highlight[in any direction] from the leading edge of the bumper (including STI lip and TRD lip)],
-  [1], [Any device extending 50-74 mm #highlight[in any direction] from the leading edge of the bumper],
-  [1.5], [Any device extending 75-124 mm #highlight[in any direction] from the leading edge of the bumper],
-  [3], [Any device extending greater than 125 mm #highlight[in any direction] from the leading edge of the bumper],
+  [0], [No aero modifications or any device extending #highlight[up to 50 mm in any direction] from the bottom leading edge of the bumper (including STI lip and TRD lip)],
+  [1], [Any device extending #highlight[up to 75 mm in any direction] from the bottom leading edge of the bumper],
+  [1.5], [Any device extending #highlight[up to 125 mm in any direction] from the bottom leading edge of the bumper],
+  [3], [Any device extending #highlight[greater than 125 mm in any direction] from the bottom leading edge of the bumper],
 )
 
 == Aero: Wings/Spoilers
@@ -526,7 +537,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
     Aftermarket rear spoiler greater than 60 mm in height
   ],
   [1], [
-    Gen. 1 BRZ tS wing, SARD LSR, or any wing with maximum width of 1400 mm, maximum stand height of 200 mm, maximum chord length of 200 mm, and no added gurney flap
+    SARD LSR, Gen. 1 BRZ tS wing, or any wing with maximum width of 1400 mm, maximum stand height of 200 mm, maximum chord length of 200 mm, and no added gurney flap
   ],
   [1.5], [
     APR GTC-200, Voltex Type 12, Voltex Type 1S, or any wing with maximum width of 1460 mm, maximum stand height of 245 mm, and maximum chord length of 250 mm
@@ -552,7 +563,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
 #table(
   table.header([Points], [Modifications]),
   [0.5], [Canards, dive planes, hood vents, fender vents, and/or vertical deviations on splitters],
-  [0.5], [Any #highlight[underbody aero modifications between the front and rear axle] and/or rear diffuser extending backward beyond the rear bumper trailing edge],
+  [0.5], [Any #highlight[underbody aero modifications between the front and rear axles] and/or rear diffuser extending backward beyond the rear bumper trailing edge],
 )
 
 == Suspension
@@ -574,7 +585,7 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
 
   [#highlight[0.5]], [#highlight[Non-OEM springs]],
   [#highlight[0.5]], [#highlight[Adjustable dampers (valving or ride height) or modification to off-the-shelf damper valving]],
-  [#highlight[0.5]], [#highlight[Shock volume-expanding devices (e.g. remote reservoirs or piggybacks)]],
+  [#highlight[0.5]], [#highlight[Damper volume-expanding devices (e.g. remote reservoirs or piggybacks)]],
 )
 
 == Weight Reduction
@@ -597,5 +608,5 @@ Questions, corrections, and clarifications can be raised on our #discord or #fac
 #boxed[
   === Free Modifications
   - Any in-cabin safety equipment
-  - Aftermarket brake calipers, rotors, pads, or brake ducting
+  - Any brake fluid, brake pads, brake rotors, brake ducting, and/or big brake kit (BBK)
 ]
