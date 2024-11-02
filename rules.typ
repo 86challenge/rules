@@ -258,7 +258,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
   + *Safety*
     + Any safety device may be used.
-    + Cars may be equipped with aftermarket safety systems (bucket seats, racing harnesses, neck restraint system, full or half roll cage, etc.), as long as the total curb weight of the car remains above #highlight[2800 lbs without driver and with a full tank of fuel]. Removing interior trim is allowed only as necessary to install the safety systems. The car must be weighed at a location approved by the Rules Board before it is allowed to enter Stock Class.
+    + Cars may be equipped with aftermarket safety systems (bucket seats, racing harnesses, neck restraint system, full or half roll cage, etc.), as long as the total curb weight of the car remains above #highlight[2,800 lbs without driver and with a full tank of fuel]. Removing interior trim is allowed only as necessary to install the safety systems. The car must be weighed at a location approved by the Rules Board before it is allowed to enter Stock Class.
 
   + *Misc*
     + #highlight[Any brake fluid, brake pads, brake rotors, brake ducting, and/or big brake kit (BBK) is allowed.]
@@ -305,7 +305,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
   + Any performance modification not listed in #link(<mods>)[Modification Points] is prohibited.
 
-  + Minimum weight is #highlight[2800 lbs without driver and with a full tank of gas].
+  + Minimum weight is #highlight[2,800 lbs without driver and with a full tank of gas].
 
   + *Wheels*
     + Wheels must have a maximum width of 9.0 in.
@@ -329,7 +329,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
   + Drivers are allotted 10 #link(<mods>)[Modification Points].
   + Maximum tire section width is 255 mm.
-  + Minimum weight is 2750 lbs without driver and with a full tank of gas.
+  + Minimum weight is 2,750 lbs with driver and full tank of gas.
   + Event standings will be determined by _Adjusted Track Time_, as defined below:
     #highlight[
       $
