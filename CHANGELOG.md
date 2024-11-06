@@ -2,6 +2,20 @@
 
 ## [Unreleased]
 
+### Added
+
+- Allow lug nuts and studs in Stock Class and Free Modifications
+- Allow wheel spacers in Free Modifications
+
+### Changed
+
+- Include bump stops in non-OEM springs
+- Include packers in pointed dampers
+
+### Removed
+
+- H&R camber bolts removed from Stock rear camber allowed parts list
+
 ## 2025.1
 
 ### Added

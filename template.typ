@@ -96,7 +96,7 @@
     Version #text((str(year), str(revision)).join(".")) \
     Released #datetime.today().display("[month repr:long] [day], [year]")
 
-    Significant additions or changes are #highlight[highlighted].
+    Significant additions or changes for this year are #highlight[highlighted].
   ]
 
   #spacer
