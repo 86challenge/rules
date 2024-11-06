@@ -245,8 +245,6 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
             - SPC 67660
             - Whiteline KTA216A
           ],
-
-          [Camber bolts], [- H&R TC112],
         )
       ]
     + Toe angle may be adjusted without limitation.

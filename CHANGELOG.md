@@ -12,6 +12,10 @@
 - Include bump stops in non-OEM springs
 - Include packers in pointed dampers
 
+### Removed
+
+- H&R camber bolts removed from Stock rear camber allowed parts list
+
 ## 2025.1
 
 ### Added
