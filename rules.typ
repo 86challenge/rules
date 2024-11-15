@@ -391,7 +391,6 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
   [2], [
     #twocols(height: 12em)[
       - Continental ExtremeContact Sport (ECS)
-      - #highlight[Continental ExtremeContact Force (ECF)]
       - Dunlop Direzza ZII Star Spec
       - Dunlop Direzza ZIII
       - Falken Azenis RT615K
@@ -416,6 +415,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
       - BFGoodrich g-Force Rival S
       - Bridgestone Potenza RE71R
       - Bridgestone Potenza RE71RS
+      - Continental ExtremeContact Force (ECF)
       - Falken Azenis RT660
       - Goodyear Eagle F1 Supercar 3R
       - Maxxis Victra RC-1
