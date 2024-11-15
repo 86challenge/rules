@@ -325,50 +325,26 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
       #oem_tire_disclaimer
 
 + #heading[Touring Class]
-  _Allows significant modification freedom, with a balance of performance handicap based on Modification Points. Participants are eligible for GT~Radial Tire Contingency._
+  _#highlight[This class is intended for experienced drivers who want to showcase their and the chassis' potential without tearing the car apart. Modifications in this class will be similar to other platforms in advanced HPDE groups.] Participants are eligible for GT~Radial Tire Contingency._
 
-  + Drivers are allotted 10 #link(<mods>)[Modification Points].
+  + Drivers are allotted #highlight[7] #link(<mods>)[Modification Points].
   + Maximum tire section width is 255 mm.
   + Minimum weight is 2,750 lbs with driver and full tank of gas.
-  + Event standings will be determined by _Adjusted Track Time_, as defined below:
-    #highlight[
-      $
-        italic("Adjustment Factor") =
-        "Street Class record at event track" / "Street Class record at Thunderhill East Bypass"
-      $
-      $
-        italic("Touring Handicap") = italic("Adjustment Factor") x max(0, italic("Modification Points") - "3")
-      $
-      $
-        italic("Adjusted Track Time") =
-        "Raw Time" + italic("Touring Handicap")
-      $
-    ]
-  + #highlight[
-      You can use the following table to find the _Touring Handicap_ (s), given _Modification Points_ and track. (Builds with 3 points or fewer receive a 0 s handicap.)
-    ]
-    #let thunderhill_east_bypass_record = 125.418
-    #let mod_points = range(3 * 2, 21, step: 1).map(n => n / 2)
-    #let records = csv("records.csv")
-    #show table.cell.where(x: 0): strong
-    #table(
-      columns: (auto, ..mod_points.map(point => 1fr)),
-      align: (left, ..mod_points.map(point => center)),
-      table.header([Track / Mod Points], ..mod_points.map(point => str(point))),
-      ..for (track, time) in records {
-        let adjustment_factor = float(time) / thunderhill_east_bypass_record
-        (
-          [#track],
-          ..mod_points.map(points => numstr(
-            calc.max(0, points - 3) * adjustment_factor,
-            precision: 1,
-          )),
-        )
-      }
-    )
-  + #highlight[
-      Any new tracks/configurations will have their _Adjustment Factor_ and _Touring Handicap_ calculated immediately following the event using the just-set Street Class record. Existing tracks/configurations will use the _Adjustment Factor_ as defined in the beginning of the season.
-    ]
+  + #highlight[There will be no adjustment of laptimes to accomodate builds that do not utilize the maximum modification points. Drivers Event standings will be determined by raw laptimes.]
+
+  === Example builds
+  - Gen 1:
+    - HPDE Classic: V730 (2), engine bolt-ons (0.5), LSD (0.5), E85 (1.5), small wing (1), adjustable coilovers (1), hood vents (0.5)
+    - CARB Legal: 18" SX2 (1), lightweight drivetrain (0.5), LSD (0.5), adjustable coilovers (1), medium wing (1.5), 125mm splitter (1.5), hood vents (0.5), underbody aero (0.5)
+    - Straight Line Demon: SX2 (-1), engine bolt-ons (0.5), forced induction (4.5), E85 (2.5), underbody/diffuser aero (0.5)
+  - Gen 2:
+    - Street Premium: Gen 2 (2), coilovers + remotes (1.5), V730 (2), hood vents (0.5), underbody aero (0.5), LSD (0.5)
+    - Breathe Free: Gen 2 (2), 18" SX2 (1), engine bolt-ons (0.5), lightweight drivetrain (0.5), E85 (1.5), hood vents (0.5), coilovers (0.5), underbody aero (0.5)
+    - GREIP: Gen 2 (2), small wing (1), adjustable coilovers (1), RE71RS (3)
+    - Big Wang Gang: Gen 2 (2), SX2 (-1), adjustable coilovers (1), tune (0.5), 125mm splitter (1.5), big wing (2), hood vents (0.5), underbody aero (0.5)
+
+
+
 
 + #heading[Unlimited Class]
   _Allows unconstrained builds to achieve the ultimate 86 lap times. For people who don’t like rules!_
@@ -415,6 +391,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
   [2], [
     #twocols(height: 12em)[
       - Continental ExtremeContact Sport (ECS)
+      - #highlight[Continental ExtremeContact Force (ECF)]
       - Dunlop Direzza ZII Star Spec
       - Dunlop Direzza ZIII
       - Falken Azenis RT615K
@@ -439,7 +416,6 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
       - BFGoodrich g-Force Rival S
       - Bridgestone Potenza RE71R
       - Bridgestone Potenza RE71RS
-      - Continental ExtremeContact Force (ECF)
       - Falken Azenis RT660
       - Goodyear Eagle F1 Supercar 3R
       - Maxxis Victra RC-1
