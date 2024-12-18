@@ -26,8 +26,6 @@ See #website for more information, including schedule, historical results, and f
 
 Feel free to raise questions/clarifications in \#regulations in our #discord or on #facebook.
 
-#spacer
-
 + #heading[General Rules]
   + Chassis must be one of the following (hereafter referred to by its _Designation_):
     #table(
@@ -122,7 +120,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
         The per-class standings are determined by _Championship Points_ (most points wins).
       ]
     + #highlight[
-        *Tiebreaker*: Championship ties are broken via finishing position countback: The competitor with the most 1st place finishes wins. If still tied, the countback moves to 2nd place, 3rd place, and all subsequent finishing positions. If still tied, the competitor who held a lead last wins.
+        *Tiebreaker*: Championship ties are broken via finishing position countback: The competitor with the most 1st place finishes wins. If still tied, the countback moves to 2nd place, 3rd place, and all subsequent finishing positions. Only the best 7 results per driver are considered. If still tied, the competitor who held a lead last wins.
       ]
 
   + #highlight[*In-Season Rule Changes*
@@ -153,7 +151,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
       [#highlight[Buttonwillow Raceway \#1]], [#highlight[2.5]],
       [Buttonwillow Raceway \#13], [2.0],
-      [#highlight[Buttonwillow Raceway New Track]], [#highlight[1.5]],
+      [#highlight[Buttonwillow Circuit]], [#highlight[2.0]],
       [Laguna Seca], [2.5],
       [Sonoma Raceway], [2.5],
       [Thunderhill 5-mile], [4.0],
@@ -277,8 +275,9 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
           [Catback],
           [
-            #twocols(height: 5em)[
+            #twocols(rows: 4)[
               - AWE Touring Edition
+              - Corsa Sport 2.5"
               - CSG Spec Touring
               - GR Performance
               - GReddy Supreme SP
@@ -290,8 +289,12 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
           [Axleback],
           [
-            - DC Sports
-            - STi Performance Muffler
+            #twocols(rows: 3)[
+              - DC Sports
+              - ISR Performance
+              - MRT Sport Touring
+              - STi Performance Muffler
+            ]
           ],
         )
       ]
@@ -324,50 +327,13 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
       #oem_tire_disclaimer
 
 + #heading[Touring Class]
-  _Allows significant modification freedom, with a balance of performance handicap based on Modification Points. Participants are eligible for GT~Radial Tire Contingency._
+  _Allows significant modification freedom and tire choices. Participants are eligible for GT~Radial Tire Contingency._
 
-  + Drivers are allotted 10 #link(<mods>)[Modification Points].
+  + #highlight[Drivers are allotted 7 #link(<mods>)[Modification Points]].
+
   + Maximum tire section width is 255 mm.
+
   + Minimum weight is 2,750 lbs with driver and full tank of gas.
-  + Event standings will be determined by _Adjusted Track Time_, as defined below:
-    #highlight[
-      $
-        italic("Adjustment Factor") =
-        "Street Class record at event track" / "Street Class record at Thunderhill East Bypass"
-      $
-      $
-        italic("Touring Handicap") = italic("Adjustment Factor") x max(0, italic("Modification Points") - "3")
-      $
-      $
-        italic("Adjusted Track Time") =
-        "Raw Time" + italic("Touring Handicap")
-      $
-    ]
-  + #highlight[
-      You can use the following table to find the _Touring Handicap_ (s), given _Modification Points_ and track. (Builds with 3 points or fewer receive a 0 s handicap.)
-    ]
-    #let thunderhill_east_bypass_record = 125.418
-    #let mod_points = range(3 * 2, 21, step: 1).map(n => n / 2)
-    #let records = csv("records.csv")
-    #show table.cell.where(x: 0): strong
-    #table(
-      columns: (auto, ..mod_points.map(point => 1fr)),
-      align: (left, ..mod_points.map(point => center)),
-      table.header([Track / Mod Points], ..mod_points.map(point => str(point))),
-      ..for (track, time) in records {
-        let adjustment_factor = float(time) / thunderhill_east_bypass_record
-        (
-          [#track],
-          ..mod_points.map(points => numstr(
-            calc.max(0, points - 3) * adjustment_factor,
-            precision: 1,
-          )),
-        )
-      }
-    )
-  + #highlight[
-      Any new tracks/configurations will have their _Adjustment Factor_ and _Touring Handicap_ calculated immediately following the event using the just-set Street Class record. Existing tracks/configurations will use the _Adjustment Factor_ as defined in the beginning of the season.
-    ]
 
 + #heading[Unlimited Class]
   _Allows unconstrained builds to achieve the ultimate 86 lap times. For people who don’t like rules!_
@@ -412,7 +378,8 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
     - GT~Radial SX2 RS
   ],
   [2], [
-    #twocols(height: 12em)[
+    #twocols(rows: 10)[
+      - #highlight[Continental ExtremeContact Force (ECF)]
       - Continental ExtremeContact Sport (ECS)
       - Dunlop Direzza ZII Star Spec
       - Dunlop Direzza ZIII
@@ -434,11 +401,10 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
     ]
   ],
   [3], [
-    #twocols(height: 8em)[
+    #twocols(rows: 6)[
       - BFGoodrich g-Force Rival S
       - Bridgestone Potenza RE71R
       - Bridgestone Potenza RE71RS
-      - Continental ExtremeContact Force (ECF)
       - Falken Azenis RT660
       - Goodyear Eagle F1 Supercar 3R
       - Maxxis Victra RC-1
@@ -454,6 +420,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 )
 
 #show table: set block(breakable: false)
+#pagebreak()
 
 == Engine Mechanical & Drivetrain
 
@@ -501,6 +468,8 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
     [2.5], [Forced induction engine tune for >93 octane gasoline or >15% ethanol content],
   )
 ]
+
+#pagebreak()
 
 #figure(
   image("images/side.png", width: 12cm),

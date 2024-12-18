@@ -76,7 +76,7 @@
   #body
 ]
 
-#let twocols(height: length, body) = box(height: height)[
+#let twocols(rows: int, body) = box(height: rows * 1.33em)[
   #set block(breakable: true)
   #columns(2)[#body]
 ]
