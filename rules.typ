@@ -22,7 +22,7 @@
 
 Welcome to 86~Challenge. Drivers of all skill levels are welcome and there is no charge to participate.
 
-See #website for more information, including schedule, historical results, and forms for registering for GT~Radial's Championship Cash Prize and tire contingency program.
+See #website for more information, including schedule, historical results, and forms for registering for GT~Radial’s Championship Cash Prizes and GT~Radial’s Tire Contingency.
 
 Feel free to raise questions/clarifications in \#regulations in our #discord or on #facebook.
 
@@ -93,7 +93,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
         [6th], [2],
         [7th+], [1],
       )
-    + Separate points tallies are used to track championship standings and tire contingency:
+    + Separate points tallies are used to track Championship Standings and Tire Contingency points:
       #table(
         columns: 2,
         align: (left, left),
@@ -102,14 +102,12 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
           [Definition],
         ),
 
-        [*Total Points*],
-        [The sum of a driver’s points earned from all events, per class],
-
+        [*Total Points*], [The sum of a driver’s points earned from all events],
         [*Championship Points*],
-        [The sum of a driver’s 7 best finishes, only from the class the driver is participating in for the championship (see #link(<changing-classes>)[Changing Classes])],
+        [The sum of a driver’s points earned from their 7 best finishes],
 
         [*Tire Points*],
-        [The sum of a driver’s points earned satisfying the terms of the GT~Radial Tire Contingency program, per class],
+        [The sum of a driver’s points earned satisfying the terms of the GT~Radial Tire Contingency],
       )
     + #highlight[
         *Changing Classes*: <changing-classes> If a driver changes classes during a season, they can choose to:
@@ -289,7 +287,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
           [Axleback],
           [
-            #twocols(rows: 3)[
+            #twocols(rows: 4)[
               - DC Sports
               - ISR Performance
               - MRT Sport Touring
@@ -303,7 +301,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 + #heading[GT~Radial Street Class]
   _Allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT~Radial Championship Cash Prizes and GT~Radial Tire Contingency._
 
-  + Drivers are allotted 3 #link(<mods>)[Modification Points].
+  + Drivers are allotted a maximum of 3 #link(<mods>)[Modification Points].
 
   + Any performance modification not listed in #link(<mods>)[Modification Points] is prohibited.
 
@@ -327,9 +325,9 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
       #oem_tire_disclaimer
 
 + #heading[Touring Class]
-  _Allows significant modification freedom and tire choices. Participants are eligible for GT~Radial Tire Contingency._
+  _Allows significant modification freedom and many more tire choices. Participants are eligible for GT~Radial Tire Contingency._
 
-  + #highlight[Drivers are allotted 7 #link(<mods>)[Modification Points]].
+  + #highlight[Drivers are allotted a maximum of 7 #link(<mods>)[Modification Points]].
 
   + Maximum tire section width is 255 mm.
 
@@ -393,7 +391,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
       - Michelin Pilot Sport Cup 2 (180TW)
       - Michelin Pilot Sport Cup 2 Connect
       - Nankang NS-2R
-      - Nexen Nfera SUR4
+      - Nexen N’Fera SUR4
       - Nitto NT01
       - Nitto NT05
       - Toyo Proxes R888

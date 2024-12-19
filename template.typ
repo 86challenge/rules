@@ -54,7 +54,7 @@
 
 #let facebook = link("https://www.facebook.com/groups/86challenge")[Facebook]
 
-#let discord = link("https://86challenge.us")[Discord Server]
+#let discord = link("https://discord.gg/sDKdV4TS4T")[Discord Server]
 
 #let aside(body) = text[
   #set text(size: 9pt)
