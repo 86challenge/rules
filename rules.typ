@@ -339,7 +339,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
   + Anything goes!
 
 + #heading[Modification Points] <mods>
-  This section applies only to GT~Radial Street Class and Touring Class.
+  This section applies only to GT~Radial Street Class and Touring Class. OE refers to Original Equipment.
 
 #set align(center)
 #set table(columns: (60pt, 1fr), align: (center, left))
@@ -424,13 +424,13 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
 #boxed[
   === Free Modifications
-  - Removal of intake resonators
-  - Any drop-in replacement air filter for OEM intake
-  - Gen. 2 charcoal airbox filter removal
-  - Aftermarket radiator, oil cooler, oil catch can, oil pan baffle, and/or modified sump
-  - #highlight[Any transmission cooling or diff cooling system]
   - Any cat-back exhaust
+  - Any drop-in replacement air filter for OE intake
   - #highlight[Any pump gasoline (including blending high-octane pump gasoline)]
+  - Any radiator, oil cooler, oil catch can, oil pan baffle, and/or modified sump
+  - #highlight[Any transmission cooling or diff cooling system]
+  - Gen. 2 charcoal airbox filter removal
+  - Removal of intake resonators
 ]
 
 #aside[Take points for EACH applicable row:]
@@ -438,10 +438,10 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 #table(
   table.header([Points], [Modifications]),
 
-  [0.5], [Aftermarket intake, header, front-pipe, overpipe, and/or any removal of OEM catalytic converter],
-  [0.5], [Lighter-than-OEM rotational inertia flywheel, clutch, and/or driveshaft],
-  [0.5], [Non-OEM limited slip differential],
-  [1], [Non-OEM transmission],
+  [0.5], [Aftermarket intake, header, front-pipe, overpipe, and/or any removal of OE catalytic converter],
+  [0.5], [Lighter-than-OE rotational inertia flywheel, clutch, and/or driveshaft],
+  [0.5], [Aftermarket limited slip differential],
+  [1], [Aftermarket transmission],
   [#highlight[2]], [#highlight[FA20 to FA24 engine swap]],
   [#highlight[4.5]], [Forced induction],
   [TBD], [Any other engine swap (contact Rules Board for individual engine swap classification)],
@@ -459,7 +459,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
     table.header([Points], [Modifications]),
 
     [0], [
-      OEM engine tune
+      Factory engine tune
     ],
     [0.5], [Engine tune for 93 octane gasoline or lower],
     [1.5], [Naturally aspirated engine tune for >93 octane gasoline or >15% ethanol content],
@@ -497,7 +497,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 #table(
   table.header([Points], [Modifications]),
   [0], [
-    No aero modifications, OEM rear spoiler, OEM wing (except Gen. 1 BRZ tS wing), or any aftermarket spoiler less than 60 mm in height
+    No aero modifications, OE rear spoiler, OE wing (except Gen. 1 BRZ tS wing), or any aftermarket spoiler less than 60 mm in height
   ],
   [0.5], [
     Aftermarket rear spoiler greater than 60 mm in height
@@ -518,9 +518,9 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 #boxed[
   === Free Modifications
   #highlight[
-    - Rear diffuser between the rear axle and the trailing edge of the bumper
-    - Side skirts
+    - Rear diffuser between the rear axle and the rear trailing edge of the bumper
     - Rear spats
+    - Side skirts
   ]
 ]
 
@@ -536,13 +536,13 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
 #boxed[
   === Free Modifications
-  - Any spherical bushings, including strut top mounts
   - Any alignment bolt/kit
   - #highlight[Any altered suspension mounting points and suspension lengths]
-  - #highlight[Any wheel spacers]
   - Any bolt-on chassis bracing
+  - Any spherical bushings, including strut top mounts
   - Any sway bars
-  - OEM-style, non-adjustable dampers with fixed spring perches and unaltered valving
+  - #highlight[Any wheel spacers]
+  - OE-style, non-adjustable dampers with fixed spring perches and unaltered valving
 ]
 
 #aside[Take points for EACH applicable row:]
@@ -550,9 +550,9 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 #table(
   table.header([Points], [Modifications]),
 
-  [#highlight[0.5]], [#highlight[Non-OEM springs and/or bump stops]],
-  [#highlight[0.5]], [#highlight[Adjustable dampers (valving or ride height), modification to off-the-shelf damper valving, and/or bump stop packers]],
-  [#highlight[0.5]], [#highlight[Damper volume-expanding devices (e.g. remote reservoirs or piggybacks)]],
+  [#highlight[0.5]], [#highlight[Aftermarket or modified springs and/or bump stops (including STI and TRD lowering springs)]],
+  [#highlight[0.5]], [#highlight[Adjustable dampers (valving or ride height), packers, and/or modification to off-the-shelf damper valving]],
+  [#highlight[0.5]], [#highlight[Damper-volume-expanding devices (e.g. remote reservoirs or piggybacks)]],
 )
 
 == Weight Reduction
@@ -574,7 +574,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
 #boxed[
   === Free Modifications
-  - Any in-cabin safety equipment
   - Any brake fluid, brake pads, brake rotors, brake ducting, and/or big brake kit (BBK)
+  - Any in-cabin safety equipment
   - #highlight[Any lug nuts and wheel studs]
 ]
