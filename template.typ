@@ -61,8 +61,8 @@
   #emph[#body]
 ]
 
-#let oem_tire_disclaimer = aside[
-  \* OEM tires are only allowed for a competitor’s first 2 events. Competitors do not earn Tire Points while using OEM tires.
+#let oe_tire_disclaimer = aside[
+  \* OE tires are only allowed for a competitor’s first 2 events and do not count toward Tire Points.
 ]
 
 #let boxed(body) = rect(

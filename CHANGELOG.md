@@ -7,6 +7,7 @@
 - Allow lug nuts and studs in Stock Class and Free Modifications
 - Allow wheel spacers in Free Modifications
 - Added Corsa Sport 2.5", ISR Performance, and MRT Sport Touring to Stock Class
+- Added Michelin Primacy 4 (new OE tire for 2025)
 
 ### Changed
 
@@ -16,6 +17,7 @@
 - Significant changes to Touring class: Maximum 7 mod points and no balance of performance
 - Continental ExtremeContact Force (ECF) tires are now 2 points
 - Handicap for Buttonwillow Circuit Stock Class is now 2.0 seconds
+- Clarify STI and TRD lowering springs are not considered OE
 
 ### Removed
 

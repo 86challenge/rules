@@ -5,7 +5,7 @@
   facebook,
   frontmatter,
   numstr,
-  oem_tire_disclaimer,
+  oe_tire_disclaimer,
   spacer,
   template,
   twocols,
@@ -24,7 +24,7 @@ Welcome to 86~Challenge. Drivers of all skill levels are welcome and there is no
 
 See #website for more information, including schedule, historical results, and forms for registering for GT~Radial’s Championship Cash Prizes and GT~Radial’s Tire Contingency.
 
-Feel free to raise questions/clarifications in \#regulations in our #discord or on #facebook.
+Feel free to raise questions/clarifications in the \#regulations channel on our #discord or on #facebook. Throughout this document, OE refers to Original Equipment, as delivered from the factory.
 
 + #heading[General Rules]
   + Chassis must be one of the following (hereafter referred to by its _Designation_):
@@ -48,7 +48,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
   + *Registration*
     + #highlight[
-        Drivers must register for 86~Challenge prior to the start of each event (separate from buying a ticket with the trackday organizer). The registration form is made available on #website 1~week before each event. In case of multiple submissions, the latest will be used.
+        Drivers must register for 86~Challenge prior to the start of each event (separate from buying a ticket with the trackday organizer). The registration form is made available on #website prior to each event. In case of multiple submissions, the last submission will be used.
       ]
     + #highlight[
         Late registrations may be accepted on a case-by-case basis, but a driver registering late may not change to a different class from their previous event or previous registration for the same event.
@@ -149,7 +149,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
       [#highlight[Buttonwillow Raceway \#1]], [#highlight[2.5]],
       [Buttonwillow Raceway \#13], [2.0],
-      [#highlight[Buttonwillow Circuit]], [#highlight[2.0]],
+      [#highlight[Buttonwillow Circuit (New Track)]], [#highlight[2.0]],
       [Laguna Seca], [2.5],
       [Sonoma Raceway], [2.5],
       [Thunderhill 5-mile], [4.0],
@@ -158,7 +158,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
     )
 
   + *Engine & Powertrain*
-    + Engine software must be OEM.
+    + Engine software/firmware must be unmodified.
     + Oil coolers, #highlight[catch cans], accumulators, and/or sump changes are allowed.
     + Gen. 2 only: intake charcoal filters shall be present and unaltered.
     + #highlight[
@@ -176,16 +176,16 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
         columns: (1fr, 1fr),
         align: (left, left),
         table.header([Models], [Sizes]),
-        [GT~Radial Champiro SX2 or HPY],
+        [GT~Radial Champiro SX2 or Champiro HPY],
         [
           - 215/45R17
           - 225/45R17
         ],
 
-        [Michelin Primacy HP (OEM)\*], [- 215/45R17],
-        [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [- 215/40R18],
+        [Michelin Primacy HP or Primacy 4 (OE)\*], [- 215/45R17],
+        [Michelin Pilot Sport 4 (Gen. 2 OE)\*], [- 215/40R18],
       )
-      #oem_tire_disclaimer
+      #oe_tire_disclaimer
 
   + *Alignment*
     + Front camber shall not exceed (be more negative than) -2.5 degrees. Front camber may be adjusted using only the following parts:
@@ -197,7 +197,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
           [Allowed Parts],
         ),
 
-        [Crash bolts (i.e. 14 mm lower bolt used in upper position)],
+        [Crash bolts (i.e. OE 14 mm lower bolt used in upper position)],
         [
           - Subaru 901000394
           - Toyota SU003–02818
@@ -235,7 +235,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
             [Allowed Parts],
           ),
 
-          [OEM–style, adjustable, stamped steel rear lower control arms],
+          [OE–style, adjustable, stamped steel rear lower control arms],
           [
             - Moog RK100136
             - SPC 67660
@@ -249,20 +249,20 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
   + *Aero*
     + STI lip and TRD lip are not allowed.
     + Gen. 1 BRZ tS wing is not allowed.
-    + Gen. 2 ducktails (OEM or equivalently-sized) are allowed.
+    + Gen. 2 ducktails (OE or equivalently-sized) are allowed.
 
   + *Safety*
     + Any safety device may be used.
     + Cars may be equipped with aftermarket safety systems (bucket seats, racing harnesses, neck restraint system, full or half roll cage, etc.), as long as the total curb weight of the car remains above #highlight[2,800 lbs without driver and with a full tank of fuel]. Removing interior trim is allowed only as necessary to install the safety systems. The car must be weighed at a location approved by the Rules Board before it is allowed to enter Stock Class.
 
   + *Misc*
-    + #highlight[Any brake fluid, brake pads, brake rotors, brake ducting, and/or big brake kit (BBK) is allowed.]
-    + Replacing OEM parts with newer/older OEM parts is allowed (e.g. dampers, sway bars, etc).
-    + No lightweight replacement parts are allowed (e.g. battery or lighter-than-OEM trunk).
+    + #highlight[Any brake fluid, brake pads, brake rotors, brake ducting, and/or big brake kits are allowed.]
+    + Replacing OE parts with newer/older OE parts is allowed (e.g. dampers, sway bars, etc).
+    + No lightweight replacement parts are allowed (e.g. battery or lighter-than-OE trunk).
     + Removal of parts is prohibited, except the following: spare tire, floor mats, and included tools.
-    + OEM-style, off-the-shelf dampers are allowed as long as they have: non-adjustable damping, non-adjustable ride-height, and unaltered valving.
+    + OE-style, off-the-shelf dampers are allowed as long as they have: non-adjustable damping, non-adjustable ride-height, and unaltered valving.
     + #highlight[
-        Replacement of the OEM catback or axleback exhaust is allowed only using the following parts:
+        Replacement of the OE catback or axleback exhaust is allowed only using the following parts:
         #table(
           columns: (1fr, 2fr),
           align: (left, left),
@@ -273,7 +273,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
 
           [Catback],
           [
-            #twocols(rows: 4)[
+            #twocols(rows: 5)[
               - AWE Touring Edition
               - Corsa Sport 2.5"
               - CSG Spec Touring
@@ -296,7 +296,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
           ],
         )
       ]
-      #aside[If your preferred exhaust is not listed here, you may inquire in \#regulations in the #discord.]
+      #aside[#highlight[You may suggest additional exhausts in the \#regulations channel in our #discord. Stock-eligible exhausts must have a muffler, dual exits, 2.5"-maximum diameter pipe, and similar-to-OE weight.]]
 
 + #heading[GT~Radial Street Class]
   _Allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT~Radial Championship Cash Prizes and GT~Radial Tire Contingency._
@@ -316,13 +316,13 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
         columns: (1fr, 1fr),
         align: (left, left),
         table.header([Models], [Sizes]),
-        [GT~Radial Champiro SX2 or HPY],
+        [GT~Radial Champiro SX2 or Champiro HPY],
         [- 17” with 245 mm maximum section width],
 
-        [Michelin Primacy HP (OEM)\*], [- 215/45R17],
-        [Michelin Pilot Sport 4 (Gen. 2 OEM)\*], [- 215/40R18],
+        [Michelin Primacy HP or Primacy 4 (OE)\*], [- 215/45R17],
+        [Michelin Pilot Sport 4 (Gen. 2 OE)\*], [- 215/40R18],
       )
-      #oem_tire_disclaimer
+      #oe_tire_disclaimer
 
 + #heading[Touring Class]
   _Allows significant modification freedom and many more tire choices. Participants are eligible for GT~Radial Tire Contingency._
@@ -339,7 +339,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
   + Anything goes!
 
 + #heading[Modification Points] <mods>
-  This section applies only to GT~Radial Street Class and Touring Class. OE refers to Original Equipment.
+  This section applies only to GT~Radial Street Class and Touring Class.
 
 #set align(center)
 #set table(columns: (60pt, 1fr), align: (center, left))
@@ -366,6 +366,7 @@ Feel free to raise questions/clarifications in \#regulations in our #discord or 
     - 17" GT~Radial SX2
     - 17" GT~Radial HPY
     - 17" Michelin Primacy HP
+    - 17" Michelin Primacy 4
   ],
   [0], [
     - Michelin Pilot Sport 4
