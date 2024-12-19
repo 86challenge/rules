@@ -54,15 +54,15 @@
 
 #let facebook = link("https://www.facebook.com/groups/86challenge")[Facebook]
 
-#let discord = link("https://86challenge.us")[Discord Server]
+#let discord = link("https://discord.gg/sDKdV4TS4T")[Discord Server]
 
 #let aside(body) = text[
   #set text(size: 9pt)
   #emph[#body]
 ]
 
-#let oem_tire_disclaimer = aside[
-  \* OEM tires are only allowed for a competitor’s first 2 events. Competitors do not earn Tire Points while using OEM tires.
+#let oe_tire_disclaimer = aside[
+  \* OE tires are only allowed for a competitor’s first 2 events and do not count toward Tire Points.
 ]
 
 #let boxed(body) = rect(
@@ -76,7 +76,7 @@
   #body
 ]
 
-#let twocols(height: length, body) = box(height: height)[
+#let twocols(rows: int, body) = box(height: rows * 1.33em)[
   #set block(breakable: true)
   #columns(2)[#body]
 ]
@@ -96,7 +96,7 @@
     Version #text((str(year), str(revision)).join(".")) \
     Released #datetime.today().display("[month repr:long] [day], [year]")
 
-    Significant additions or changes are #highlight[highlighted].
+    Significant additions or changes for this year are #highlight[highlighted].
   ]
 
   #spacer
