@@ -18,12 +18,12 @@
   #show table: set block(breakable: false)
 
   #set table(
-    stroke: (x: 0pt, y: 0.5pt),
+    stroke: (x: 0pt, y: 0.5pt + luma(100)),
     fill: (_, y) => {
       if y == 0 {
-        rgb("ddd")
+        luma(200)
       } else if calc.even(y) {
-        rgb("f6f6f6")
+        luma(240)
       }
     },
   )
@@ -54,21 +54,22 @@
 
 #let facebook = link("https://www.facebook.com/groups/86challenge")[Facebook]
 
-#let discord = link("https://86challenge.us")[Discord Server]
+#let discord = link("https://discord.gg/sDKdV4TS4T")[Discord Server]
 
 #let aside(body) = text[
   #set text(size: 9pt)
   #emph[#body]
 ]
 
-#let oem_tire_disclaimer = aside[
-  \* OEM tires are only allowed for a competitor’s first 2 events. Competitors do not earn Tire Points while using OEM tires.
+#let oe_tire_disclaimer = aside[
+  \* OE tires are only allowed for a competitor’s first 2 events and do not count toward Tire Points.
 ]
 
 #let boxed(body) = rect(
   width: 100%,
-  stroke: 0.5pt + black,
-  fill: rgb("f6f6f6"),
+  stroke: 0.5pt + luma(100),
+  fill: luma(240),
+  radius: 3pt,
   inset: 8pt,
 )[
   #set align(left)
@@ -76,7 +77,7 @@
   #body
 ]
 
-#let twocols(height: length, body) = box(height: height)[
+#let twocols(rows: int, body) = box(height: rows * 1.33em)[
   #set block(breakable: true)
   #columns(2)[#body]
 ]
@@ -96,7 +97,7 @@
     Version #text((str(year), str(revision)).join(".")) \
     Released #datetime.today().display("[month repr:long] [day], [year]")
 
-    Significant additions or changes are #highlight[highlighted].
+    Significant additions or changes for this year are #highlight[highlighted].
   ]
 
   #spacer
