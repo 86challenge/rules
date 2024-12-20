@@ -378,7 +378,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   ],
   [2], [
     #twocols(rows: 10)[
-      - Armstrong Blu-Trac Race
+      - #highlight[Armstrong Blu-Trac Race]
       - #highlight[Continental ExtremeContact Force (ECF)]
       - Continental ExtremeContact Sport (ECS)
       - Dunlop Direzza ZII Star Spec
