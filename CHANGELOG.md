@@ -8,6 +8,7 @@
 - Allow wheel spacers in Free Modifications
 - Added Corsa Sport 2.5", ISR Performance, and MRT Sport Touring to Stock Class
 - Added Michelin Primacy 4 (new OE tire for 2025)
+- Added Armstrong Blu-Trac Race tire for 2 pts
 
 ### Changed
 

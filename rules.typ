@@ -378,6 +378,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   ],
   [2], [
     #twocols(rows: 10)[
+      - Armstrong Blu-Trac Race
       - #highlight[Continental ExtremeContact Force (ECF)]
       - Continental ExtremeContact Sport (ECS)
       - Dunlop Direzza ZII Star Spec
@@ -468,6 +469,29 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   )
 ]
 
+== Suspension
+
+#boxed[
+  === Free Modifications
+  - Any alignment bolt/kit
+  - #highlight[Any altered suspension mounting points and suspension lengths]
+  - Any bolt-on chassis bracing
+  - Any spherical bushings, including strut top mounts
+  - Any sway bars
+  - #highlight[Any wheel spacers]
+  - OE-style, non-adjustable dampers with fixed spring perches and unaltered valving
+]
+
+#aside[Take points for EACH applicable row:]
+
+#table(
+  table.header([Points], [Modifications]),
+
+  [#highlight[0.5]], [#highlight[Aftermarket or modified springs and/or bump stops (including STI and TRD lowering springs)]],
+  [#highlight[0.5]], [#highlight[Adjustable dampers (valving or ride height), packers, and/or modification to off-the-shelf damper valving]],
+  [#highlight[0.5]], [#highlight[Remote reservoirs, piggybacks, or any other volume-expanding devices)]],
+)
+
 #pagebreak()
 
 #figure(
@@ -531,29 +555,6 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   table.header([Points], [Modifications]),
   [0.5], [Canards, dive planes, hood vents, fender vents, and/or vertical deviations on splitters],
   [0.5], [Any #highlight[underbody aero modifications between the front and rear axles] and/or rear diffuser extending backward beyond the rear bumper trailing edge],
-)
-
-== Suspension
-
-#boxed[
-  === Free Modifications
-  - Any alignment bolt/kit
-  - #highlight[Any altered suspension mounting points and suspension lengths]
-  - Any bolt-on chassis bracing
-  - Any spherical bushings, including strut top mounts
-  - Any sway bars
-  - #highlight[Any wheel spacers]
-  - OE-style, non-adjustable dampers with fixed spring perches and unaltered valving
-]
-
-#aside[Take points for EACH applicable row:]
-
-#table(
-  table.header([Points], [Modifications]),
-
-  [#highlight[0.5]], [#highlight[Aftermarket or modified springs and/or bump stops (including STI and TRD lowering springs)]],
-  [#highlight[0.5]], [#highlight[Adjustable dampers (valving or ride height), packers, and/or modification to off-the-shelf damper valving]],
-  [#highlight[0.5]], [#highlight[Damper-volume-expanding devices (e.g. remote reservoirs or piggybacks)]],
 )
 
 == Weight Reduction
