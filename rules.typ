@@ -383,7 +383,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
       - Continental ExtremeContact Sport (ECS)
       - Dunlop Direzza ZII Star Spec
       - Dunlop Direzza ZIII
-      - Falken Azenis RT615K
+      - Falken Azenis RT615K+
       - Federal 595 RS-RR
       - Goodyear Eagle F1 Supercar 3
       - Hankook Ventus RS-4
