@@ -18,12 +18,12 @@
   #show table: set block(breakable: false)
 
   #set table(
-    stroke: (x: 0pt, y: 0.5pt),
+    stroke: (x: 0pt, y: 0.5pt + luma(100)),
     fill: (_, y) => {
       if y == 0 {
-        rgb("ddd")
+        luma(200)
       } else if calc.even(y) {
-        rgb("f6f6f6")
+        luma(240)
       }
     },
   )
@@ -67,8 +67,9 @@
 
 #let boxed(body) = rect(
   width: 100%,
-  stroke: 0.5pt + black,
-  fill: rgb("f6f6f6"),
+  stroke: 0.5pt + luma(100),
+  fill: luma(240),
+  radius: 3pt,
   inset: 8pt,
 )[
   #set align(left)

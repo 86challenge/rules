@@ -469,29 +469,6 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   )
 ]
 
-== Suspension
-
-#boxed[
-  === Free Modifications
-  - Any alignment bolt/kit
-  - #highlight[Any altered suspension mounting points and suspension lengths]
-  - Any bolt-on chassis bracing
-  - Any spherical bushings, including strut top mounts
-  - Any sway bars
-  - #highlight[Any wheel spacers]
-  - OE-style, non-adjustable dampers with fixed spring perches and unaltered valving
-]
-
-#aside[Take points for EACH applicable row:]
-
-#table(
-  table.header([Points], [Modifications]),
-
-  [#highlight[0.5]], [#highlight[Aftermarket or modified springs and/or bump stops (including STI and TRD lowering springs)]],
-  [#highlight[0.5]], [#highlight[Adjustable dampers (valving or ride height), packers, and/or modification to off-the-shelf damper valving]],
-  [#highlight[0.5]], [#highlight[Remote reservoirs, piggybacks, or any other volume-expanding devices)]],
-)
-
 #pagebreak()
 
 #figure(
@@ -556,6 +533,39 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   [0.5], [Canards, dive planes, hood vents, fender vents, and/or vertical deviations on splitters],
   [0.5], [Any #highlight[underbody aero modifications between the front and rear axles] and/or rear diffuser extending backward beyond the rear bumper trailing edge],
 )
+
+== Suspension
+
+#boxed[
+  === Free Modifications
+  - Any alignment bolt/kit
+  - #highlight[Any altered suspension mounting points and suspension lengths]
+  - Any bolt-on chassis bracing
+  - Any spherical bushings, including strut top mounts
+  - Any sway bars
+  - #highlight[Any wheel spacers]
+]
+
+#aside[Take points for ONE of the following:]
+
+#table(
+  table.header([Points], [Modifications]),
+
+  [#highlight[0]], [#highlight[Unmodified OE or OE-Replacement\* dampers with OE springs\*\* and bump stops]],
+  [#highlight[0.5]], [#highlight[Unmodified OE or OE-Replacement\* dampers with aftermarket/modified springs and/or bump stops]],
+  [#highlight[1.0]], [#highlight[Any other dampers without remote reservoirs\*\*\* with any springs and bump stops]],
+  [#highlight[1.5]], [#highlight[Any other dampers with remote reservoirs\*\*\* with any springs and bump stops]],
+)
+
+#highlight[
+  #aside[
+    #set terms(indent: 1em)
+    #set align(left)
+    / #h(0.8em)\* OE-Replacement: Must be one of the following: Bilstein B6, KYB Excel G
+    / #h(0.4em)\*\* OE springs: STI and TRD lowering springs are not considered OE
+    / \*\*\* Remote reservoirs: Including piggybacks or other volume-expanding devices
+  ]
+]
 
 == Weight Reduction
 
