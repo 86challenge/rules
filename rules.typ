@@ -260,7 +260,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
     + Replacing OE parts with newer/older OE parts is allowed (e.g. dampers, sway bars, etc).
     + No lightweight replacement parts are allowed (e.g. battery or lighter-than-OE trunk).
     + Removal of parts is prohibited, except the following: spare tire, floor mats, and included tools.
-    + OE-style, off-the-shelf dampers are allowed as long as they have: non-adjustable damping, non-adjustable ride-height, and unaltered valving.
+    + #highlight[The following unmodified OE-Replacement dampers are allowed: Bilstein B6 and KYB Excel G.]
     + #highlight[
         Replacement of the OE catback or axleback exhaust is allowed only using the following parts:
         #table(
@@ -273,12 +273,13 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 
           [Catback],
           [
-            #twocols(rows: 5)[
+            #twocols(rows: 6)[
               - AWE Touring Edition
               - Corsa Sport 2.5"
               - CSG Spec Touring
               - GR Performance
               - GReddy Supreme SP
+              - ISR Performance OMS Spec
               - Perrin 2.5" Dual Tip
               - TRD Performance
               - Yonaka Stainless
@@ -287,9 +288,8 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 
           [Axleback],
           [
-            #twocols(rows: 4)[
+            #twocols(rows: 3)[
               - DC Sports
-              - ISR Performance
               - MRT Sport Touring
               - STi Performance Muffler
             ]
@@ -461,7 +461,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
     table.header([Points], [Modifications]),
 
     [0], [
-      Factory engine tune
+      OE engine tune
     ],
     [0.5], [Engine tune for 93 octane gasoline or lower],
     [1.5], [Naturally aspirated engine tune for >93 octane gasoline or >15% ethanol content],
