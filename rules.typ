@@ -273,8 +273,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 
           [Catback],
           [
-            #twocols(rows: 6)[
-              - AWE Touring Edition
+            #twocols(rows: 8)[
               - Corsa Sport 2.5"
               - CSG Spec Touring
               - GR Performance
