@@ -8,6 +8,7 @@
 - Allow wheel spacers in Free Modifications
 - Added Michelin Primacy 4 (new OE tire for 2025)
 - Added Armstrong Blu-Trac Race tire for 2 pts
+- Added Hoosier TrackAttack Pro for 3 pts
 
 ### Changed
 
@@ -18,6 +19,7 @@
 - Continental ExtremeContact Force (ECF) tires are now 2 points
 - Handicap for Buttonwillow Circuit Stock Class is now 2.0 seconds
 - Clarify STI and TRD lowering springs are not considered OE
+- Revert stock class exhast rules to be by weight only. Add weight limit for axle-back exhausts.
 
 ### Removed
 
