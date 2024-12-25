@@ -223,10 +223,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
         ],
       )
     + #highlight[
-        Rear camber with stock, unmodified, and undamaged components is not restricted.
-      ]
-    + #highlight[
-        Rear camber with adjustable components shall not exceed -2.0 degrees. Rear camber may be adjusted using only the following parts:
+        Rear camber shall not exceed -2.0 degrees. Rear camber may be adjusted using only the following parts:
         #table(
           columns: (1fr, 1fr),
           align: (left, left),
@@ -382,6 +379,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
       - Bridgestone Potenza RE71RS
       - Falken Azenis RT660
       - Goodyear Eagle F1 Supercar 3R
+      - #highlight[Hoosier TrackAttack Pro]
       - Maxxis Victra RC-1
       - #highlight[Maxxis Victra VR2]
       - Nankang AR-1
