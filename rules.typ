@@ -261,41 +261,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
     + No lightweight replacement parts are allowed (e.g. battery or lighter-than-OE trunk).
     + Removal of parts is prohibited, except the following: spare tire, floor mats, and included tools.
     + #highlight[The following unmodified OE-Replacement dampers are allowed: Bilstein B6 and KYB Excel G.]
-    + #highlight[
-        Replacement of the OE catback or axleback exhaust is allowed only using the following parts:
-        #table(
-          columns: (1fr, 2fr),
-          align: (left, left),
-          table.header(
-            [Description],
-            [Allowed Parts],
-          ),
-
-          [Catback],
-          [
-            #twocols(rows: 8)[
-              - Corsa Sport 2.5"
-              - CSG Spec Touring
-              - GR Performance
-              - GReddy Supreme SP
-              - ISR Performance OMS Spec
-              - Perrin 2.5" Dual Tip
-              - TRD Performance
-              - Yonaka Stainless
-            ]
-          ],
-
-          [Axleback],
-          [
-            #twocols(rows: 3)[
-              - DC Sports
-              - MRT Sport Touring
-              - STi Performance Muffler
-            ]
-          ],
-        )
-      ]
-      #aside[#highlight[You may suggest additional exhausts in the \#regulations channel in our #discord. Stock-eligible exhausts must have a muffler, dual exits, 2.5"-maximum diameter pipe, and similar-to-OE weight.]]
+    + Aftermarket cat-back exhaust with a weight greater than 32 lbs or #highlight[axle-back with weight greater than 19 lbs] are allowed. OE catalytic converters must be retained and unmodified.
 
 + #heading[GT~Radial Street Class]
   _Allows moderate modification flexibility and balances competition between generations through Modification Points. Participants are eligible for GT~Radial Championship Cash Prizes and GT~Radial Tire Contingency._
@@ -342,6 +308,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 
 #set align(center)
 #set table(columns: (60pt, 1fr), align: (center, left))
+#show table: set block(breakable: false)
 
 == Chassis
 
@@ -352,28 +319,37 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   [2], [Gen. 2 (2022+ model years)],
 )
 
+#pagebreak()
+
 == Tires
 #aside[
   Any tire not on this list is automatically 6pts
 ]
 
-#show table: set block(breakable: true)
 
 #table(
   table.header([Points], [Modifications]),
   [-1], [
-    - 17" GT~Radial SX2
-    - 17" GT~Radial HPY
-    - 17" Michelin Primacy HP
-    - 17" Michelin Primacy 4
+    #twocols(rows: 2)[
+      - 17" GT~Radial SX2
+      - 17" GT~Radial HPY
+      - 17" Michelin Primacy HP
+      - 17" Michelin Primacy 4
+    ]
   ],
   [0], [
-    - Michelin Pilot Sport 4
-    - #highlight[Yokohama Advan Apex V601]
+    #twocols(rows: 1)[
+
+      - Michelin Pilot Sport 4
+      - #highlight[Yokohama Advan Apex V601]
+    ]
   ],
   [1], [
-    - 18" GT~Radial SX2
-    - GT~Radial SX2 RS
+    #twocols(rows: 1)[
+
+      - 18" GT~Radial SX2
+      - GT~Radial SX2 RS
+    ]
   ],
   [2], [
     #twocols(rows: 10)[
@@ -418,8 +394,39 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   [6], [Racing slicks or any tire not listed above],
 )
 
-#show table: set block(breakable: false)
-#pagebreak()
+== Suspension
+
+#boxed[
+  === Free Modifications
+  - Any alignment bolt/kit
+  - #highlight[Any altered suspension mounting points and suspension lengths]
+  - Any bolt-on chassis bracing
+  - Any spherical bushings, including strut top mounts
+  - Any sway bars
+  - #highlight[Any wheel spacers]
+]
+
+#aside[Take points for ONE of the following:]
+
+#table(
+  table.header([Points], [Modifications]),
+
+  [#highlight[0]], [#highlight[Unmodified OE or OE-Replacement\* dampers with OE springs\*\* and bump stops]],
+  [#highlight[0.5]], [#highlight[Unmodified OE or OE-Replacement\* dampers with aftermarket/modified springs and/or bump stops]],
+  [#highlight[1.0]], [#highlight[Any other dampers without remote reservoirs\*\*\* with any springs and bump stops]],
+  [#highlight[1.5]], [#highlight[Any other dampers with remote reservoirs\*\*\* with any springs and bump stops]],
+)
+
+#highlight[
+  #aside[
+    #set terms(indent: 1em)
+    #set align(left)
+    / #h(0.8em)\* OE-Replacement: Must be one of the following: Bilstein B6, KYB Excel G
+    / #h(0.4em)\*\* OE springs: STI and TRD lowering springs are not considered OE
+    / \*\*\* Remote reservoirs: Including piggybacks or other volume-expanding devices
+  ]
+]
+
 
 == Engine Mechanical & Drivetrain
 
@@ -532,39 +539,6 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   [0.5], [Canards, dive planes, hood vents, fender vents, and/or vertical deviations on splitters],
   [0.5], [Any #highlight[underbody aero modifications between the front and rear axles] and/or rear diffuser extending backward beyond the rear bumper trailing edge],
 )
-
-== Suspension
-
-#boxed[
-  === Free Modifications
-  - Any alignment bolt/kit
-  - #highlight[Any altered suspension mounting points and suspension lengths]
-  - Any bolt-on chassis bracing
-  - Any spherical bushings, including strut top mounts
-  - Any sway bars
-  - #highlight[Any wheel spacers]
-]
-
-#aside[Take points for ONE of the following:]
-
-#table(
-  table.header([Points], [Modifications]),
-
-  [#highlight[0]], [#highlight[Unmodified OE or OE-Replacement\* dampers with OE springs\*\* and bump stops]],
-  [#highlight[0.5]], [#highlight[Unmodified OE or OE-Replacement\* dampers with aftermarket/modified springs and/or bump stops]],
-  [#highlight[1.0]], [#highlight[Any other dampers without remote reservoirs\*\*\* with any springs and bump stops]],
-  [#highlight[1.5]], [#highlight[Any other dampers with remote reservoirs\*\*\* with any springs and bump stops]],
-)
-
-#highlight[
-  #aside[
-    #set terms(indent: 1em)
-    #set align(left)
-    / #h(0.8em)\* OE-Replacement: Must be one of the following: Bilstein B6, KYB Excel G
-    / #h(0.4em)\*\* OE springs: STI and TRD lowering springs are not considered OE
-    / \*\*\* Remote reservoirs: Including piggybacks or other volume-expanding devices
-  ]
-]
 
 == Weight Reduction
 
