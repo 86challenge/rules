@@ -1,6 +1,29 @@
 # Changelog
 
-## [Unreleased]
+## 2025.2
+
+### Added
+
+- Allow lug nuts and studs in Stock Class and Free Modifications
+- Allow wheel spacers in Free Modifications
+- Added Michelin Primacy 4 (new OE tire for 2025)
+- Added Armstrong Blu-Trac Race tire for 2 pts
+- Added Hoosier TrackAttack Pro for 3 pts
+
+### Changed
+
+- Include bump stops in non-OEM springs
+- Include packers in pointed dampers
+- Clarified championship tiebreak countback only counting the best 7 results
+- Significant changes to Touring class: Maximum 7 mod points and no balance of performance
+- Continental ExtremeContact Force (ECF) tires are now 2 points
+- Handicap for Buttonwillow Circuit Stock Class is now 2.0 seconds
+- Clarify STI and TRD lowering springs are not considered OE
+- Revert stock class exhast rules to be by weight only. Add weight limit for axle-back exhausts.
+
+### Removed
+
+- H&R camber bolts removed from Stock rear camber allowed parts list
 
 ## 2025.1
 
