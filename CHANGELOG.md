@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- Yokohama ADVAN Neova AD09 are added as 2 pts
+
+### Changed
+
+- Clarify language for 2-event grace period for OE tires
+
 ## 2025.2
 
 ### Added
@@ -58,7 +68,7 @@
 - Changed points for forced induction and tunes to reduce complexity while maintaining the same point values
 - Simplified language for splitters/lips
 - Underbody aero between the front and rear axles are now included in the 0.5 pt larger rear diffuser modification
-- Expanded Free Modifications for suspension geometry 
+- Expanded Free Modifications for suspension geometry
 - Pointed suspension upgrades are now a la carte
 
 ### Removed

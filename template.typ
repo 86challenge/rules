@@ -62,7 +62,7 @@
 ]
 
 #let oe_tire_disclaimer = aside[
-  \* OE tires are only allowed for a competitor’s first 2 events and do not count toward Tire Points.
+  \* OE tires are only allowed for a competitor’s first 2 #highlight[86 Challenge] events and are ineligible for Tire Points.
 ]
 
 #let boxed(body) = rect(
@@ -89,9 +89,7 @@
     #image("images/logo.png", width: 120pt)
 
     #text(17pt)[
-      #strong(
-        (str(year), "Rules").join(" "),
-      )
+      #strong((str(year), "Rules").join(" "))
     ]
 
     Version #text((str(year), str(revision)).join(".")) \

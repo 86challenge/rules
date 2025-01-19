@@ -349,7 +349,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
     ]
   ],
   [2], [
-    #twocols(rows: 10)[
+    #twocols(rows: 11)[
       - #highlight[Armstrong Blu-Trac Race]
       - #highlight[Continental ExtremeContact Force (ECF)]
       - Continental ExtremeContact Sport (ECS)
@@ -369,7 +369,8 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
       - Nitto NT01
       - Nitto NT05
       - Toyo Proxes R888
-      - Yokohama Advan AD08R
+      - Yokohama Advan Neova AD08R
+      - #highlight[Yokohama Advan Neova AD09]
     ]
   ],
   [3], [
