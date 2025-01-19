@@ -1,5 +1,15 @@
 # Changelog
 
+## 2025.3
+
+### Added
+
+- Yokohama ADVAN Neova AD09 are added as 2 pts
+
+### Changed
+
+- Clarify language for 2-event grace period for OE tires
+
 ## 2025.2
 
 ### Added

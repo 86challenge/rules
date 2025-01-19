@@ -12,4 +12,4 @@ watch:
 
 # Autoformat the rules file
 format:
-  typstyle -i rules.typ template.typ
+  typstyle format-all
