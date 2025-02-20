@@ -100,11 +100,11 @@
 
   #spacer
 
+  #set outline.entry(fill: none)
   #outline(
+    title: none,
     target: heading.where(outlined: true),
-    indent: 12pt,
     depth: 2,
-    fill: none,
   )
 
   #spacer
