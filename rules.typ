@@ -14,7 +14,7 @@
 
 #show: template
 
-#frontmatter(year: 2025, revision: 2)
+#frontmatter(year: 2025, revision: 3)
 
 #heading(outlined: false)[
   Introduction
@@ -22,7 +22,7 @@
 
 Welcome to 86~Challenge. Drivers of all skill levels are welcome and there is no charge to participate.
 
-See #website for more information, including schedule, historical results, and forms for registering for GT~Radial’s Championship Cash Prizes and GT~Radial’s Tire Contingency.
+See #website for more information, including schedule, historical results, and forms for registering for the RaceTreads.com GT~Radial Championship Prize and RaceTreads.com GT~Radial Tire Contingency.
 
 Feel free to raise questions/clarifications in the \#regulations channel on our #discord or on #facebook. Throughout this document, OE refers to Original Equipment, as delivered from the factory.
 
@@ -349,7 +349,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
     ]
   ],
   [2], [
-    #twocols(rows: 10)[
+    #twocols(rows: 11)[
       - #highlight[Armstrong Blu-Trac Race]
       - #highlight[Continental ExtremeContact Force (ECF)]
       - Continental ExtremeContact Sport (ECS)
@@ -369,7 +369,8 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
       - Nitto NT01
       - Nitto NT05
       - Toyo Proxes R888
-      - Yokohama Advan AD08R
+      - Yokohama Advan Neova AD08R
+      - #highlight[Yokohama Advan Neova AD09]
     ]
   ],
   [3], [
