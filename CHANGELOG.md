@@ -5,6 +5,7 @@
 ### Added
 
 - Yokohama ADVAN Neova AD09 are added as 2 pts
+- Nankang CR-S are added as 3 pts
 
 ### Changed
 
