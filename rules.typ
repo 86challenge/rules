@@ -374,7 +374,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
     ]
   ],
   [3], [
-    #twocols(rows: 6)[
+    #twocols(rows: 7)[
       - BFGoodrich g-Force Rival S
       - Bridgestone Potenza RE71R
       - Bridgestone Potenza RE71RS
@@ -385,6 +385,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
       - #highlight[Maxxis Victra VR2]
       - Nankang AR-1
       - Nankang CR-1
+      - #highlight[Nankang CR-S]
       - Nexen N’Fera SUR4G
       - Yokohama Advan A052
     ]
