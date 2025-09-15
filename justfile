@@ -12,4 +12,4 @@ watch:
 
 # Autoformat the rules file
 format:
-  typstyle format-all
+  typstyle -l 120 -i *.typ
