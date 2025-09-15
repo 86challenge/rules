@@ -1,15 +1,5 @@
 #import "template.typ": (
-  aside,
-  boxed,
-  discord,
-  facebook,
-  frontmatter,
-  numstr,
-  oe_tire_disclaimer,
-  spacer,
-  template,
-  twocols,
-  website,
+  aside, boxed, discord, facebook, frontmatter, numstr, oe_tire_disclaimer, spacer, template, twocols, website,
 )
 
 #show: template
@@ -30,7 +20,6 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   + Chassis must be one of the following (hereafter referred to by its _Designation_):
     #table(
       columns: 2,
-      align: (left, left),
       table.header([Designation], [Chassis]),
       [Gen. 1],
       [
@@ -62,14 +51,11 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
         align: (left, center),
         table.header([Timing Method], [Time Penalty (s)]),
         [Official timing transponder], [0.0],
-        [10 Hz or greater GPS lap timer (e.g. AiM, Garmin Catalyst, smartphone app with external GPS)],
-        [0.2],
+        [10 Hz or greater GPS lap timer (e.g. AiM, Garmin Catalyst, smartphone app with external GPS)], [0.2],
 
-        [1 Hz or greater GPS lap timer (e.g. smartphone app with built-in GPS)],
-        [0.5],
+        [1 Hz or greater GPS lap timer (e.g. smartphone app with built-in GPS)], [0.5],
 
-        [#highlight[Unedited onboard video (may be accepted for a driver’s first event only)]],
-        [0.5],
+        [#highlight[Unedited onboard video (may be accepted for a driver’s first event only)]], [0.5],
       )
     + #highlight[
         *Tiebreaker*: If multiple competitors have identical times in an event, the tie is broken by comparing each driver’s second fastest lap, then third fastest lap, and so on.
@@ -80,10 +66,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
       #table(
         columns: 2,
         align: (center, center),
-        table.header(
-          [Finishing Position],
-          [Points],
-        ),
+        table.header([Finishing Position], [Points]),
 
         [1st], [10],
         [2nd], [7],
@@ -96,18 +79,12 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
     + Separate points tallies are used to track Championship Standings and Tire Contingency points:
       #table(
         columns: 2,
-        align: (left, left),
-        table.header(
-          [Type],
-          [Definition],
-        ),
+        table.header([Type], [Definition]),
 
         [*Total Points*], [The sum of a driver’s points earned from all events],
-        [*Championship Points*],
-        [The sum of a driver’s points earned from their 7 best finishes],
+        [*Championship Points*], [The sum of a driver’s points earned from their 7 best finishes],
 
-        [*Tire Points*],
-        [The sum of a driver’s points earned satisfying the terms of the GT~Radial Tire Contingency],
+        [*Tire Points*], [The sum of a driver’s points earned satisfying the terms of the GT~Radial Tire Contingency],
       )
     + #highlight[
         *Changing Classes*: <changing-classes> If a driver changes classes during a season, they can choose to:
@@ -142,10 +119,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
     #table(
       columns: 2,
       align: (left, center),
-      table.header(
-        [Track],
-        [Time Handicap (s)],
-      ),
+      table.header([Track], [Time Handicap (s)]),
 
       [#highlight[Buttonwillow Raceway \#1]], [#highlight[2.5]],
       [Buttonwillow Raceway \#13], [2.0],
@@ -174,7 +148,6 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
     + Tires must be one of the following:
       #table(
         columns: (1fr, 1fr),
-        align: (left, left),
         table.header([Models], [Sizes]),
         [GT~Radial Champiro SX2 or Champiro HPY],
         [
@@ -191,11 +164,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
     + Front camber shall not exceed (be more negative than) -2.5 degrees. Front camber may be adjusted using only the following parts:
       #table(
         columns: (1fr, 1fr),
-        align: (left, left),
-        table.header(
-          [Description],
-          [Allowed Parts],
-        ),
+        table.header([Description], [Allowed Parts]),
 
         [Crash bolts (i.e. OE 14 mm lower bolt used in upper position)],
         [
@@ -226,11 +195,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
         Rear camber shall not exceed -2.0 degrees. Rear camber may be adjusted using only the following parts:
         #table(
           columns: (1fr, 1fr),
-          align: (left, left),
-          table.header(
-            [Description],
-            [Allowed Parts],
-          ),
+          table.header([Description], [Allowed Parts]),
 
           [OE–style, adjustable, stamped steel rear lower control arms],
           [
@@ -276,10 +241,8 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
     + Tires must be one of the following:
       #table(
         columns: (1fr, 1fr),
-        align: (left, left),
         table.header([Models], [Sizes]),
-        [GT~Radial Champiro SX2 or Champiro HPY],
-        [- 17” with 245 mm maximum section width],
+        [GT~Radial Champiro SX2 or Champiro HPY], [- 17” with 245 mm maximum section width],
 
         [Michelin Primacy HP or Primacy 4 (OE)\*], [- 215/45R17],
         [Michelin Pilot Sport 4 (Gen. 2 OE)\*], [- 215/40R18],
@@ -310,6 +273,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 == Chassis
 
 #table(
+  columns: 2,
   table.header([Points], [Chassis]),
 
   [0], [Gen. 1 (2013–2020 model years)],
@@ -325,8 +289,10 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 
 
 #table(
+  columns: 2,
   table.header([Points], [Modifications]),
-  [-1], [
+  [-1],
+  [
     #twocols(rows: 2)[
       - 17" GT~Radial SX2
       - 17" GT~Radial HPY
@@ -334,21 +300,27 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
       - 17" Michelin Primacy 4
     ]
   ],
-  [0], [
+
+  [0],
+  [
     #twocols(rows: 1)[
 
       - Michelin Pilot Sport 4
       - #highlight[Yokohama Advan Apex V601]
     ]
   ],
-  [1], [
+
+  [1],
+  [
     #twocols(rows: 1)[
 
       - 18" GT~Radial SX2
       - GT~Radial SX2 RS
     ]
   ],
-  [2], [
+
+  [2],
+  [
     #twocols(rows: 11)[
       - #highlight[Armstrong Blu-Trac Race]
       - #highlight[Continental ExtremeContact Force (ECF)]
@@ -373,7 +345,9 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
       - #highlight[Yokohama Advan Neova AD09]
     ]
   ],
-  [3], [
+
+  [3],
+  [
     #twocols(rows: 7)[
       - BFGoodrich g-Force Rival S
       - Bridgestone Potenza RE71R
@@ -390,6 +364,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
       - Yokohama Advan A052
     ]
   ],
+
   [5], [Treadwear 40–99],
   [6], [Racing slicks or any tire not listed above],
 )
@@ -409,11 +384,16 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 #aside[Take points for ONE of the following:]
 
 #table(
+  columns: 2,
   table.header([Points], [Modifications]),
 
   [#highlight[0]], [#highlight[Unmodified OE or OE-Replacement\* dampers with OE springs\*\* and bump stops]],
-  [#highlight[0.5]], [#highlight[Unmodified OE or OE-Replacement\* dampers with aftermarket/modified springs and/or bump stops]],
+
+  [#highlight[0.5]],
+  [#highlight[Unmodified OE or OE-Replacement\* dampers with aftermarket/modified springs and/or bump stops]],
+
   [#highlight[1.0]], [#highlight[Any other dampers without remote reservoirs\*\*\* with any springs and bump stops]],
+
   [#highlight[1.5]], [#highlight[Any other dampers with remote reservoirs\*\*\* with any springs and bump stops]],
 )
 
@@ -444,9 +424,11 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 #aside[Take points for EACH applicable row:]
 
 #table(
+  columns: 2,
   table.header([Points], [Modifications]),
 
   [0.5], [Aftermarket intake, header, front-pipe, overpipe, and/or any removal of OE catalytic converter],
+
   [0.5], [Lighter-than-OE rotational inertia flywheel, clutch, and/or driveshaft],
   [0.5], [Aftermarket limited slip differential],
   [1], [Aftermarket transmission],
@@ -464,11 +446,14 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 #aside[Take points for ONE of the following:]
 #highlight[
   #table(
+    columns: 2,
     table.header([Points], [Modifications]),
 
-    [0], [
+    [0],
+    [
       OE engine tune
     ],
+
     [0.5], [Engine tune for 93 octane gasoline or lower],
     [1.5], [Naturally aspirated engine tune for >93 octane gasoline or >15% ethanol content],
     [2.5], [Forced induction engine tune for >93 octane gasoline or >15% ethanol content],
@@ -491,11 +476,17 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 #aside[Take points for ONE of the following:]
 
 #table(
+  columns: 2,
   table.header([Points], [Modifications]),
-  [0], [No aero modifications or any device extending #highlight[up to 50 mm in any direction] from the bottom leading edge of the bumper (including STI lip and TRD lip)],
+  [0],
+  [No aero modifications or any device extending #highlight[up to 50 mm in any direction] from the bottom leading edge of the bumper (including STI lip and TRD lip)],
+
   [1], [Any device extending #highlight[up to 75 mm in any direction] from the bottom leading edge of the bumper],
+
   [1.5], [Any device extending #highlight[up to 125 mm in any direction] from the bottom leading edge of the bumper],
-  [3], [Any device extending #highlight[greater than 125 mm in any direction] from the bottom leading edge of the bumper],
+
+  [3],
+  [Any device extending #highlight[greater than 125 mm in any direction] from the bottom leading edge of the bumper],
 )
 
 == Aero: Wings/Spoilers
@@ -503,20 +494,30 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 #aside[Take points for ONE of the following:]
 
 #table(
+  columns: 2,
   table.header([Points], [Modifications]),
-  [0], [
+  [0],
+  [
     No aero modifications, OE rear spoiler, OE wing (except Gen. 1 BRZ tS wing), or any aftermarket spoiler less than 60 mm in height
   ],
-  [0.5], [
+
+  [0.5],
+  [
     Aftermarket rear spoiler greater than 60 mm in height
   ],
-  [1], [
+
+  [1],
+  [
     SARD LSR, Gen. 1 BRZ tS wing, or any wing with maximum width of 1400 mm, maximum stand height of 200 mm, maximum chord length of 200 mm, and no added gurney flap
   ],
-  [1.5], [
+
+  [1.5],
+  [
     APR GTC-200, Voltex Type 12, Voltex Type 1S, or any wing with maximum width of 1460 mm, maximum stand height of 245 mm, and maximum chord length of 250 mm
   ],
-  [2], [
+
+  [2],
+  [
     Any wing wider than 1460 mm, higher than 245 mm, or with a chord length greater than 250 mm
   ],
 )
@@ -535,9 +536,11 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 #aside[Take points for EACH applicable row:]
 
 #table(
+  columns: 2,
   table.header([Points], [Modifications]),
   [0.5], [Canards, dive planes, hood vents, fender vents, and/or vertical deviations on splitters],
-  [0.5], [Any #highlight[underbody aero modifications between the front and rear axles] and/or rear diffuser extending backward beyond the rear bumper trailing edge],
+  [0.5],
+  [Any #highlight[underbody aero modifications between the front and rear axles] and/or rear diffuser extending backward beyond the rear bumper trailing edge],
 )
 
 == Weight Reduction
@@ -550,6 +553,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
 #aside[Take points for EACH applicable row:]
 
 #table(
+  columns: 2,
   table.header([Points], [Modifications]),
 
   [1], [Removal of any interior trim pieces or seating not required for installation of a roll cage],
