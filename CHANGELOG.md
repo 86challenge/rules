@@ -6,6 +6,8 @@
 
 - Yokohama ADVAN Neova AD09 are added as 2 pts
 - Nankang CR-S are added as 3 pts
+- New Stock Class handicap for Buttonwillow Classic #25 (same as #1)
+- Handicap for Buttonwillow Circuit Stock Class is now 2.5 seconds
 
 ### Changed
 
