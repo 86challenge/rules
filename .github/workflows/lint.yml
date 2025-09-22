@@ -8,6 +8,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt -y install fonts-inter
+
       - name: Typst
         uses: lvignoli/typst-action@main
         with:

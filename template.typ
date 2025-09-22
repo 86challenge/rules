@@ -5,7 +5,7 @@
     margin: (x: 2cm, y: 2cm),
   )
   #set text(
-    font: "Helvetica",
+    font: "Inter",
     size: 10pt,
   )
   #show link: set text(blue)

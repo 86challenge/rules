@@ -280,8 +280,6 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   [2], [Gen. 2 (2022+ model years)],
 )
 
-#pagebreak()
-
 == Tires
 #aside[
   Any tire not on this list is automatically 6pts
