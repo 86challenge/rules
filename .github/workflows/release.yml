@@ -9,13 +9,15 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Typst
+      - name: Install dependencies
         run: |
+          sudo apt update
+          sudo apt -y install fonts-inter
           wget -qO- https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz | tar -xJ
           sudo mv typst-x86_64-unknown-linux-musl/typst /usr/local/bin/
           typst --version
@@ -56,11 +58,11 @@ jobs:
         run: |
           # Extract changelog for this version
           CHANGELOG_SECTION=$(awk '/^## ${{ steps.version.outputs.version }}$/{flag=1;next}/^## /{flag=0}flag' CHANGELOG.md | sed '/^$/d')
-          
+
           if [ -z "$CHANGELOG_SECTION" ]; then
             CHANGELOG_SECTION="Updated rules for version ${{ steps.version.outputs.version }}"
           fi
-          
+
           # Create release with changelog
           gh release create "${{ steps.version.outputs.version }}" \
             --title "${{ steps.version.outputs.version }}" \
