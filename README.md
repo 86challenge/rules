@@ -51,4 +51,4 @@ The repository includes automated workflows for building and releasing the rules
   - Upload the generated PDF as a release asset named `86-Challenge-Rules-{version}.pdf`
   - Include relevant changelog sections in the release notes
 
-The release workflow ensures that every commit to main automatically creates or updates the corresponding release.
+The release workflow will only create new releases. If a release for the current version already exists, the workflow will skip creation. To create a new release, increment the revision number in the `#frontmatter` line of `rules.typ`.
