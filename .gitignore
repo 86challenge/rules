@@ -1,4 +1,5 @@
 .DS_Store
 .vscode/
 template.pdf
+rules.pdf
 Brewfile.lock.json
