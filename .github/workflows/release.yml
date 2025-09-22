@@ -1,0 +1,74 @@
+name: Build and Release Rules
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Typst
+        run: |
+          wget -qO- https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz | tar -xJ
+          sudo mv typst-x86_64-unknown-linux-musl/typst /usr/local/bin/
+          typst --version
+
+      - name: Build rules.pdf
+        run: |
+          typst compile rules.typ
+          ls -la rules.pdf
+          echo "PDF size: $(stat -c%s rules.pdf) bytes"
+
+      - name: Extract version from rules.typ
+        id: version
+        run: |
+          # Extract year and revision from the frontmatter line
+          VERSION=$(grep -o '#frontmatter(year: [0-9]\+, revision: [0-9]\+)' rules.typ | grep -o '[0-9]\+' | tr '\n' '.' | sed 's/\.$//')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Version extracted: $VERSION"
+
+      - name: Check if release exists
+        id: release_check
+        run: |
+          if gh release view "${{ steps.version.outputs.version }}" > /dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Release ${{ steps.version.outputs.version }} already exists"
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "Release ${{ steps.version.outputs.version }} does not exist"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Release
+        if: steps.release_check.outputs.exists == 'false'
+        run: |
+          # Extract changelog for this version
+          CHANGELOG_SECTION=$(awk '/^## ${{ steps.version.outputs.version }}$/{flag=1;next}/^## /{flag=0}flag' CHANGELOG.md | sed '/^$/d')
+          
+          if [ -z "$CHANGELOG_SECTION" ]; then
+            CHANGELOG_SECTION="Updated rules for version ${{ steps.version.outputs.version }}"
+          fi
+          
+          # Create release with changelog
+          gh release create "${{ steps.version.outputs.version }}" \
+            --title "${{ steps.version.outputs.version }}" \
+            --notes "$CHANGELOG_SECTION" \
+            rules.pdf#86-Challenge-Rules-${{ steps.version.outputs.version }}.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update existing release
+        if: steps.release_check.outputs.exists == 'true'
+        run: |
+          echo "Updating existing release with new PDF"
+          gh release upload "${{ steps.version.outputs.version }}" rules.pdf --clobber
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
