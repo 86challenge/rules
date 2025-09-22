@@ -38,3 +38,17 @@ Autoformat:
 ```bash
 just format
 ```
+
+## Automated Releases
+
+The repository includes automated workflows for building and releasing the rules:
+
+- **Lint Workflow**: Runs on every push to validate and build the Typst document
+- **Release Workflow**: Runs on pushes to the main branch to automatically:
+  - Build `rules.pdf` from `rules.typ`
+  - Extract version information from the frontmatter (e.g., `#frontmatter(year: 2025, revision: 3)`)
+  - Create a GitHub release with tag format like `2025.3`
+  - Upload the generated PDF as a release asset named `86-Challenge-Rules-{version}.pdf`
+  - Include relevant changelog sections in the release notes
+
+The release workflow ensures that every commit to main automatically creates or updates the corresponding release.
