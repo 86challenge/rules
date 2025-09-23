@@ -11,7 +11,7 @@
 ### Changed
 
 - Clarify language for 2-event grace period for OE tires
-- Handicap for Buttonwillow Circuit Stock Class is now 2.5 seconds
+- Stock Class handicap for Buttonwillow Circuit is now 2.5 seconds
 
 ## 2025.2
 
