@@ -417,8 +417,8 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   - Any radiator, oil cooler, oil catch can, oil pan baffle, and/or modified sump
   - #highlight[Any transmission cooling or diff cooling system]
   - Gen. 2 charcoal airbox filter removal
-  - Blocking off the large, first intake resonator (also allowed in Stock Class)
-  - Removal of any intake resonators
+  - Blocking off the large, first intake resonator
+  - Removal of intake resonators
 ]
 
 #aside[Take points for EACH applicable row:]
