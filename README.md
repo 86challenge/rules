@@ -45,7 +45,7 @@ The repository includes automated workflows for building and releasing the rules
 
 - **Lint Workflow** (`.github/workflows/lint.yml`): Runs on every push to any branch to build the Typst document and verify it compiles successfully
 - **Release Workflow** (`.github/workflows/release.yml`): Runs automatically on pushes to the `main` branch to:
-  1. Install dependencies (Typst compiler and required fonts)
+  1. Install dependencies (`fonts-inter` package and Typst compiler)
   2. Build `rules.pdf` from `rules.typ`
   3. Extract version information from the frontmatter (e.g., `#frontmatter(year: 2025, revision: 3)` becomes version `2025.3`)
   4. Check if a GitHub release already exists for this version
