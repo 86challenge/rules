@@ -57,4 +57,9 @@ The repository includes automated workflows for building and releasing the rules
        - Attached asset: `rules.pdf` with display name `86-Challenge-Rules-{version}.pdf`
   6. If the release already exists, skip creation and log a message
 
-**To create a new release:** Increment the `revision` number in the `#frontmatter` line of `rules.typ`, add the corresponding section to `CHANGELOG.md`, and push to the `main` branch. The release will be created automatically.
+**To create a new release:** 
+1. Increment the `revision` number in the `#frontmatter` line of `rules.typ`
+2. Add a corresponding section to `CHANGELOG.md` with a level-2 heading matching the version number (e.g., `## 2025.3`)
+3. Push to the `main` branch
+
+The release will be created automatically. The workflow extracts changelog content between the version heading and the next version heading for the release notes.
