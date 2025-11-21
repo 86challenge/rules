@@ -43,12 +43,18 @@ just format
 
 The repository includes automated workflows for building and releasing the rules:
 
-- **Lint Workflow**: Runs on every push to validate and build the Typst document
-- **Release Workflow**: Runs on pushes to the main branch to automatically:
-  - Build `rules.pdf` from `rules.typ`
-  - Extract version information from the frontmatter (e.g., `#frontmatter(year: 2025, revision: 3)`)
-  - Create a GitHub release with tag format like `2025.3`
-  - Upload the generated PDF as a release asset named `86-Challenge-Rules-{version}.pdf`
-  - Include relevant changelog sections in the release notes
+- **Lint Workflow** (`.github/workflows/lint.yml`): Runs on every push to any branch to build the Typst document and verify it compiles successfully
+- **Release Workflow** (`.github/workflows/release.yml`): Runs automatically on pushes to the `main` branch to:
+  1. Install dependencies (Typst compiler and required fonts)
+  2. Build `rules.pdf` from `rules.typ`
+  3. Extract version information from the frontmatter (e.g., `#frontmatter(year: 2025, revision: 3)` becomes version `2025.3`)
+  4. Check if a GitHub release already exists for this version
+  5. If the release doesn't exist:
+     - Extract the corresponding section from `CHANGELOG.md` for release notes
+     - Create a new GitHub release with:
+       - Tag and title: version number (e.g., `2025.3`)
+       - Release notes: changelog section for this version
+       - Attached asset: `rules.pdf` with display name `86-Challenge-Rules-{version}.pdf`
+  6. If the release already exists, skip creation and log a message
 
-The release workflow will only create new releases. If a release for the current version already exists, the workflow will skip creation. To create a new release, increment the revision number in the `#frontmatter` line of `rules.typ`.
+**To create a new release:** Increment the `revision` number in the `#frontmatter` line of `rules.typ`, add the corresponding section to `CHANGELOG.md`, and push to the `main` branch. The release will be created automatically.
