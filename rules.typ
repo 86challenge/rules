@@ -134,6 +134,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   + *Engine & Powertrain*
     + Engine software/firmware must be unmodified.
     + Oil coolers, #highlight[catch cans], accumulators, and/or sump changes are allowed.
+    + Blocking off the large, first intake resonator is allowed.
     + Gen. 2 only: intake charcoal filters shall be present and unaltered.
     + #highlight[
         Any pump gasoline (including blending high-octane pump gasoline) is allowed.
@@ -416,6 +417,7 @@ Feel free to raise questions/clarifications in the \#regulations channel on our 
   - Any radiator, oil cooler, oil catch can, oil pan baffle, and/or modified sump
   - #highlight[Any transmission cooling or diff cooling system]
   - Gen. 2 charcoal airbox filter removal
+  - Blocking off the large, first intake resonator
   - Removal of intake resonators
 ]
 
